@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>年度消费日历</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <!-- 控件区域：年份选择 + 月份选择 -->
+    <div id="controls">
+        <label for="year">选择年份：</label>
+        <select id="year"></select>
+        <label for="month">选择月份：</label>
+        <select id="month"></select>
+    </div>
+
+    <!-- 总消费展示区域 -->
+    <h2 id="total-expenditure">总消费统计：￥0</h2>
+
+    <!-- 日历展示容器 -->
+    <div id="calendar-container"></div>
+
+    <!-- 弹窗内容部分 -->
+    <div id="modal">
+        <span id="modal-close">关闭</span>
+        <div id="modal-details"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
