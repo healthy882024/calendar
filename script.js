@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // 渲染日历
-    function renderCalendar() {
+     function renderCalendar() {
         const year = parseInt(yearSelect.value);
         const month = parseInt(monthSelect.value);
         const lastDay = new Date(year, month, 0).getDate();
@@ -70,7 +70,15 @@ document.addEventListener("DOMContentLoaded", function () {
         for (let i = 0; i < weekDay; i++) htmlString += "<td>-</td>";
 
         for (let day = 1; day <= lastDay; day++) {
-            htmlString += `<td><a href="#" class="day-cell" onclick="showDetails('${year}-${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')}')">${day}</a></td>`;
+            const dateStr = `${year}-${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')}`;
+            const dailyExpenses = expensesData[dateStr] || [];
+            const dailyTotal = dailyExpenses.reduce((sum, entry) => sum + entry.amount, 0);
+
+            htmlString += `<td>
+                         <a href="#" class="day-cell" onclick="showDetails('${dateStr}')">${day}</a>
+                         <div class="daily-expense">￥${dailyTotal}</div>
+                       </td>`;
+
             if ((weekDay + day) % 7 === 0) htmlString += "</tr><tr>";
         }
 
