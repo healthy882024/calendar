@@ -9,6 +9,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // 示例数据
     const expensesData = {
+        "2024-11-19": [
+            {
+                shop: "叮咚", items: [
+                    { "name": "云蕾一次性保鲜罩 25只", "price": 0.00 },
+                    { "name": "进口香蕉 约650g", "price": 7.46 },
+                    { "name": "卫龙魔芋爽(香辣味) 50g/袋", "price": 3.63 },
+                    { "name": "怡宝纯净水 6L/桶（2桶）", "price": 16.62 },
+                    { "name": "娃哈哈纯净水 5.5L/桶（2桶）", "price": 14.77 }
+                ]
+            }
+        ],
         "2024-11-26": [
             {
                 shop: "叮咚", items: [
