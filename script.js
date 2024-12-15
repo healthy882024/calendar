@@ -10,24 +10,36 @@ document.addEventListener("DOMContentLoaded", function () {
     // 示例数据
     const expensesData = {
         "2023-01-01": [
-            { shop: "京东", amount: 20, items: [{ name: "袜子", price: 10 }, { name: "手套", price: 8 }] },
-            { shop: "叮咚", amount: 30, items: [{ name: "食品", price: 30 }] }
+            { shop: "京东", items: [{ name: "袜子", price: 10 }, { name: "手套", price: 8 }] },
+            { shop: "叮咚", items: [{ name: "食品", price: 30 }] }
         ],
         "2024-01-01": [
-            { shop: "京东", amount: 10, items: [{ name: "奶粉", price: 10 }] }
+            { shop: "京东", items: [{ name: "奶粉", price: 10 }] }
         ],
         "2024-12-03": [
-            { shop: "京东", amount: 10, items: [{ name: "袜子", price: 2 }] },
-            { shop: "淘宝", amount: 50, items: [{ name: "矿泉水", price: 20 }, { name: "【芋圆烘焙】叮咚定制木薯淀粉（生粉）叮咚家美好蒸笼纸23cm安井锁鲜装鱼豆腐【减脂必冲】切片南瓜", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }] },
-            { shop: "线下", amount: 50, items: [{ name: "兰州拉面", price: 30 }, { name: "狗子", price: 8 }] }
+            { shop: "京东", items: [{ name: "袜子", price: 2 }] },
+            { shop: "淘宝", items: [{ name: "矿泉水", price: 20 }, { name: "芋圆烘焙", price: 8 }, { name: "套子", price: 8 }] },
+            { shop: "线下", items: [{ name: "兰州拉面", price: 30 }, { name: "狗子", price: 8 }] }
+        ],
+        "2024-12-12": [
+            {
+                shop: "京东", items: [
+                    { "name": "哈尔滨风味红肠 50g", "price": 0 },
+                    { "name": "有机黑鸡土鸡蛋15枚675g", "price": 14.77 },
+                    { "name": "茄子（精选）约800g", "price": 6.54 },
+                    { "name": "螺丝椒 约300g", "price": 3.34 },
+                    { "name": "怡宝纯净水 6L", "price": 7.13 }
+                ]
+            }
         ]
     };
 
-    // 计算每条消费记录的总金额
+    // 计算每条消费记录的总金额（每项消费的金额为商品价格之和）
     function calculateAmounts() {
         for (const date in expensesData) {
             expensesData[date].forEach(record => {
-                record.amount = record.items.reduce((sum, item) => sum + item.price, 0);
+                // 计算每项消费的金额
+                record.totalAmount = parseFloat(record.items.reduce((sum, item) => sum + item.price, 0).toFixed(2)); // 保留两位小数
             });
         }
     }
@@ -60,12 +72,12 @@ document.addEventListener("DOMContentLoaded", function () {
         Object.keys(expensesData).forEach(date => {
             if (date.startsWith(selectedYear.toString())) {
                 expensesData[date].forEach(entry => {
-                    total += entry.amount;
+                    total += entry.totalAmount;  // 使用 totalAmount 而不是 amount
                 });
             }
         });
 
-        totalExpenditureDisplay.innerHTML = `<a href="#" onclick="showYearDetails(${selectedYear})">${selectedYear}年 总消费：￥${total}</a>`;
+        totalExpenditureDisplay.innerHTML = `<a href="#" onclick="showYearDetails(${selectedYear})">${selectedYear}年 总消费：￥${total.toFixed(2)}</a>`; // 保留两位小数
     }
 
     // 计算指定月份的总消费金额
@@ -76,12 +88,12 @@ document.addEventListener("DOMContentLoaded", function () {
         Object.keys(expensesData).forEach(date => {
             if (date.startsWith(monthStr)) {
                 expensesData[date].forEach(entry => {
-                    total += entry.amount;
+                    total += entry.totalAmount;  // 使用 totalAmount 而不是 amount
                 });
             }
         });
 
-        return total;
+        return parseFloat(total.toFixed(2)); // 保留两位小数
     }
 
     // 渲染日历
@@ -101,7 +113,7 @@ document.addEventListener("DOMContentLoaded", function () {
         for (let day = 1; day <= lastDay; day++) {
             const dateStr = `${year}-${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')}`;
             const dailyExpenses = expensesData[dateStr] || [];
-            const dailyTotal = dailyExpenses.reduce((sum, entry) => sum + entry.amount, 0);
+            const dailyTotal = dailyExpenses.reduce((sum, entry) => sum + entry.totalAmount, 0).toFixed(2); // 使用 totalAmount 而不是 amount
 
             htmlString += `<td>
                          <a href="#" class="day-cell" onclick="showDetails('${dateStr}')">${day}</a>
@@ -121,21 +133,21 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const details = expensesData[dateStr];
         if (details) {
-            let contentHTML = `<h3>${dateStr} 总消费：￥${details.reduce((sum, d) => sum + d.amount, 0)}</h3>`;
+            let contentHTML = `<h3>${dateStr} 总消费：￥${details.reduce((sum, d) => sum + d.totalAmount, 0).toFixed(2)}</h3>`; // 使用 totalAmount 而不是 amount
             contentHTML += `<table class="modal-table"><thead><tr><th>平台</th><th>总计</th><th>商品</th><th>价格</th></tr></thead><tbody>`;
 
             details.forEach(d => {
                 contentHTML += `<tr class="platform-row">
                             <td rowspan="${d.items.length}">${d.shop}</td>
-                            <td rowspan="${d.items.length}" class="platform-amount">￥${d.amount}</td>
+                            <td rowspan="${d.items.length}" class="platform-amount">￥${d.totalAmount.toFixed(2)}</td> <!-- 使用 totalAmount -->
                             <td class="product-name">${d.items[0].name}</td>
-                            <td class="product-amount">￥${d.items[0].price}</td>
+                            <td class="product-amount">￥${d.items[0].price.toFixed(2)}</td> <!-- 保留两位小数 -->
                         </tr>`;
 
                 for (let i = 1; i < d.items.length; i++) {
                     contentHTML += `<tr class="product-row">
                                 <td class="product-name">${d.items[i].name}</td>
-                                <td class="product-amount">￥${d.items[i].price}</td>
+                                <td class="product-amount">￥${d.items[i].price.toFixed(2)}</td> <!-- 保留两位小数 -->
                             </tr>`;
                 }
             });
@@ -160,7 +172,7 @@ document.addEventListener("DOMContentLoaded", function () {
             Object.keys(expensesData).forEach(date => {
                 if (date.startsWith(monthStr)) {
                     expensesData[date].forEach(entry => {
-                        monthlyTotal += entry.amount;
+                        monthlyTotal += entry.totalAmount;  // 使用 totalAmount 而不是 amount
                     });
                 }
             });
@@ -168,8 +180,9 @@ document.addEventListener("DOMContentLoaded", function () {
             totalYearlyExpenditure += monthlyTotal;
         }
 
-        monthDataHTML += `￥${totalYearlyExpenditure}</h3><table border="1" style="width:100%; margin-top:10px;">
-                            <tr><th>月份</th><th>总消费金额</th></tr>`;
+        monthDataHTML += `￥${totalYearlyExpenditure.toFixed(2)}</h3>`; // 保留两位小数
+        monthDataHTML += `<table border="1" style="width:100%; margin-top:10px;">
+                        <tr><th>月份</th><th>总消费金额</th></tr>`;
 
         for (let month = 1; month <= 12; month++) {
             const monthStr = `${year}-${month.toString().padStart(2, '0')}`;
@@ -178,15 +191,15 @@ document.addEventListener("DOMContentLoaded", function () {
             Object.keys(expensesData).forEach(date => {
                 if (date.startsWith(monthStr)) {
                     expensesData[date].forEach(entry => {
-                        monthlyTotal += entry.amount;
+                        monthlyTotal += entry.totalAmount;  // 使用 totalAmount 而不是 amount
                     });
                 }
             });
 
             monthDataHTML += `<tr>
-                                <td><a href="#" onclick="selectMonth(${year}, ${month})">${month}月</a></td>
-                                <td>￥${monthlyTotal}</td>
-                              </tr>`;
+                            <td><a href="#" onclick="selectMonth(${year}, ${month})">${month}月</a></td>
+                            <td>￥${monthlyTotal.toFixed(2)}</td> <!-- 保留两位小数 -->
+                          </tr>`;
         }
 
         monthDataHTML += `</table>`;
@@ -234,14 +247,11 @@ document.addEventListener("DOMContentLoaded", function () {
             monthSelect.appendChild(option);
         });
 
-        const currentYear = new Date().getFullYear();
-        const currentMonth = new Date().getMonth() + 1;
-        yearSelect.value = currentYear;
-        monthSelect.value = currentMonth;
-
-        renderCalendar();
-        calculateTotalExpenditure();
+        yearSelect.value = 2024;
+        monthSelect.value = 12;
     }
 
     initializeYearAndMonthOptions();
+    renderCalendar();
+    calculateTotalExpenditure();
 });
