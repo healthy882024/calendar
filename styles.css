@@ -60,11 +60,11 @@ a {
     padding: 20px;
     margin: auto;
     border-radius: 8px;
-    width: 80%;
-    max-width: 1200px;
+    width: 95%; /* 弹出框宽度为屏幕宽度的95% */
+    max-width: 1200px; /* 最大宽度限制 */
     height: auto;
     max-height: 90%;
-    overflow: auto; /* 允许弹出框内容滚动 */
+    overflow: hidden; /* 整个弹出框不可滚动 */
 }
 
 /* 弹出窗口关闭按钮 */
@@ -112,9 +112,13 @@ a {
     border: 1px solid #ddd;
     text-align: left;
     white-space: nowrap;  /* 防止换行 */
-    overflow-x: auto;     /* 允许水平滚动 */
-    max-width: 200px;     /* 设置最大宽度 */
-    word-wrap: normal;    /* 防止强制换行 */
+}
+
+/* 商品名称列 */
+#modal td.product-name {
+    max-width: 200px; /* 设置商品名称列的最大宽度 */
+    overflow-x: auto; /* 允许水平滚动 */
+    word-wrap: normal; /* 防止强制换行 */
 }
 
 /* 适用于面板中的表格 */
@@ -154,7 +158,7 @@ a {
 
 @media (max-width: 480px) {
     #modal-details {
-        max-width: 100%; /* 小屏幕上，弹出框宽度占满屏幕 */
+        max-width: 95%; /* 小屏幕上，弹出框宽度占满屏幕 */
     }
 
     .calendar th, .calendar td {
