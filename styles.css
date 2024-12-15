@@ -30,7 +30,7 @@ a {
 .calendar td {
     border: 1px solid #ddd;
     text-align: center;
-    padding: 6px;
+    padding: 8px;
 }
 
 .calendar a.day-cell {
@@ -134,7 +134,7 @@ a {
 /* 表格中的单元格样式 */
 #modal td,
 #modal th {
-    padding: 8px;
+    padding: 6px;
     border: 1px solid #ddd;
     text-align: left;
     white-space: nowrap;
