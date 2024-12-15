@@ -89,7 +89,7 @@ a {
     /* 缩小按钮的高度 */
     background-color: transparent;
     /* 背景透明 */
-    border: 1px solid #ccc;
+    border: none;
     /* 边框颜色柔和 */
     color: #333;
     /* 文字颜色 */
