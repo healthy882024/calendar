@@ -41,7 +41,7 @@ a {
 
 /* 弹出窗口样式 */
 #modal {
-    display: flex;
+    display: none;
     justify-content: center;
     /* 水平居中 */
     align-items: center;
