@@ -64,7 +64,30 @@ a {
     max-width: 1200px;
     height: auto;
     max-height: 90%;
-    overflow: hidden;
+    overflow: auto;
+    /* 允许弹出框内容滚动 */
+}
+
+#modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    border: 2px solid #333;
+    border-radius: 50%;
+    color: #333;
+    font-size: 18px;
+    text-align: center;
+    line-height: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#modal-close:hover {
+    background-color: #333;
+    color: #fff;
 }
 
 #modal h3 {
@@ -85,9 +108,17 @@ a {
     padding: 8px;
     border: 1px solid #ddd;
     text-align: left;
-    white-space: nowrap; /* 防止换行 */
+    white-space: nowrap;
+    /* 防止换行 */
+    overflow-x: auto;
+    /* 允许水平滚动 */
+    max-width: 200px;
+    /* 设置最大宽度 */
+    word-wrap: normal;
+    /* 防止强制换行 */
 }
 
+/* 适用于面板中的表格 */
 .panel table {
     width: 100%;
     border-collapse: collapse;
