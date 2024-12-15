@@ -14,8 +14,8 @@ a {
     padding: 10px;
 }
 
-#total-expenditure {
-    text-align: center;
+#total-expenditure {  
+    text-align: center; 
     margin: 10px 0;
     font-size: 18px;
 }
@@ -64,10 +64,10 @@ a {
     max-width: 1200px;
     height: auto;
     max-height: 90%;
-    overflow: auto;
-    /* 允许弹出框内容滚动 */
+    overflow: auto; /* 允许弹出框内容滚动 */
 }
 
+/* 弹出窗口关闭按钮 */
 #modal-close {
     position: absolute;
     top: 10px;
@@ -90,6 +90,7 @@ a {
     color: #fff;
 }
 
+/* 弹出窗口标题样式 */
 #modal h3 {
     font-size: 18px;
     font-weight: bold;
@@ -97,25 +98,23 @@ a {
     margin-bottom: 20px;
 }
 
+/* 弹出窗口表格 */
 #modal table {
     width: 100%;
     margin-top: 20px;
     border-collapse: collapse;
 }
 
+/* 表格中的单元格样式 */
 #modal td,
 #modal th {
     padding: 8px;
     border: 1px solid #ddd;
     text-align: left;
-    white-space: nowrap;
-    /* 防止换行 */
-    overflow-x: auto;
-    /* 允许水平滚动 */
-    max-width: 200px;
-    /* 设置最大宽度 */
-    word-wrap: normal;
-    /* 防止强制换行 */
+    white-space: nowrap;  /* 防止换行 */
+    overflow-x: auto;     /* 允许水平滚动 */
+    max-width: 200px;     /* 设置最大宽度 */
+    word-wrap: normal;    /* 防止强制换行 */
 }
 
 /* 适用于面板中的表格 */
@@ -134,9 +133,35 @@ a {
     line-height: 1.8;
 }
 
+/* 小字体样式 */
 .daily-expense {
     font-size: 12px;
     color: green;
     margin-top: 4px;
     text-align: center;
+}
+
+/* 针对屏幕较小设备的响应式优化 */
+@media (max-width: 768px) {
+    #modal-details {
+        max-width: 95%; /* 使弹出框更适应小屏幕 */
+    }
+
+    .calendar th, .calendar td {
+        padding: 6px; /* 在较小屏幕上减少单元格的内边距 */
+    }
+}
+
+@media (max-width: 480px) {
+    #modal-details {
+        max-width: 100%; /* 小屏幕上，弹出框宽度占满屏幕 */
+    }
+
+    .calendar th, .calendar td {
+        padding: 4px; /* 更小屏幕上进一步减少内边距 */
+    }
+
+    .calendar {
+        font-size: 14px; /* 在手机上减小表格字体大小 */
+    }
 }
