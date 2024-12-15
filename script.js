@@ -16,10 +16,21 @@ document.addEventListener("DOMContentLoaded", function () {
         "2024-01-01": [
             { shop: "京东", items: [{ name: "奶粉", price: 10 }] }
         ],
-        "2024-12-03": [
-            { shop: "京东", items: [{ name: "袜子", price: 2 }] },
-            { shop: "淘宝", items: [{ name: "矿泉水", price: 20 }, { name: "芋圆烘焙", price: 8 }, { name: "套子", price: 8 }] },
-            { shop: "线下", items: [{ name: "兰州拉面", price: 30 }, { name: "狗子", price: 8 }] }
+        "2024-12-10": [
+            {
+                shop: "京东", items: [
+                    { "name": "土豆（黄心）约1kg", "price": 4.10 },
+                    { "name": "泰森冷鲜鸡大胸 400g", "price": 8.99 },
+                    { "name": "进口香蕉 约650g", "price": 6.84 },
+                    { "name": "怡宝纯净水 6L/桶", "price": 7.68 },
+                    { "name": "螺丝椒 约300g", "price": 7.17 },
+                    { "name": "泰森冷冻鸡琵琶腿 500g", "price": 10.10 },
+                    { "name": "泰森冷冻鸡爪 500g", "price": 22.18 },
+                    { "name": "湘佳鸡小腿 430g", "price": 20.13 },
+                    { "name": "娃哈哈纯净水 5.5L/桶", "price": 6.76 },
+                    { "name": "娃哈哈纯净水 5.5L*4桶/组", "price": 25.61 }
+                ]
+            }
         ],
         "2024-12-12": [
             {
@@ -113,11 +124,13 @@ document.addEventListener("DOMContentLoaded", function () {
         for (let day = 1; day <= lastDay; day++) {
             const dateStr = `${year}-${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')}`;
             const dailyExpenses = expensesData[dateStr] || [];
-            const dailyTotal = dailyExpenses.reduce((sum, entry) => sum + entry.totalAmount, 0).toFixed(2); // 使用 totalAmount 而不是 amount
+            const dailyTotal = dailyExpenses.length > 0
+                ? dailyExpenses.reduce((sum, entry) => sum + entry.totalAmount, 0).toFixed(2)
+                : "-"; // 如果没有消费记录显示"-"，否则显示消费金额
 
             htmlString += `<td>
                          <a href="#" class="day-cell" onclick="showDetails('${dateStr}')">${day}</a>
-                         <div class="daily-expense">￥${dailyTotal}</div>
+                         <div class="daily-expense">${dailyTotal}</div>
                        </td>`;
 
             if ((weekDay + day) % 7 === 0) htmlString += "</tr><tr>";
