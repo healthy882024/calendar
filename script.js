@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
         ],
         "2024-12-03": [
             { shop: "京东", amount: 10, items: [{ name: "袜子", price: 2 }] },
-            { shop: "淘宝", amount: 50, items: [{ name: "矿泉水", price: 20 }, { name: "套子", price: 8 }] },
+            { shop: "淘宝", amount: 50, items: [{ name: "矿泉水", price: 20 }, { name: "【芋圆烘焙】叮咚定制木薯淀粉（生粉）叮咚家美好蒸笼纸23cm安井锁鲜装鱼豆腐【减脂必冲】切片南瓜", price: 8 }, { name: "套子", price: 8 }] },
             { shop: "线下", amount: 50, items: [{ name: "兰州拉面", price: 30 }, { name: "狗子", price: 8 }] }
         ]
     };
