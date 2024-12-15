@@ -18,11 +18,23 @@ document.addEventListener("DOMContentLoaded", function () {
         ],
         "2024-12-03": [
             { shop: "京东", amount: 10, items: [{ name: "袜子", price: 2 }] },
-            { shop: "淘宝", amount: 50, items: [{ name: "矿泉水", price: 20 }, { name: "【芋圆烘焙】叮咚定制木薯淀粉（生粉）叮咚家美好蒸笼纸23cm安井锁鲜装鱼豆腐【减脂必冲】切片南瓜", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }] },
+            { shop: "淘宝", amount: 50, items: [{ name: "矿泉水", price: 20 }, { name: "【芋圆烘焙】叮咚定制木薯淀粉（生粉）叮咚家美好蒸笼纸23cm安井锁鲜装鱼豆腐【减脂必冲】切片南瓜", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }, { name: "套子", price: 8 }] },
             { shop: "线下", amount: 50, items: [{ name: "兰州拉面", price: 30 }, { name: "狗子", price: 8 }] }
         ]
     };
-    
+
+    // 计算每条消费记录的总金额
+    function calculateAmounts() {
+        for (const date in expensesData) {
+            expensesData[date].forEach(record => {
+                record.amount = record.items.reduce((sum, item) => sum + item.price, 0);
+            });
+        }
+    }
+
+    // 调用calculateAmounts函数来计算每条消费记录的总金额
+    calculateAmounts();
+
     // 关闭弹窗函数
     const closeModal = function () {
         modal.style.display = "none";
@@ -73,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // 渲染日历
-     function renderCalendar() {
+    function renderCalendar() {
         const year = parseInt(yearSelect.value);
         const month = parseInt(monthSelect.value);
         const lastDay = new Date(year, month, 0).getDate();
