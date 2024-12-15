@@ -44,8 +44,8 @@ a {
     display: none;
     justify-content: center;
     /* 水平居中 */
-    align-items: center;
-    /* 垂直居中 */
+    align-items: baseline;
+    /* 按照子元素的文本基线对齐 */
     position: fixed;
     left: 0;
     top: 0;
