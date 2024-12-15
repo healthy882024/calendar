@@ -71,7 +71,8 @@ a {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    padding: 1mm; /* 让表格与弹窗边缘保持1mm的空隙 */
+    padding: 1mm;
+    /* 让表格与弹窗边缘保持1mm的空隙 */
 }
 
 /* 弹出窗口关闭按钮 */
