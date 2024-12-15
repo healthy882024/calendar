@@ -14,8 +14,8 @@ a {
     padding: 10px;
 }
 
-#total-expenditure {  
-    text-align: center; 
+#total-expenditure {
+    text-align: center;
     margin: 10px 0;
     font-size: 18px;
 }
@@ -41,7 +41,12 @@ a {
 
 /* 弹出窗口样式 */
 #modal {
-    display: none;
+    display: flex;
+    /* 使用 Flexbox 布局 */
+    justify-content: center;
+    /* 水平居中 */
+    align-items: center;
+    /* 垂直居中 */
     position: fixed;
     left: 0;
     top: 0;
@@ -49,7 +54,6 @@ a {
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
     padding: 20px;
-    overflow: hidden;
     z-index: 1000;
     box-sizing: border-box;
 }
@@ -58,13 +62,22 @@ a {
 #modal-details {
     background-color: #fff;
     padding: 20px;
-    margin: auto;
     border-radius: 8px;
-    width: 95%; /* 弹出框宽度为屏幕宽度的95% */
-    max-width: 1200px; /* 最大宽度限制 */
+    width: 95%;
+    /* 弹出框宽度为屏幕宽度的95% */
+    max-width: 380px;
+    /* 最大宽度设置为适应 414px 宽度的屏幕 */
     height: auto;
     max-height: 90%;
-    overflow: hidden; /* 整个弹出框不可滚动 */
+    overflow: hidden;
+    /* 整个弹出框不可滚动 */
+    display: flex;
+    flex-direction: column;
+    /* 弹出框内容垂直排列 */
+    margin-left: auto;
+    /* 保证弹出框在水平方向上居中 */
+    margin-right: auto;
+    /* 保证弹出框在水平方向上居中 */
 }
 
 /* 弹出窗口关闭按钮 */
@@ -103,6 +116,8 @@ a {
     width: 100%;
     margin-top: 20px;
     border-collapse: collapse;
+    margin: 0 auto;
+    /* 将表格居中 */
 }
 
 /* 表格中的单元格样式 */
@@ -111,14 +126,18 @@ a {
     padding: 8px;
     border: 1px solid #ddd;
     text-align: left;
-    white-space: nowrap;  /* 防止换行 */
+    white-space: nowrap;
+    /* 防止换行 */
 }
 
 /* 商品名称列 */
 #modal td.product-name {
-    max-width: 200px; /* 设置商品名称列的最大宽度 */
-    overflow-x: auto; /* 允许水平滚动 */
-    word-wrap: normal; /* 防止强制换行 */
+    max-width: 180px;
+    /* 设置商品名称列的最大宽度，以适应较小屏幕 */
+    overflow-x: auto;
+    /* 允许水平滚动 */
+    word-wrap: normal;
+    /* 防止强制换行 */
 }
 
 /* 适用于面板中的表格 */
@@ -148,24 +167,31 @@ a {
 /* 针对屏幕较小设备的响应式优化 */
 @media (max-width: 768px) {
     #modal-details {
-        max-width: 95%; /* 使弹出框更适应小屏幕 */
+        max-width: 95%;
+        /* 使弹出框更适应小屏幕 */
     }
 
-    .calendar th, .calendar td {
-        padding: 6px; /* 在较小屏幕上减少单元格的内边距 */
+    .calendar th,
+    .calendar td {
+        padding: 6px;
+        /* 在较小屏幕上减少单元格的内边距 */
     }
 }
 
 @media (max-width: 480px) {
     #modal-details {
-        max-width: 95%; /* 小屏幕上，弹出框宽度占满屏幕 */
+        max-width: 95%;
+        /* 小屏幕上，弹出框宽度占满屏幕 */
     }
 
-    .calendar th, .calendar td {
-        padding: 4px; /* 更小屏幕上进一步减少内边距 */
+    .calendar th,
+    .calendar td {
+        padding: 4px;
+        /* 更小屏幕上进一步减少内边距 */
     }
 
     .calendar {
-        font-size: 14px; /* 在手机上减小表格字体大小 */
+        font-size: 14px;
+        /* 在手机上减小表格字体大小 */
     }
 }
