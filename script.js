@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const details = expensesData[dateStr];
         if (details) {
             let contentHTML = `<h3>${dateStr} 总消费：￥${details.reduce((sum, d) => sum + d.amount, 0)}</h3>`;
-            contentHTML += `<table class="modal-table"><thead><tr><th>平台名称</th><th>总金额</th><th>商品名称</th><th>商品金额</th></tr></thead><tbody>`;
+            contentHTML += `<table class="modal-table"><thead><tr><th>平台</th><th>总计</th><th>商品</th><th>价格</th></tr></thead><tbody>`;
 
             details.forEach(d => {
                 contentHTML += `<tr class="platform-row">
