@@ -59,6 +59,7 @@ a {
 
 /* 弹出窗口内容部分 */
 #modal-details {
+    text-align: center;
     background-color: #fff;
     padding: 0;
     border-radius: 8px;
