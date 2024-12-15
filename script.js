@@ -9,16 +9,30 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // 示例数据
     const expensesData = {
-        "2023-01-01": [
-            { shop: "京东", items: [{ name: "袜子", price: 10 }, { name: "手套", price: 8 }] },
-            { shop: "叮咚", items: [{ name: "食品", price: 30 }] }
+        "2024-11-26": [
+            {
+                shop: "叮咚", items: [
+                    { "name": "云蕾竹棒棉签 100支装", "price": 0.00 },
+                    { "name": "黑钻世家川藏特色黑猪肉糜(3.7)约", "price": 10.93 },
+                    { "name": "黑钻世家冷鲜川藏特色黑猪肉丝", "price": 10.26 },
+                    { "name": "冷鲜汤骨 300g", "price": 10.32 },
+                    { "name": "有机黑猪冷鲜通脊 200g", "price": 14.89 },
+                    { "name": "康师傅红烧牛肉面 113g/桶", "price": 4.94 },
+                    { "name": "认养一头牛有机纯牛奶 200mL*16盒/箱", "price": 36.61 },
+                    { "name": "怡宝纯净水 6L/桶（2桶）", "price": 11.65 }
+                ]
+            }
         ],
-        "2024-01-01": [
-            { shop: "京东", items: [{ name: "奶粉", price: 10 }] }
+
+        "2024-11-27": [
+            { shop: "叮咚", items: [{ "name": "娃哈哈纯净水 5.5L*4桶/组", "price": 25.90 }] }
+        ],
+        "2024-11-29": [
+            { shop: "叮咚", items: [{ name: "螺丝椒 约300g", price: 6.89 }] }
         ],
         "2024-12-10": [
             {
-                shop: "京东", items: [
+                shop: "叮咚", items: [
                     { "name": "土豆（黄心）约1kg", "price": 4.10 },
                     { "name": "泰森冷鲜鸡大胸 400g", "price": 8.99 },
                     { "name": "进口香蕉 约650g", "price": 6.84 },
@@ -34,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
         ],
         "2024-12-12": [
             {
-                shop: "京东", items: [
+                shop: "叮咚", items: [
                     { "name": "哈尔滨风味红肠 50g", "price": 0 },
                     { "name": "有机黑鸡土鸡蛋15枚675g", "price": 14.77 },
                     { "name": "茄子（精选）约800g", "price": 6.54 },
