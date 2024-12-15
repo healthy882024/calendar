@@ -9,6 +9,57 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // 示例数据
     const expensesData = {
+        "2024-11-04": [
+            {
+                shop: "叮咚", items: [
+                    { "name": "香葱 约50g", "price": 1.51 },
+                    { "name": "香菜 约100g", "price": 3.50 },
+                    { "name": "小米椒 约75g", "price": 2.08 },
+                    { "name": "黄瓜 约600g", "price": 3.59 },
+                    { "name": "怡宝纯净水 6L/桶（1桶）", "price": 8.47 }
+                ]
+            }
+        ],
+        "2024-11-05": [
+            {
+                shop: "叮咚", items: [
+                    { "name": "怡宝纯净水 6L/桶（1桶）", "price": 8.39 },
+                    { "name": "三红胡萝卜 约600g", "price": 3.19 },
+                    { "name": "土豆（黄心）约1kg", "price": 4.90 }
+                ]
+            }
+        ],
+        "2024-11-06": [
+            {
+                shop: "叮咚", items: [
+                    { "name": "三红胡萝卜 约600g", "price": 0.00 },
+                    { "name": "21°蜜红薯 750g/份（2份）", "price": 14.47 },
+                    { "name": "娃哈哈纯净水 5.5L/桶（4桶）", "price": 21.56 },
+                    { "name": "土豆（黄心）约600g", "price": 3.02 }
+                ]
+            }
+        ],
+        "2024-11-07": [
+            {
+                shop: "叮咚", items: [
+                    { "name": "土豆（黄心）约600g", "price": 0.00 },
+                    { "name": "黑钻世家黑猪火腿午餐肉 198g/罐", "price": 16.90 },
+                    { "name": "娃哈哈纯净水 5.5L/桶", "price": 23.80 }
+                ]
+            }
+        ],
+        "2024-11-13": [
+            { shop: "叮咚", items: [{ "name": "娃哈哈纯净水 5.5L*4桶/组", "price": 27.28 }] }
+        ],
+        "2024-11-16": [
+            {
+                shop: "叮咚", items: [
+                    { "name": "三红胡萝卜 约600g", "price": 2.53 },
+                    { "name": "红洋葱 约750g", "price": 2.95 },
+                    { "name": "进口香蕉 约650g", "price": 11.56 }
+                ]
+            }
+        ],
         "2024-11-19": [
             {
                 shop: "叮咚", items: [
@@ -34,7 +85,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
-
         "2024-11-27": [
             { shop: "叮咚", items: [{ "name": "娃哈哈纯净水 5.5L*4桶/组", "price": 25.90 }] }
         ],
@@ -172,7 +222,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const details = expensesData[dateStr];
         if (details) {
             let contentHTML = `<h3>${dateStr} 总消费：￥${details.reduce((sum, d) => sum + d.totalAmount, 0).toFixed(2)}</h3>`; // 使用 totalAmount 而不是 amount
-            contentHTML += `<table class="modal-table"><thead><tr><th>平台</th><th>总计</th><th>商品</th><th>价格</th></tr></thead><tbody>`;
+            contentHTML += `<table class="modal-table"><thead><tr><th>平台</th><th>总计</th><th>商品</th><th>实付</th></tr></thead><tbody>`;
 
             details.forEach(d => {
                 contentHTML += `<tr class="platform-row">
