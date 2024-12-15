@@ -22,6 +22,23 @@ document.addEventListener("DOMContentLoaded", function () {
             { shop: "线下", amount: 50, items: [{ name: "兰州拉面", price: 30 }, { name: "狗子", price: 8 }] }
         ]
     };
+    
+    // 关闭弹窗函数
+    const closeModal = function () {
+        modal.style.display = "none";
+    };
+
+    // 点击弹窗关闭按钮
+    modalClose.onclick = function () {
+        closeModal();
+    };
+
+    // 点击窗口外部区域时也关闭窗口
+    window.addEventListener("click", function (event) {
+        if (event.target === modal) {
+            closeModal();
+        }
+    });
 
     // 计算指定年份的总消费
     function calculateTotalExpenditure() {
