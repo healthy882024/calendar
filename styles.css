@@ -30,7 +30,7 @@ a {
 .calendar td {
     border: 1px solid #ddd;
     text-align: center;
-    padding: 8px;
+    padding: 6px;
 }
 
 .calendar a.day-cell {
