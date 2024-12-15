@@ -77,9 +77,9 @@ a {
 /* 弹出窗口关闭按钮 */
 #modal-close {
     position: absolute;
-    top: 28px;
+    top: 16px;
     /* 稍微加大顶部间距 */
-    right: 28px;
+    right: 16px;
     /* 稍微加大右侧间距 */
     width: 20px;
     /* 缩小按钮的宽度 */
