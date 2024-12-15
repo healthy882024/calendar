@@ -134,7 +134,7 @@ a {
 /* 表格中的单元格样式 */
 #modal td,
 #modal th {
-    padding: 6px;
+    padding: 4px;
     border: 1px solid #ddd;
     text-align: left;
     white-space: nowrap;
