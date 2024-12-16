@@ -1259,6 +1259,13 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "娃哈哈纯净水 5.5L/桶 (4桶)", "price": 25.90 }
                 ]
+
+            }, {
+                "shop": "小象",
+                "items": [
+                    { "name": "怡宝纯净水 6L（1桶）", "price": 5.90 },
+                    { "name": "康师傅番茄鸡蛋牛肉面 115g*5袋", "price": 14.90 }
+                ]
             }
         ],
         "2024-11-29": [
@@ -1266,6 +1273,36 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "叮咚",
                 "items": [
                     { "name": "螺丝椒 约300g", "price": 6.89 }
+                ]
+            }
+        ],
+        "2024-12-03": [
+            {
+                "shop": "小象",
+                "items": [
+                    { "name": "百岁山矿泉水 570ml*6(散装)", "price": 12.06 },
+                    { "name": "怡宝纯净水 6L（3桶）", "price": 24.95 },
+                    { "name": "新疆库尔勒香梨约 500g", "price": 10.19 },
+                    { "name": "新疆库尔勒香梨约 500g（赠品）", "price": 0.00 },
+                    { "name": "慢养黑猪冷鲜汤骨(汤小排)350g", "price": 27.75 },
+                    { "name": "慢养黑猪冷鲜前排块350g(脊骨+肋排)", "price": 18.50 },
+                    { "name": "豆小月响铃卷100g(新老包装随机发货)", "price": 12.99 },
+                    { "name": "豆小月响铃卷100g(新老包装随机发货)（赠品）", "price": 0.00 },
+                    { "name": "三全撒尿牛肉丸120g（6个）", "price": 7.36 },
+                    { "name": "三全撒尿牛肉丸120g（6个）（赠品）", "price": 0.00 }
+                ]
+            }
+        ],
+        "2024-12-08": [
+            {
+                "shop": "小象",
+                "items": [
+                    { "name": "螺丝椒 约300g", "price": 4.19 },
+                    { "name": "新黄心土豆约 600g", "price": 5.20 },
+                    { "name": "怡宝纯净水 6L", "price": 8.90 },
+                    { "name": "康沙海南蜜薯 500g", "price": 11.99 },
+                    { "name": "统一兰州牛肉面 98g*4", "price": 29.90 },
+                    { "name": "蓝月亮旅行洗衣液（白兰香）80g", "price": 0.00 }
                 ]
             }
         ],
@@ -1293,6 +1330,26 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "茄子（精选）约800g", "price": 6.54 },
                     { "name": "螺丝椒 约300g", "price": 3.34 },
                     { "name": "怡宝纯净水 6L", "price": 7.13 }
+                ]
+            }
+        ],
+        "2024-12-13": [
+            {
+                "shop": "小象",
+                "items": [
+                    { "name": "天目山小香薯 500g", "price": 11.44 },
+                    { "name": "天目山小香薯 500g（赠品）", "price": 0.00 },
+                    { "name": "有机胡萝卜 300g", "price": 4.15 },
+                    { "name": "怡宝纯净水 6L", "price": 7.89 },
+                    { "name": "康师傅番茄鸡蛋牛肉面 115g*5袋", "price": 14.90 },
+                    { "name": "蓝月亮旅行洗衣液（白兰香）80g", "price": 0.00 }
+                ]
+            }
+        ],
+        "2024-12-16": [
+            {
+                shop: "叮咚", items: [
+                    { "name": "螺丝椒 约300g", "price": 4.19 }
                 ]
             }
         ]
