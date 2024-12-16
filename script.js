@@ -1028,6 +1028,20 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2024-09-04": [
+            {
+                "shop": "小象",
+                "items": [
+                    { "name": "湘味特色螺丝椒 约300g", "price": 6.49 },
+                    { "name": "线椒 约160g", "price": 5.99 },
+                    { "name": "壹号土猪冷鲜去皮五花肉 250g", "price": 22.90 },
+                    { "name": "壹号土猪冷鲜去皮五花肉片 150g", "price": 16.60 },
+                    { "name": "中粮家佳康冷鲜猪梅花肉 400g", "price": 20.30 },
+                    { "name": "蓝月亮旅行洗衣液（白兰香）80g", "price": 0.00 },
+                    { "name": "香葱(赠品)", "price": 0.00 }
+                ]
+            }
+        ],
         "2024-09-05": [
             {
                 "shop": "叮咚",
