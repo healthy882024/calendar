@@ -175,6 +175,65 @@ a {
     text-align: center;
 }
 
+/* 调整按钮样式 */
+button {
+    display: inline-flex;
+    /* 使内容在按钮内水平排列 */
+    align-items: center;
+    /* 垂直居中对齐内容 */
+    justify-content: center;
+    /* 水平居中对齐内容 */
+    padding: 4px 8px;
+    /* 按钮内边距 */
+    font-size: 14px;
+    /* 设置文字大小 */
+    line-height: 1;
+    /* 确保文字的行高为 1 */
+    background: none;
+    /* 如果需要透明背景 */
+    border: none;
+    /* 去掉边框 */
+    cursor: pointer;
+    /* 鼠标指针变为手型 */
+}
+
+button#prev-month,
+button#next-month {
+    background: transparent;
+    border: none;
+    font-size: 12px;
+    color: blue;
+    cursor: pointer;
+    padding: 4 10px;
+}
+
+button#prev-month {
+    float: left;
+    /* 左侧浮动 */
+}
+
+button#next-month {
+    float: right;
+    /* 右侧浮动 */
+}
+
+button#prev-month:hover,
+button#next-month:hover {
+    text-decoration: underline;
+    color: darkblue;
+}
+
+/* 专门调整箭头的大小和位置 */
+button .arrow {
+    font-size: 10px;
+    /* 控制箭头大小 */
+    vertical-align: middle;
+    /* 对齐文字 */
+    margin-right: 5px;
+    /* 箭头与文字的间距 */
+    margin-left: 5px;
+}
+
 /* 针对屏幕较小设备的响应式优化 */
 @media (max-width: 768px) {
     #modal-details {
