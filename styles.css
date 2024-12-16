@@ -43,9 +43,7 @@ a {
 #modal {
     display: none;
     justify-content: center;
-    /* 水平居中 */
     align-items: baseline;
-    /* 按照子元素的文本基线对齐 */
     position: fixed;
     left: 0;
     top: 0;
@@ -64,49 +62,35 @@ a {
     padding: 0;
     border-radius: 8px;
     width: 100%;
-    /* 使弹出窗口宽度等于屏幕宽度 */
     height: auto;
     max-height: 90%;
     overflow: auto;
-    /* 如果内容溢出，可以滚动 */
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
     padding: 1mm;
-    /* 让表格与弹窗边缘保持1mm的空隙 */
 }
 
 /* 弹出窗口关闭按钮 */
 #modal-close {
     position: absolute;
     top: 16px;
-    /* 稍微加大顶部间距 */
     right: 16px;
-    /* 稍微加大右侧间距 */
     width: 20px;
-    /* 缩小按钮的宽度 */
     height: 20px;
-    /* 缩小按钮的高度 */
     background-color: transparent;
-    /* 背景透明 */
     border: none;
-    /* 边框颜色柔和 */
     color: #333;
-    /* 文字颜色 */
     font-size: 14px;
-    /* 字体适中 */
     text-align: center;
     line-height: 20px;
-    /* 垂直居中 */
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
 }
 
 #modal-close:hover {
     background-color: #ddd;
-    /* 悬停时按钮背景色 */
     color: #333;
-    /* 悬停时文字颜色 */
 }
 
 /* 弹出窗口标题样式 */
@@ -115,40 +99,29 @@ a {
     font-weight: bold;
     color: #333;
     margin-bottom: 10px;
-    /* 调整顶部的间距 */
     text-align: center;
-    /* 标题居中对齐 */
     padding-left: 8px;
-    /* 对齐表格的左边框 */
 }
 
 /* 弹出窗口表格 */
 #modal table {
     width: 100%;
-    /* 表格宽度和弹出窗口一致 */
     margin: 0;
-    /* 去掉外边距 */
     border-collapse: collapse;
 }
 
-/* 表格中的单元格样式 */
 #modal td,
 #modal th {
     padding: 4px;
     border: 1px solid #ddd;
     text-align: left;
     white-space: nowrap;
-    /* 防止换行 */
 }
 
-/* 商品名称列 */
 #modal td.product-name {
     max-width: 180px;
-    /* 设置商品名称列的最大宽度 */
     overflow-x: auto;
-    /* 允许水平滚动 */
     word-wrap: normal;
-    /* 防止强制换行 */
 }
 
 /* 适用于面板中的表格 */
@@ -178,43 +151,35 @@ a {
 /* 调整按钮样式 */
 button {
     display: inline-flex;
-    /* 使内容在按钮内水平排列 */
     align-items: center;
-    /* 垂直居中对齐内容 */
     justify-content: center;
-    /* 水平居中对齐内容 */
     padding: 4px 8px;
-    /* 按钮内边距 */
     font-size: 14px;
-    /* 设置文字大小 */
     line-height: 1;
-    /* 确保文字的行高为 1 */
     background: none;
-    /* 如果需要透明背景 */
     border: none;
-    /* 去掉边框 */
     cursor: pointer;
-    /* 鼠标指针变为手型 */
 }
 
 button#prev-month,
 button#next-month {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     background: transparent;
     border: none;
     font-size: 12px;
     color: blue;
     cursor: pointer;
-    padding: 4 10px;
+    padding: 4px 10px;
 }
 
 button#prev-month {
     float: left;
-    /* 左侧浮动 */
 }
 
 button#next-month {
     float: right;
-    /* 右侧浮动 */
 }
 
 button#prev-month:hover,
@@ -226,49 +191,44 @@ button#next-month:hover {
 /* 为上一月按钮添加左箭头 */
 button#prev-month::before {
     content: '←';
-    /* 设置左箭头 */
     font-size: 10px;
     margin-right: 5px;
-    /* 箭头和文本之间的间距 */
+    align-self: flex-start;
+    /* 确保箭头垂直居中 */
 }
 
 /* 为下一月按钮添加右箭头 */
 button#next-month::after {
     content: '→';
-    /* 设置右箭头 */
     font-size: 10px;
     margin-left: 5px;
-    /* 箭头和文本之间的间距 */
+    align-self: flex-start;
+    /* 确保箭头垂直居中 */
 }
 
 /* 针对屏幕较小设备的响应式优化 */
 @media (max-width: 768px) {
     #modal-details {
         width: 100%;
-        /* 弹出框宽度适应小屏幕 */
     }
 
     .calendar th,
     .calendar td {
         padding: 6px;
-        /* 在较小屏幕上减少单元格的内边距 */
     }
 }
 
 @media (max-width: 480px) {
     #modal-details {
         width: 100%;
-        /* 小屏幕上，弹出框宽度占满屏幕 */
     }
 
     .calendar th,
     .calendar td {
         padding: 4px;
-        /* 更小屏幕上进一步减少内边距 */
     }
 
     .calendar {
         font-size: 14px;
-        /* 在手机上减小表格字体大小 */
     }
 }
