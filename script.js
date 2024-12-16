@@ -1238,6 +1238,18 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2024-11-22": [
+            {
+                "shop": "小象",
+                "items": [
+                    { "name": "劲仔小鱼混合装 96g(内含12包)", "price": 9.90 },
+                    { "name": "尖椒(羊角椒)约300g", "price": 6.28 },
+                    { "name": "光明上海农场散养土鸡蛋10枚400g", "price": 13.90 },
+                    { "name": "九华山林间散养土鸡蛋10枚400g", "price": 13.80 },
+                    { "name": "蓝月亮旅行洗衣液(白兰香)80g", "price": 0.00 }
+                ]
+            }
+        ],
         "2024-11-26": [
             {
                 "shop": "叮咚",
@@ -1250,6 +1262,14 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "黑钻世家冷鲜川藏特色黑猪肉丝 约350g", "price": 10.26 },
                     { "name": "无抗黑猪冷鲜汤骨 300g", "price": 10.32 },
                     { "name": "有机黑猪冷鲜通脊 200g", "price": 14.89 }
+                ]
+            }, {
+                "shop": "小象",
+                "items": [
+                    { "name": "螺丝椒 约300g", "price": 6.89 },
+                    { "name": "新黄心土豆约 600g", "price": 2.69 },
+                    { "name": "统一茄皇牛肉面128g", "price": 4.90 },
+                    { "name": "白象经典老坛酸菜牛肉面119g", "price": 3.90 }
                 ]
             }
         ],
