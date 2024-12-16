@@ -223,15 +223,22 @@ button#next-month:hover {
     color: darkblue;
 }
 
-/* 专门调整箭头的大小和位置 */
-button .arrow {
+/* 为上一月按钮添加左箭头 */
+button#prev-month::before {
+    content: '←';
+    /* 设置左箭头 */
     font-size: 10px;
-    /* 控制箭头大小 */
-    vertical-align: middle;
-    /* 对齐文字 */
     margin-right: 5px;
-    /* 箭头与文字的间距 */
+    /* 箭头和文本之间的间距 */
+}
+
+/* 为下一月按钮添加右箭头 */
+button#next-month::after {
+    content: '→';
+    /* 设置右箭头 */
+    font-size: 10px;
     margin-left: 5px;
+    /* 箭头和文本之间的间距 */
 }
 
 /* 针对屏幕较小设备的响应式优化 */
