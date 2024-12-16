@@ -6,6 +6,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const yearSelect = document.getElementById("year");
     const monthSelect = document.getElementById("month");
     const totalExpenditureDisplay = document.getElementById("total-expenditure");
+    const prevMonthButton = document.getElementById("prev-month");
+    const nextMonthButton = document.getElementById("next-month");
 
     // 示例数据
     const expensesData = {
@@ -189,13 +191,31 @@ document.addEventListener("DOMContentLoaded", function () {
         const lastDay = new Date(year, month, 0).getDate();
         const monthlyTotal = calculateMonthlyTotal(year, month); // 获取当前月份的总消费
 
-        let htmlString = `<table class='calendar'>
-                      <tr><th colspan='7'>${year}年${month}月 总消费：￥${monthlyTotal}</th></tr>
-                      <tr><th>日</th><th>一</th><th>二</th><th>三</th><th>四</th><th>五</th><th>六</th></tr><tr>`;
+        // 动态生成表格 HTML，包括左右箭头
+        let htmlString = `
+<table class='calendar'>
+    <tr>
+        <th colspan="7">
+            <button id="prev-month" aria-label="上一月">
+                <span class="arrow">🡸</span> 上一月
+            </button>
+            ${year}年${month}月 总消费：￥${monthlyTotal}
+            <button id="next-month" aria-label="下一月">
+                下一月 <span class="arrow">🡺</span>
+            </button>
+        </th>
+    </tr>
+    <tr>
+        <th>日</th><th>一</th><th>二</th><th>三</th><th>四</th><th>五</th><th>六</th>
+    </tr>
+    <tr>`;
 
+
+        // 补齐月初空白
         let weekDay = new Date(year, month - 1, 1).getDay();
         for (let i = 0; i < weekDay; i++) htmlString += "<td>-</td>";
 
+        // 填充每一天
         for (let day = 1; day <= lastDay; day++) {
             const dateStr = `${year}-${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')}`;
             const dailyExpenses = expensesData[dateStr] || [];
@@ -211,8 +231,40 @@ document.addEventListener("DOMContentLoaded", function () {
             if ((weekDay + day) % 7 === 0) htmlString += "</tr><tr>";
         }
 
+        // 补齐月末空白
         htmlString += "</tr></table>";
         calendarContainer.innerHTML = htmlString;
+
+        // 添加上一月和下一月按钮的事件监听
+        document.getElementById("prev-month").onclick = function () {
+            let newYear = year;
+            let newMonth = month - 1;
+            if (newMonth === 0) {
+                newMonth = 12;
+                newYear -= 1;
+            }
+            if (newYear >= 2023 && newYear <= 2025) {
+                yearSelect.value = newYear;
+                monthSelect.value = newMonth;
+                renderCalendar();
+                calculateTotalExpenditure();
+            }
+        };
+
+        document.getElementById("next-month").onclick = function () {
+            let newYear = year;
+            let newMonth = month + 1;
+            if (newMonth === 13) {
+                newMonth = 1;
+                newYear += 1;
+            }
+            if (newYear >= 2023 && newYear <= 2025) {
+                yearSelect.value = newYear;
+                monthSelect.value = newMonth;
+                renderCalendar();
+                calculateTotalExpenditure();
+            }
+        };
     }
 
     // 显示消费详情
