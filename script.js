@@ -193,22 +193,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // 动态生成表格 HTML，包括左右箭头
         let htmlString = `
-<table class='calendar'>
-    <tr>
-        <th colspan="7">
-            <button id="prev-month" aria-label="上一月">
-                <span class="arrow">🡸</span> 上一月
-            </button>
-            ${year}年${month}月 总消费：￥${monthlyTotal}
-            <button id="next-month" aria-label="下一月">
-                下一月 <span class="arrow">🡺</span>
-            </button>
-        </th>
-    </tr>
-    <tr>
-        <th>日</th><th>一</th><th>二</th><th>三</th><th>四</th><th>五</th><th>六</th>
-    </tr>
-    <tr>`;
+        <table class='calendar'>
+            <tr>
+                <th colspan="7">
+                    <button id="prev-month" aria-label="上一月">
+                        上一月
+                    </button>
+                    ${year}年${month}月 总消费：￥${monthlyTotal}
+                    <button id="next-month" aria-label="下一月">
+                        下一月
+                    </button>
+                </th>
+            </tr>
+            <tr>
+                <th>日</th><th>一</th><th>二</th><th>三</th><th>四</th><th>五</th><th>六</th>
+            </tr>
+            <tr>`;
 
 
         // 补齐月初空白
