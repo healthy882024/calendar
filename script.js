@@ -6,8 +6,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const yearSelect = document.getElementById("year");
     const monthSelect = document.getElementById("month");
     const totalExpenditureDisplay = document.getElementById("total-expenditure");
-    const prevMonthButton = document.getElementById("prev-month");
-    const nextMonthButton = document.getElementById("next-month");
 
     // 示例数据
     const expensesData = {
@@ -1753,32 +1751,52 @@ document.addEventListener("DOMContentLoaded", function () {
         return parseFloat(total.toFixed(2)); // 保留两位小数
     }
 
-    // 渲染日历
+    // 提取当前月份的数据
+    function getMonthlyData(year, month) {
+        const days = [];
+        const dailyTotals = [];
+
+        const lastDay = new Date(year, month, 0).getDate(); // 当月的最后一天
+
+        for (let day = 1; day <= lastDay; day++) {
+            const dateStr = `${year}-${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')}`;
+            const dailyExpenses = expensesData[dateStr] || []; // 当天消费记录
+
+            // 计算当天总消费金额
+            const dailyTotal = dailyExpenses.length > 0
+                ? dailyExpenses.reduce((sum, entry) => sum + entry.totalAmount, 0).toFixed(2)
+                : 0;
+
+            days.push(day); // 添加日期到 X 轴
+            dailyTotals.push(dailyTotal); // 添加消费金额到 Y 轴
+        }
+
+        return { days, dailyTotals };
+    }
+
+    let chartInstance = null; // 用于保存 Chart.js 实例
+
+    // 修改 renderCalendar，加入图表更新逻辑
     function renderCalendar() {
         const year = parseInt(yearSelect.value);
         const month = parseInt(monthSelect.value);
         const lastDay = new Date(year, month, 0).getDate();
-        const monthlyTotal = calculateMonthlyTotal(year, month); // 获取当前月份的总消费
+        const monthlyTotal = calculateMonthlyTotal(year, month);
 
-        // 动态生成表格 HTML，包括左右箭头
+        // 动态生成表格 HTML
         let htmlString = `
-        <table class='calendar'>
-            <tr>
-                <th colspan="7">
-                    <button id="prev-month" aria-label="上一月">
-                        上一月
-                    </button>
-                    ${year}年${month}月 总消费：￥${monthlyTotal}
-                    <button id="next-month" aria-label="下一月">
-                        下一月
-                    </button>
-                </th>
-            </tr>
-            <tr>
-                <th>日</th><th>一</th><th>二</th><th>三</th><th>四</th><th>五</th><th>六</th>
-            </tr>
-            <tr>`;
-
+                        <table class='calendar'>
+                        <tr>
+                            <th colspan="7">
+                                <button id="prev-month" aria-label="上一月">上一月</button>
+                                ${year}年${month}月 总消费：￥${monthlyTotal}
+                                <button id="next-month" aria-label="下一月">下一月</button>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>日</th><th>一</th><th>二</th><th>三</th><th>四</th><th>五</th><th>六</th>
+                        </tr>
+                        <tr>`;
 
         // 补齐月初空白
         let weekDay = new Date(year, month - 1, 1).getDay();
@@ -1790,12 +1808,12 @@ document.addEventListener("DOMContentLoaded", function () {
             const dailyExpenses = expensesData[dateStr] || [];
             const dailyTotal = dailyExpenses.length > 0
                 ? dailyExpenses.reduce((sum, entry) => sum + entry.totalAmount, 0).toFixed(2)
-                : "-"; // 如果没有消费记录显示"-"，否则显示消费金额
+                : "-";
 
             htmlString += `<td>
-                         <a href="#" class="day-cell" onclick="showDetails('${dateStr}')">${day}</a>
-                         <div class="daily-expense">${dailyTotal}</div>
-                       </td>`;
+                           <a href="#" class="day-cell" onclick="showDetails('${dateStr}')">${day}</a>
+                           <div class="daily-expense">${dailyTotal}</div>
+                           </td>`;
 
             if ((weekDay + day) % 7 === 0) htmlString += "</tr><tr>";
         }
@@ -1834,7 +1852,70 @@ document.addEventListener("DOMContentLoaded", function () {
                 calculateTotalExpenditure();
             }
         };
+
+        // 获取数据并渲染图表
+        const { days, dailyTotals } = getMonthlyData(year, month);
+        renderChart(days, dailyTotals);
     }
+
+    // 绘制柱状图
+    function renderChart(days, totals) {
+        const ctx = document.getElementById("monthlyChart").getContext("2d");
+
+        // 获取当前选择的年份和月份
+        const year = parseInt(yearSelect.value);
+        const month = parseInt(monthSelect.value);
+        const label = `${year}年${month}月 每日消费金额 (元)`; // 动态生成的标签
+
+        // 如果图表实例已存在，则销毁重新绘制
+        if (chartInstance) {
+            chartInstance.destroy();
+        }
+
+        chartInstance = new Chart(ctx, {
+            type: "bar",
+            data: {
+                labels: days, // x 轴：日期
+                datasets: [
+                    {
+                        label: label, // 使用动态生成的标签
+                        data: totals, // y 轴：消费金额
+                        backgroundColor: "rgba(75, 192, 192, 0.2)",
+                        borderColor: "rgba(75, 192, 192, 1)",
+                        borderWidth: 1,
+                        // categoryPercentage: 0.6, // 控制柱子宽度占整个类别的比例
+                        barPercentage: 0.7, // 控制柱子在类别内的占比
+                    },
+                ],
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                    },
+                    x: {
+                        grid: {
+                            display: false, // 禁用横轴网格线
+                        },
+                    },
+                },
+                plugins: {
+                    legend: {
+                        display: true,
+                        position: "top",
+                        labels: {
+                            boxWidth: 20, // 小图块的宽度
+                            boxHeight: 6, // 小图块的高度
+                            padding: 10, // 图例项与图块之间的间距
+                        },
+                    },
+                },
+            },
+        });
+    }
+
 
     // 显示消费详情
     window.showDetails = function (dateStr) {
@@ -1847,17 +1928,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
             details.forEach(d => {
                 contentHTML += `<tr class="platform-row">
-                            <td rowspan="${d.items.length}">${d.shop}</td>
-                            <td rowspan="${d.items.length}" class="platform-amount">￥${d.totalAmount.toFixed(2)}</td> <!-- 使用 totalAmount -->
-                            <td class="product-name">${d.items[0].name}</td>
-                            <td class="product-amount">￥${d.items[0].price.toFixed(2)}</td> <!-- 保留两位小数 -->
-                        </tr>`;
+                                <td rowspan="${d.items.length}">${d.shop}</td>
+                                <td rowspan="${d.items.length}" class="platform-amount">￥${d.totalAmount.toFixed(2)}</td> <!-- 使用 totalAmount -->
+                                <td class="product-name">${d.items[0].name}</td>
+                                <td class="product-amount">￥${d.items[0].price.toFixed(2)}</td> <!-- 保留两位小数 -->
+                                </tr>`;
 
                 for (let i = 1; i < d.items.length; i++) {
                     contentHTML += `<tr class="product-row">
-                                <td class="product-name">${d.items[i].name}</td>
-                                <td class="product-amount">￥${d.items[i].price.toFixed(2)}</td> <!-- 保留两位小数 -->
-                            </tr>`;
+                                    <td class="product-name">${d.items[i].name}</td>
+                                    <td class="product-amount">￥${d.items[i].price.toFixed(2)}</td> <!-- 保留两位小数 -->
+                                    </tr>`;
                 }
             });
 
@@ -1891,7 +1972,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         monthDataHTML += `￥${totalYearlyExpenditure.toFixed(2)}</h3>`; // 保留两位小数
         monthDataHTML += `<table border="1" style="width:100%; margin-top:10px;">
-                        <tr><th>月份</th><th>总消费金额</th></tr>`;
+                          <tr><th>月份</th><th>总消费金额</th></tr>`;
 
         for (let month = 1; month <= 12; month++) {
             const monthStr = `${year}-${month.toString().padStart(2, '0')}`;
@@ -1906,9 +1987,9 @@ document.addEventListener("DOMContentLoaded", function () {
             });
 
             monthDataHTML += `<tr>
-                            <td><a href="#" onclick="selectMonth(${year}, ${month})">${month}月</a></td>
-                            <td>￥${monthlyTotal.toFixed(2)}</td> <!-- 保留两位小数 -->
-                          </tr>`;
+                              <td><a href="#" onclick="selectMonth(${year}, ${month})">${month}月</a></td>
+                              <td>￥${monthlyTotal.toFixed(2)}</td> <!-- 保留两位小数 -->
+                              </tr>`;
         }
 
         monthDataHTML += `</table>`;
@@ -1939,7 +2020,7 @@ document.addEventListener("DOMContentLoaded", function () {
     };
 
     function initializeYearAndMonthOptions() {
-        const years = [2023, 2024, 2025];
+        const years = [2022, 2023, 2024, 2025, 2026];
         const months = Array.from({ length: 12 }, (_, i) => i + 1);
 
         years.forEach(year => {
@@ -1956,8 +2037,14 @@ document.addEventListener("DOMContentLoaded", function () {
             monthSelect.appendChild(option);
         });
 
-        yearSelect.value = 2024;
-        monthSelect.value = 12;
+        // 获取当前年份和月份
+        const currentDate = new Date();
+        const currentYear = currentDate.getFullYear();
+        const currentMonth = currentDate.getMonth() + 1; // getMonth() 返回的月份是从 0 开始的，所以需要加 1
+
+        // 设置年份和月份选择框的默认值为当前年份和月份
+        yearSelect.value = currentYear;
+        monthSelect.value = currentMonth;
     }
 
     initializeYearAndMonthOptions();
