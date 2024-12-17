@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>年度消费日历</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 
 <body>
@@ -22,6 +23,11 @@
 
     <!-- 日历展示容器 -->
     <div id="calendar-container"></div>
+
+    <!-- 图表容器 -->
+    <div style="margin: 20px auto; width: 90%; max-width: 600px; height: 300px;">
+        <canvas id="monthlyChart"></canvas>
+    </div>
 
     <!-- 弹窗内容部分 -->
     <div id="modal">
