@@ -1689,6 +1689,7 @@ document.addEventListener("DOMContentLoaded", function () {
         ]
     };
 
+
     // 计算每条消费记录的总金额（每项消费的金额为商品价格之和）
     function calculateAmounts() {
         for (const date in expensesData) {
@@ -1953,12 +1954,17 @@ document.addEventListener("DOMContentLoaded", function () {
     window.showYearDetails = function (year) {
         modal.style.display = "block";
         let totalYearlyExpenditure = 0;
-        let monthDataHTML = `<h3>${year}年 总消费：`;
+        let monthlyExpenditures = [];
+        let monthDataHTML = `<h3>
+                            <button id="prev-year" aria-label="上一年">←</button>
+                            ${year}年 总消费：`;
 
+        // 收集每个月的总消费
         for (let month = 1; month <= 12; month++) {
             const monthStr = `${year}-${month.toString().padStart(2, '0')}`;
             let monthlyTotal = 0;
 
+            // 遍历所有消费记录，计算每个月的消费总金额
             Object.keys(expensesData).forEach(date => {
                 if (date.startsWith(monthStr)) {
                     expensesData[date].forEach(entry => {
@@ -1967,25 +1973,21 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
             });
 
+            // 将每个月的消费金额加入数组
+            monthlyExpenditures.push(monthlyTotal);
             totalYearlyExpenditure += monthlyTotal;
         }
 
-        monthDataHTML += `￥${totalYearlyExpenditure.toFixed(2)}</h3>`; // 保留两位小数
+        // 更新年总消费金额
+        monthDataHTML += `￥${totalYearlyExpenditure.toFixed(2)}
+                         <button id="next-year" aria-label="下一年">→</button>
+                         </h3>`; // 保留两位小数
         monthDataHTML += `<table border="1" style="width:100%; margin-top:10px;">
                           <tr><th>月份</th><th>总消费金额</th></tr>`;
 
+        // 生成每个月消费的表格
         for (let month = 1; month <= 12; month++) {
-            const monthStr = `${year}-${month.toString().padStart(2, '0')}`;
-            let monthlyTotal = 0;
-
-            Object.keys(expensesData).forEach(date => {
-                if (date.startsWith(monthStr)) {
-                    expensesData[date].forEach(entry => {
-                        monthlyTotal += entry.totalAmount;  // 使用 totalAmount 而不是 amount
-                    });
-                }
-            });
-
+            const monthlyTotal = monthlyExpenditures[month - 1];
             monthDataHTML += `<tr>
                               <td><a href="#" onclick="selectMonth(${year}, ${month})">${month}月</a></td>
                               <td>￥${monthlyTotal.toFixed(2)}</td> <!-- 保留两位小数 -->
@@ -1993,8 +1995,81 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         monthDataHTML += `</table>`;
+
+        // 添加图表显示区域
+        monthDataHTML += `<div>
+                          <canvas id="yearlyChart" width="400" height="200"></canvas>
+                          </div>`;
+
         modalDetails.innerHTML = monthDataHTML;
+
+        // 渲染图表
+        renderYearlyChart(year, monthlyExpenditures);
+
+        // 添加上一年和下一年按钮的事件监听
+        document.getElementById("prev-year").onclick = function () {
+            showYearDetails(year - 1); // 显示上一年的消费详情
+        };
+
+        document.getElementById("next-year").onclick = function () {
+            showYearDetails(year + 1); // 显示下一年的消费详情
+        };
     };
+
+    // 渲染图表
+    function renderYearlyChart(year, monthlyExpenditures) {
+        const ctx = document.getElementById("yearlyChart").getContext("2d");
+
+        // 如果已有图表实例，销毁它再创建一个新图表
+        if (window.yearlyChartInstance) {
+            window.yearlyChartInstance.destroy();
+        }
+
+        window.yearlyChartInstance = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'], // 月份
+                datasets: [{
+                    label: `${year}年 每月总消费 (元)`, // 图表的标签
+                    data: monthlyExpenditures, // 每个月的消费金额
+                    backgroundColor: "rgba(75, 192, 192, 0.2)",
+                    borderColor: "rgba(75, 192, 192, 1)",
+                    borderWidth: 1,
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            callback: function (value) {
+                                return `￥${value.toFixed(2)}`; // 格式化 y 轴标签，显示为人民币
+                            }
+                        }
+                    },
+                    x: {
+                        grid: {
+                            display: false, // 隐藏 x 轴的网格线
+                        },
+                    },
+                },
+                plugins: {
+                    legend: {
+                        display: true,
+                        position: "top",
+                        labels: {
+                            boxWidth: 20,
+                            boxHeight: 6,
+                            padding: 10,
+                        }
+                    }
+                }
+            }
+        });
+    }
+
 
     window.selectMonth = function (year, month) {
         modal.style.display = "none";
