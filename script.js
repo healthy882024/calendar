@@ -1054,6 +1054,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2024-06-27": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "五得利 八星雪花小麦粉 5斤", "price": 18.11 }
+                ]
+            }
+        ],
         "2024-06-28": [
             {
                 "shop": "叮咚",
@@ -1070,6 +1078,25 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "优质番茄 约500g", "price": 3.25 },
                     { "name": "吮指鸭锁骨（微辣）160g (2盒)", "price": 14.95 }
                 ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "德青源A级鲜鸡蛋32枚2.74斤", "price": 27.34 }
+                ]
+            }
+        ],
+        "2024-06-29": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "英科医疗（INTCO）一次性食品级丁腈手套 L大码100只", "price": 19.98 },
+                    { "name": "洁芙朗（JAFFRONG）小苏打牙膏100g", "price": 2.50 },
+                    { "name": "LYNN 鞋刷洗衣刷子【超值2个装】", "price": 6.34 },
+                    { "name": "立白青柠洗洁精1kg", "price": 9.55 },
+                    { "name": "狮王（Lion）细齿洁弹力旋净软毛 2支装", "price": 19.9 },
+                    { "name": "舒客炭丝能量牙刷10支", "price": 28.90 },
+                    { "name": "优惠券", "price": -23.60 }
+                ]
             }
         ],
         "2024-06-30": [
@@ -1081,6 +1108,20 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "象划算潮汕牛肉风味丸 150g", "price": 1.00 },
                     { "name": "象大厨油炸红衣花生米 150g", "price": 8.90 }
                 ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "蒙牛纯牛奶利乐钻200ml×24盒", "price": 37.91 },
+                    { "name": "雅美姬 厨房 凝光白/加大款吊篮", "price": 15.67 }
+                ]
+            }
+        ],
+        "2024-07-01": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "京愿 烟台苹果 10斤75-80mm 净重8.5斤", "price": 22.65 }
+                ]
             }
         ],
         "2024-07-02": [
@@ -1089,10 +1130,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "怡宝纯净水 6L/桶 (3桶)", "price": 23.30 }
                 ]
-            }
-        ],
-        "2024-07-02": [
-            {
+            }, {
                 "shop": "小象",
                 "items": [
                     { "name": "紫燕百味鸡酸辣柠檬拆骨凤爪 200g", "price": 16.90 },
@@ -1120,6 +1158,16 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "青泡椒 500g", "price": 2.99 },
                     { "name": "香葱(赠品)", "price": 0.00 },
                     { "name": "商品优惠券", "price": -15.00 }
+                ]
+            }
+        ],
+        "2024-07-04": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "维达（Vinda）4层140克*10卷", "price": 18.23 },
+                    { "name": "力士依兰香沐浴露 1000g", "price": 20.28 },
+                    { "name": "海天 金标系列 生抽 500ml*2", "price": 14.77 }
                 ]
             }
         ],
@@ -1191,6 +1239,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "第2件半价", "price": -6.95 },
                     { "name": "商品优惠券", "price": -10.00 }
                 ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "钙尔奇 碳酸钙片D3片(I)60片", "price": 56.43 }
+                ]
             }
         ],
         "2024-07-12": [
@@ -1207,6 +1260,34 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2024-07-14": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "十月稻田 熟白芝麻 200g", "price": 7.66 },
+                    { "name": "川珍朝天辣椒面250g罐装", "price": 11.98 },
+                    { "name": "维达（Vinda）厨房卷纸 可水洗75节*2卷", "price": 5.21 },
+                    { "name": "炊大皇 塑料保鲜盒套装 720ml*3正方形白色", "price": 7.66 }
+                ]
+            }
+        ],
+        "2024-07-16": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "京愿山东烟台 苹果 10斤75-80mm", "price": 24.75 }
+                ]
+            }
+        ],
+        "2024-07-17": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "张小泉 乌檀木整木菜板（30*20*2.2cm）", "price": 44.47 },
+                    { "name": "美丽雅 食品级保鲜膜大号150米*30cm", "price": 19.93 }
+                ]
+            }
+        ],
         "2024-07-19": [
             {
                 "shop": "小象",
@@ -1220,6 +1301,20 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "薄皮青椒 250g", "price": 4.99 },
                     { "name": "香葱(赠品)", "price": 0.00 },
                     { "name": "商品优惠券", "price": -8.00 }
+                ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "汰渍洗衣粉3.1斤 柠檬清香", "price": 11.02 },
+                    { "name": "利得一次性PE点断式手撕保鲜膜30cm*150m", "price": 17.45 }
+                ]
+            }
+        ],
+        "2024-07-20": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "王守义 十三香 45g盒装*3", "price": 9.83 }
                 ]
             }
         ],
@@ -1270,6 +1365,15 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2024-07-27": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "三元方白纯牛奶整箱250ml*24盒", "price": 44.41 },
+                    { "name": "多力 葵花籽油1.8L ", "price": 31.01 }
+                ]
+            }
+        ],
         "2024-07-28": [
             {
                 "shop": "小象",
@@ -1286,6 +1390,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "松花菜半颗 500g", "price": 0.00 },
                     { "name": "商品优惠券", "price": -4.00 }
                 ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "力士(LUX)香氛抑菌洗手液 400G", "price": 10.03 },
+                    { "name": "洁柔有芯卷纸 4层200克*10卷", "price": 27.72 }
+                ]
             }
         ],
         "2024-07-30": [
@@ -1301,6 +1411,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "四川优选黄柠檬2粒装 200g", "price": 0.00 },
                     { "name": "香葱(赠品)", "price": 0.00 },
                     { "name": "商品优惠券", "price": -4.00 }
+                ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "水塔老陈醋6° 420ml", "price": 5.53 },
+                    { "name": "李锦记 薄盐生抽 薄盐生抽500ml", "price": 8.83 }
                 ]
             }
         ],
@@ -1341,6 +1457,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "冷鲜鸡爪 400g", "price": 19.80 },
                     { "name": "香葱(赠品)", "price": 0.00 },
                     { "name": "配送费", "price": 3.00 }
+                ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "百卡不锈钢检测液水304鉴别316 检测液15ml", "price": 11.49 }
                 ]
             }
         ],
