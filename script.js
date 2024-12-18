@@ -1717,6 +1717,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "猪汤骨 约400g", "price": 11.50 },
                     { "name": "猪汤小排 约400g", "price": 15.52 }
                 ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "十月稻田 花生米 2斤", "price": 14.73 }
+                ]
             }
         ],
         "2024-08-31": [
@@ -1751,6 +1756,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "牛奶滑鸭血 300g", "price": 9.27 },
                     { "name": "冰鲜海带丝 200g", "price": 4.52 }
                 ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "心相印有芯卷纸 茶语系列4层200g*10卷", "price": 18.77 },
+                    { "name": "水塔红盖老陈醋6°420ml", "price": 5.18 }
+                ]
             }
         ],
         "2024-09-02": [
@@ -1765,6 +1776,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "甜玉米 约1.05kg", "price": 7.80 },
                     { "name": "蓝月亮旅行洗衣液（白兰香）80g", "price": 0.00 },
                     { "name": "香葱(赠品)", "price": 0.00 }
+                ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "农科玉五常甜糯玉米4.6斤 230g*10根", "price": 37.68 }
                 ]
             }
         ],
@@ -1781,6 +1797,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "天平朝晖简雅漱口杯", "price": 0.00 },
                     { "name": "香葱(赠品)", "price": 0.00 },
                     { "name": "【本地鲜】崇明西葫芦300g", "price": 7.90 }
+                ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "DR.RILEY臭虫杀虫剂", "price": 18.68 },
+                    { "name": "老管家 管道除臭剂 1L", "price": 16.49 }
                 ]
             }
         ],
@@ -2293,7 +2315,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "稳健一次性医用外科口罩50只", "price": 11.77 },
                     { "name": "十月稻田 水果玉米 1.76kg(220g*8根)", "price": 34.09 },
-                    { "name": "十月稻田 五常大米 5kg", "price": 36.65 }
                 ]
             }
         ],
@@ -2311,7 +2332,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "紫林 醋 山西老陈醋6度 500ml", "price": 16.19 },
                     { "name": "李锦记 0添加原酿生抽500ml", "price": 8.65 },
-                    { "name": "十月稻田 长粒香大米 2.5kg", "price": 17.21 }
                 ]
             }
         ],
