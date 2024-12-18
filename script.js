@@ -1827,6 +1827,18 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2024-09-08": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "紫林 醋 4.5度山西陈醋500ml", "price": 8.45 },
+                    { "name": "十月稻田 白糯玉米 4.16斤(260g*8根)", "price": 29.27 },
+                    { "name": "李锦记 0添加原酿生抽500ml", "price": 14.72 },
+                    { "name": "正宗山东烟薯25号 中果净重4.5斤单果3-8两", "price": 12.33 },
+                    { "name": "映趣电动鼻毛修剪器", "price": 0.00 }
+                ]
+            }
+        ],
         "2024-09-09": [
             {
                 "shop": "小象",
@@ -1865,6 +1877,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "新蒜苔 250g", "price": 5.99 },
                     { "name": "正大叶黄素可生食鲜鸡蛋 10枚530g", "price": 11.90 }
                 ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "维达（Vinda）厨房卷纸 可水洗75节*8卷", "price": 18.29 }
+                ]
             }
         ],
         "2024-09-13": [
@@ -1895,6 +1912,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "白象多半袋面2代红烧牛肉面 130*5袋", "price": 16.90 },
                     { "name": "蓝月亮旅行洗衣液（白兰香）80g", "price": 0.00 }
                 ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "十月稻田 辽河长粒香大米5kg", "price": 31.06 }
+                ]
             }
         ],
         "2024-09-15": [
@@ -1905,6 +1927,14 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "新鲜初生蛋 12枚 420g", "price": 12.60 },
                     { "name": "豫竹脆丁壳奥尔良鸡翅味干吃面 45g", "price": 1.80 },
                     { "name": "蓝月亮旅行洗衣液（白兰香）80g", "price": 0.00 }
+                ]
+            }
+        ],
+        "2024-09-16": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "十月稻田 白甜糯玉米 4.16斤(260g*8根)", "price": 35.27 }
                 ]
             }
         ],
@@ -1946,6 +1976,24 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "锋味派原味黑猪肉爆汁烤肠 200g", "price": 34.97 },
                     { "name": "采宗农有机银耳 60g", "price": 8.80 },
                     { "name": "新黄心土豆 约600g", "price": 0.00 }
+                ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "森马（Semir）长袖T恤女半高领 橄榄绿L", "price": 40.14 },
+                    { "name": "HLA海澜之家 圆领毛衣男 中篮（89）185/100A（XXL）", "price": 41.08 },
+                    { "name": "禾煜 东北黑龙江黑木耳200g", "price": 21.93 },
+                    { "name": "波司登 羽绒服男 90绒 黑色8056，185/100A", "price": 389.01 }
+                ]
+            }
+        ],
+        "2024-09-22": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "波司登羽绒服90绒 女款连帽 黑色8056", "price": 338.75 },
+                    { "name": "十月稻田 白甜糯玉米 260g*8根", "price": 32.16 },
+                    { "name": "禾煜 东北黑龙江黑木耳200g", "price": 21.93 }
                 ]
             }
         ],
@@ -1990,6 +2038,18 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "锋味派原味黑猪肉爆汁烤肠 200g*3", "price": 59.74 },
                     { "name": "睿洁宫廷风单支装牙刷", "price": 0.00 }
                 ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "维达（Vinda）抽纸 3层100抽*6包", "price": 9.90 },
+                    { "name": "维达（Vinda）抽纸 3层150抽*3包", "price": 9.90 },
+                    { "name": "优惠券", "price": -7.40 },
+                    { "name": "李锦记 0添加原酿生抽500ml", "price": 11.83 },
+                    { "name": "水塔老陈醋6° 420ml", "price": 5.04 },
+                    { "name": "舒客专效美白防蛀牙膏 2支共260g", "price": 9.90 },
+                    { "name": "心相印有芯卷纸 4层200g*10卷", "price": 29.90 },
+                    { "name": "水塔老陈醋6° 420ml", "price": -9.07 }
+                ]
             }
         ],
         "2024-09-27": [
@@ -1998,6 +2058,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "谷物鲜鸡蛋 18枚", "price": 17.50 },
                     { "name": "泰森冷鲜鸡大胸 400g", "price": 11.50 }
+                ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "农科玉五常甜糯玉米3.68斤 230g*8根", "price": 34.07 }
                 ]
             }
         ],
@@ -2021,6 +2086,17 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "怡宝纯净水 6L/桶 (2桶)", "price": 17.60 },
                     { "name": "泰森冷鲜鸡腿块 550g", "price": 15.80 },
                     { "name": "泰森冷鲜鸡琵琶腿 400g", "price": 12.90 }
+                ]
+            }
+        ],
+        "2024-09-30": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "晟旎尚品 抗菌加厚马桶垫子*2", "price": 17.32 },
+                    { "name": "水星家纺 枕头 记忆棉枕 对装 高10cm", "price": 123.34 },
+                    { "name": "无印良品 毛巾 2条装", "price": 16.02 },
+                    { "name": "美厨（maxcook）316L不锈钢盘碟 22cm", "price": 20.37 }
                 ]
             }
         ],
@@ -2048,11 +2124,36 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2024-10-04": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "十月稻田 辽河 长粒香大米 5kg", "price": 25.55 }
+                ]
+            }
+        ],
+        "2024-10-05": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "王守义 十三香 45g盒装*3", "price": 11.90 },
+                    { "name": "紫林 醋 4.5度山西陈醋420ml", "price": 6.90 },
+                    { "name": "优惠券", "price": -2.98 },
+                    { "name": "联想（Lenovo）头戴式无线蓝牙耳机", "price": 77.45 },
+                    { "name": "绿联（UGREEN）AUX音频线 2米", "price": 25.47 }
+                ]
+            }
+        ],
         "2024-10-06": [
             {
                 "shop": "叮咚",
                 "items": [
                     { "name": "海底捞浓香牛油火锅底料 150g", "price": 14.22 }
+                ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "十月稻田 多彩玉米 2.14kg", "price": 64.79 }
                 ]
             }
         ],
