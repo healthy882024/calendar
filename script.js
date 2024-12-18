@@ -2142,7 +2142,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "天目山小香薯 500g", "price": 11.44 },
                     { "name": "天目山小香薯 500g（赠品）", "price": 0.00 },
                     { "name": "有机胡萝卜 300g", "price": 4.15 },
-                    { "name": "怡宝纯净水 6L", "price": 7.89 },
+                    { "name": "怡宝纯净水 6L*1", "price": 7.89 },
                     { "name": "康师傅番茄鸡蛋牛肉面 115g*5袋", "price": 14.90 },
                     { "name": "蓝月亮旅行洗衣液（白兰香）80g", "price": 0.00 }
                 ]
@@ -2154,7 +2154,21 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "螺丝椒 约300g", "price": 4.19 }
                 ]
             }
+        ],
+        "2024-12-17": [
+            {
+                shop: "叮咚", items: [
+                    { "name": "怡宝纯净水 6L*1", "price": 7.90 }
+                ]
+            }, {
+                "shop": "小象",
+                "items": [
+                    { "name": "泰森鲜鸡大胸 500g", "price": 12.60 },
+                    { "name": "鲜切南瓜 约500g", "price": 3.99 }
+                ]
+            }
         ]
+
     };
 
 
