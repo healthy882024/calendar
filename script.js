@@ -1359,6 +1359,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "皱皮青椒 约300g", "price": 0.00 },
                     { "name": "香葱(赠品)", "price": 0.00 }
                 ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "THERMOS膳魔师保温杯500ml 紫色", "price": 121.02 },
+                    { "name": "THERMOS膳魔师保温杯500ml 珍珠白", "price": 114.98 }
+                ]
             }
         ],
         "2024-08-04": [
@@ -1370,6 +1376,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "蒙牛随变经典香草口味冰淇淋 75g*5支", "price": 12.90 },
                     { "name": "白象高钙鸡蛋金丝挂面 800g", "price": 8.60 },
                     { "name": "象大厨哈尔滨风味红肠 50g", "price": 0.00 }
+                ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "十月稻田 长粒王香米 10斤", "price": 25.28 }
                 ]
             }
         ],
@@ -1394,6 +1405,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "草莓番茄 300g/份", "price": 8.93 },
                     { "name": "怡宝纯净水 6L/桶 (3桶)", "price": 24.60 },
                     { "name": "一点小葱 约20g", "price": 0.00 }
+                ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "妙洁铝箔锡纸20米", "price": 13.39 }
                 ]
             }
         ],
@@ -1452,6 +1468,14 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "小象无抗富硒可生食鲜鸡蛋 6枚 300g", "price": 8.30 },
                     { "name": "香葱(赠品)", "price": 0.00 }
                 ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "金号A类儿童毛巾纯棉 面巾3条", "price": 20.86 },
+                    { "name": "洁丽雅毛巾新疆长绒棉 2条装100g", "price": 16.83 },
+                    { "name": "李锦记 0添加原酿生抽500ml", "price": 12.74 },
+                    { "name": "紫林 醋 4.5度山西陈醋420ml", "price": 5.67 }
+                ]
             }
         ],
         "2024-08-11": [
@@ -1464,6 +1488,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "怡宝纯净水 6L*1", "price": 8.80 },
                     { "name": "认养一头牛4.0g蛋白娟姗牛奶200ml*3", "price": 10.90 },
                     { "name": "皱皮青椒 约300g", "price": 0.00 }
+                ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "十月稻田 绿豆 500g", "price": 5.55 }
                 ]
             }
         ],
@@ -1533,6 +1562,17 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2024-08-17": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "WMF德国福腾宝 Astoria双层汤蒸锅24cm", "price": 327.02 },
+                    { "name": "威露士（Walch）空调清洗消毒液500ml", "price": 28.30 },
+                    { "name": "维德（WELLDAY）一次性成人医用外科口罩 100只", "price": 15.30 },
+                    { "name": "朴西 拖鞋女 浅粉37-38", "price": 24.33 }
+                ]
+            }
+        ],
         "2024-08-18": [
             {
                 "shop": "叮咚",
@@ -1554,6 +1594,16 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "温氏冷鲜岭南皇鸡（整只）900g", "price": 31.90 }
                 ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "海氏海诺一次性医用外科口罩 50只", "price": 16.73 },
+                    { "name": "统一 藤娇 藤椒牛肉面100g*5袋", "price": 11.64 },
+                    { "name": "白象 香菜面 115g*5", "price": 22.90 },
+                    { "name": "白象 红烧牛肉泡面130g*5连包", "price": 14.90 },
+                    { "name": "运费", "price": 4.39 },
+                    { "name": "优惠券", "price": 10.52 }
+                ]
             }
         ],
         "2024-08-20": [
@@ -1572,6 +1622,15 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "高原夏菜 紫甘蓝 约1kg", "price": 4.30 },
                     { "name": "中盐日晒自然盐 250g", "price": 0.00 },
                     { "name": "香葱(赠品)", "price": 0.00 }
+                ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "妙洁 抗菌海绵百洁布 10片装", "price": 13.00 },
+                    { "name": "宜之选垃圾袋50*60cm*100只", "price": 7.19 },
+                    { "name": "维达（Vinda）厨房抽纸 80抽*3包", "price": 8.90 },
+                    { "name": "李锦记 精选系列 精选生抽500ml", "price": 6.86 },
+                    { "name": "水塔老陈醋6° 420ml", "price": 4.84 }
                 ]
             }
         ],
@@ -1598,6 +1657,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "泰森冷鲜鸡大胸 400g", "price": 7.83 },
                     { "name": "蜜香橙肉甜薯 500g", "price": 9.99 },
                     { "name": "香葱 约20g", "price": 0.00 }
+                ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "魔幻厨房冰皮月饼模具按压器6花片50g", "price": 7.07 },
+                    { "name": "展艺 水磨糯米粉 500g", "price": 8.02 }
                 ]
             }
         ],
@@ -1627,6 +1692,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "茄子 约800g", "price": 12.90 },
                     { "name": "切片南瓜 约500g", "price": 2.99 },
                     { "name": "香葱 约20g", "price": 0.00 }
+                ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "美的（Midea）绞肉机家用", "price": 112.39 }
                 ]
             }
         ],
@@ -1664,6 +1734,14 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "甜玉米 约1.05kg", "price": 7.80 },
                     { "name": "鲜切南瓜 约500g", "price": 0.00 },
                     { "name": "香葱(赠品)", "price": 0.00 }
+                ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "东大街 肠衣 可灌10斤肉 含灌肠器+线", "price": 21.00 },
+                    { "name": "十月稻田 黄糯玉米 3.52斤(220g*8根)", "price": 59.90 },
+                    { "name": "十月稻田 糯米 2斤", "price": 15.80 },
+                    { "name": "优惠券", "price": -35.54 }
                 ]
             }
         ],
