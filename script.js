@@ -3935,7 +3935,19 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "霜打长白萝卜 1.5kg", "price": 3.99 }
                 ]
             }
+        ],
+        "2024-12-19": [
+            {
+                "shop": "小象",
+                "items": [
+                    { "name": "新黄心土豆 约600g(大号)", "price": 2.60 },
+                    { "name": "大葱 约550g", "price": 4.65 },
+                    { "name": "西葫芦 约850g", "price": 5.40 },
+                    { "name": "象大厨小油豆腐 130g", "price": 3.90 }
+                ]
+            }
         ]
+
 
 
     };
