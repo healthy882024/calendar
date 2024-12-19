@@ -3766,6 +3766,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "五谷道場非油炸 番茄牛腩面 112gx4袋", "price": 11.26 },
                     { "name": "统一 豚骨味方便面 125g*5", "price": 16.34 }
                 ]
+            }, {
+                "shop": "联通",
+                "items": [
+                    { "name": "中国联通APP交费 200.00元", "price": 195.54 }
+                ]
             }
         ],
         "2024-11-03": [
@@ -3773,11 +3778,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "京东",
                 "items": [
                     { "name": "温氏供港老母鸡1.2kg 500天", "price": 39.28 }
-                ]
-            }, {
-                "shop": "联通",
-                "items": [
-                    { "name": "中国联通APP交费 200.00元", "price": 195.54 }
                 ]
             }
         ],
