@@ -402,6 +402,50 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "海底捞火锅蘸料原味", "price": 7.90 },
                     { "name": "去根松花菜", "price": 4.19 }
                 ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "千禾白醋5度 500mL", "price": 6.00 },
+                    { "name": "中盐  精制盐500g", "price": 3.00 },
+                    { "name": "优惠券", "price": -7.35 },
+                    { "name": "运费", "price": 6.00 },
+                    { "name": "华都食品奥尔良腿排1kg", "price": 39.90 },
+                    { "name": "温氏 生鲜鸭全腿1kg", "price": 34.90 },
+                    { "name": "优惠券", "price": -37.34 },
+                    { "name": "草原红太阳火锅蘸料（美味）165g*3", "price": 19.50 },
+                    { "name": "草原红太阳火锅蘸料（香辣）165g*3", "price": 19.50 },
+                    { "name": "优惠券", "price": -14.62 },
+                    { "name": "云山半0脂肪玉米面条挂面250g", "price": 9.36 }
+                ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "臻牛倌正宗潮汕手打牛肉丸250g*1", "price": 22.00 },
+                    { "name": "潮兴记 黄金鱼豆腐250g*1", "price": 20.50 },
+                    { "name": "潮夫道牛筋丸250g*4", "price": 86.40 },
+                    { "name": "潮夫道牛肉丸潮汕手打250g*3", "price": 64.80 },
+                    { "name": "潮味码头潮汕手打牛肉丸150g*2", "price": 32.00 },
+                    { "name": "优惠券", "price": -115.86 }
+                ]
+            }
+        ],
+        "2024-02-24": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "佳驰 一次性牙签 1000支", "price": 4.62 },
+                    { "name": "利得大号垃圾袋 150只 50cm*60cm", "price": 5.87 },
+                    { "name": "尚烤佳（Suncojia） 铝箔纸 锡纸20米", "price": 6.54 }
+                ]
+            }
+        ],
+        "2024-02-25": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "米德恩 气囊梳【茉莉粉】带清洁刷", "price": 5.80 },
+                    { "name": "静闲居粘钩 透明挂钩10个装", "price": 2.80 }
+                ]
             }
         ],
         "2024-02-27": [
@@ -424,6 +468,42 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "叮咚好食汇红薯粉条", "price": 12.90 },
                     { "name": "杏鲍菇", "price": 3.29 },
                     { "name": "大葱", "price": 3.49 }
+                ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "卫龙辣条大面筋香辣味65g", "price": 18.89 },
+                    { "name": "川娃子 速食火锅宽粉240g*3", "price": 9.57 },
+                    { "name": "云山半东北酸菜丝500g*2", "price": 17.20 },
+                    { "name": "优惠券", "price": -4.97 },
+                    { "name": "华田禾邦上都烤面筋串800g 20串", "price": 17.28 }
+                ]
+            }
+        ],
+        "2024-02-28": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "三全 三鲜口味饺子 1kg约54只*3", "price": 30.00 },
+                    { "name": "思念玉米蔬菜猪肉蒸煎饺 1kg52只*3", "price": 29.70 },
+                    { "name": "思念 猪肉芹菜花边水饺 500g29只*3", "price": 18.24 }
+                ]
+            }
+        ],
+        "2024-03-02": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "十月稻田 辽河长粒香大米 5kg", "price": 27.95 },
+                    { "name": "PLUS京典年卡 PLUS会员卡", "price": 99.00 }
+                ]
+            }
+        ],
+        "2024-03-04": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "老管家 管道除臭剂 1L", "price": 14.17 }
                 ]
             }
         ],
@@ -452,6 +532,17 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2024-03-09": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "千禾葱姜料酒 10度 500mL", "price": 7.90 },
+                    { "name": "水塔老陈醋6° 420ml", "price": 15.00 },
+                    { "name": "优惠券", "price": -11.93 },
+                    { "name": "运费", "price": 6.00 }
+                ]
+            }
+        ],
         "2024-03-11": [
             {
                 "shop": "叮咚",
@@ -471,6 +562,30 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2024-03-14": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "温氏 供港黄油鸡 1kg*2", "price": 63.70 },
+                    { "name": "乐畅纯正辣椒粉30g", "price": 3.90 },
+                    { "name": "卡比兽辣椒粉30g/瓶*2", "price": 7.80 },
+                    { "name": "吉得利 油泼辣子200g*2", "price": 27.80 },
+                    { "name": "优惠券", "price": -12.46 },
+                    { "name": "双汇 Q趣香肠 80g*5支", "price": 12.39 },
+                    { "name": "稻稻熊红花椒100g", "price": 14.78 },
+                    { "name": "十月稻田 辽河长粒香大米 5kg", "price": 33.72 }
+                ]
+            }
+        ],
+        "2024-03-15": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "正宗陕西绿心猕猴桃 大果20枚", "price": 23.90 },
+                    { "name": "京鲜生 泰国金枕头冷冻榴莲肉1000g", "price": 103.88 }
+                ]
+            }
+        ],
         "2024-03-17": [
             {
                 "shop": "叮咚",
@@ -483,6 +598,15 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "内蒙羔羊肉卷 200g", "price": 12.39 },
                     { "name": "蒙牛低脂高钙风味酸牛奶 90g*16杯", "price": 15.86 },
                     { "name": "冷鲜小白鲳鱼 4条 300g", "price": 9.89 }
+                ]
+            }
+        ],
+        "2024-03-19": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "味好美（McCormicK）番茄沙司挤挤装 330g*2", "price": 10.36 },
+                    { "name": "高洁丝【胖东来同款系列】卫生巾10包66片", "price": 34.36 }
                 ]
             }
         ],
@@ -546,6 +670,16 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2024-04-02": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "百多利 沙棘汁 280ml*8瓶", "price": 19.01 },
+                    { "name": "味好美McCormicK番茄酱 330g*2袋", "price": 12.47 },
+                    { "name": "可口可乐（Coca-Cola）美汁源 300ml*12瓶", "price": 25.46 }
+                ]
+            }
+        ],
         "2024-04-03": [
             {
                 "shop": "叮咚",
@@ -554,6 +688,66 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "蒙牛低脂高钙风味酸牛奶 90g*16杯", "price": 14.90 },
                     { "name": "怡宝纯净水 6L/桶 (3桶)", "price": 23.40 },
                     { "name": "皱皮青椒 约300g", "price": 2.89 }
+                ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "海底捞 牛油火锅底料150g*4", "price": 21.88 },
+                    { "name": "云山半 东北豆皮2斤", "price": 11.37 },
+                    { "name": "悦味纪 0脂吸汁荞麦面藕500g", "price": 10.50 },
+                    { "name": "逍遥老杨家 腐竹段500g*1袋", "price": 11.59 },
+                    { "name": "鲜京采 鸡琵琶腿 1kg*4", "price": 57.48 },
+                    { "name": "大希地原切牛腱子肉 1kg*2", "price": 108.88 },
+                    { "name": "乐事（Lay's）无限薯片 黄瓜味 104克*2", "price": 14.21 },
+                    { "name": "老管家 管道除臭剂 1L", "price": 14.67 },
+                    { "name": "思念菌菇三鲜饺子1.08kg54只*3", "price": 51.81 },
+                    { "name": "大希地潮汕牛肉丸250g*4", "price": 28.82 }
+                ]
+            }
+        ],
+        "2024-04-09": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "陶华碧老干妈 风味鸡油辣椒 280g*2", "price": 25.28 }
+                ]
+            }
+        ],
+        "2024-04-12": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "联想thinkplus电脑直播摄像头1080P", "price": 98.51 }
+                ]
+            }
+        ],
+        "2024-04-15": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "五月花（May Flower）厨房卷纸 3层120张*3卷", "price": 7.16 },
+                    { "name": "清风有芯卷纸 4层140克*10卷", "price": 17.25 },
+                    { "name": "思念 猪肉韭菜口味1.08kg54只*3", "price": 49.03 }
+                ]
+            }
+        ],
+        "2024-04-16": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "海氏海诺 一次性 口罩100只", "price": 11.80 }
+                ]
+            }
+        ],
+        "2024-04-21": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "康师傅 卤香牛肉面 104g*5", "price": 23.38 },
+                    { "name": "康师傅 番茄鸡蛋牛肉面 115g*5", "price": 9.89 },
+                    { "name": "统一 藤椒牛肉面100g*5", "price": 9.44 },
+                    { "name": "卫龙辣条大面筋650g", "price": 23.66 },
+                    { "name": "大紅門台湾风味烤肠700g", "price": 24.27 }
                 ]
             }
         ],
@@ -573,6 +767,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2024-04-25": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "十月稻田 香稻贡米5kg", "price": 33.49 }
+                ]
+            }
+        ],
         "2024-04-26": [
             {
                 "shop": "叮咚",
@@ -584,6 +786,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "蒙牛低脂高钙风味酸牛奶 90g*16杯", "price": 14.90 },
                     { "name": "怡宝纯净水 6L/桶 (3桶)", "price": 23.40 },
                     { "name": "一点小葱 20g", "price": 0.00 }
+                ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "维达（Vinda）厨房用纸 75节8卷", "price": 22.75 },
+                    { "name": "双枪（Suncha）316L不锈钢勺子【单只】", "price": 6.35 }
                 ]
             }
         ],
