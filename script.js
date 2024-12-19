@@ -504,6 +504,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2023-10-12": [
+            {
+                "shop": "盒马",
+                "items": [
+                    { "name": "盒马NB 哈尔滨风味红肠 240g/袋", "price": 10.90 }
+                ]
+            }
+        ],
         "2023-10-27": [
             {
                 "shop": "京东",
@@ -639,6 +647,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "马应龙麝香痔疮膏4g*6支/盒", "price": 20.12 },
                     { "name": "维达（Vinda）蓝色经典4层140克*24卷", "price": 30.15 }
+                ]
+            }
+        ],
+        "2023-12-26": [
+            {
+                "shop": "联通",
+                "items": [
+                    { "name": "中国联通APP交费 100.00元", "price": 99.01 }
                 ]
             }
         ],
@@ -795,6 +811,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "京东",
                 "items": [
                     { "name": "利得一次性手撕保鲜膜30cm*100m", "price": 4.78 }
+                ]
+            }
+        ],
+        "2024-02-01": [
+            {
+                "shop": "联通",
+                "items": [
+                    { "name": "中国联通APP交费 200.00元", "price": 197.21 }
                 ]
             }
         ],
@@ -1158,6 +1182,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2024-03-06": [
+            {
+                "shop": "联通",
+                "items": [
+                    { "name": "中国联通APP交费 100.00元", "price": 98.22 }
+                ]
+            }
+        ],
         "2024-03-08": [
             {
                 "shop": "叮咚",
@@ -1377,6 +1409,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2024-04-17": [
+            {
+                "shop": "联通",
+                "items": [
+                    { "name": "中国联通APP交费 100.00元", "price": 97.76 }
+                ]
+            }
+        ],
         "2024-04-21": [
             {
                 "shop": "京东",
@@ -1471,6 +1511,20 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "肯贝恩外开内开窗专用纱窗（白纱黑边）", "price": 16.84 },
                     { "name": "京鲜生 无抗保洁鲜鸡蛋30枚/盒", "price": 21.76 }
+                ]
+            }
+        ],
+        "2024-04-30": [
+            {
+                "shop": "盒马",
+                "items": [
+                    { "name": "颗颗溏心松花蛋6枚", "price": 9.9 },
+                    { "name": "一根油条 125g", "price": 5.8 },
+                    { "name": "风味鸡油辣椒 280g", "price": 13.9 },
+                    { "name": "三黄土鸡整只 1kg", "price": 29.9 },
+                    { "name": "AD钙 220g*4", "price": 8 },
+                    { "name": "盒马烘焙 蔓越莓", "price": 12.9 },
+                    { "name": "优惠券", "price": -0.1 }
                 ]
             }
         ],
@@ -1828,6 +1882,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "京东",
                 "items": [
                     { "name": "传旗釉下彩陶瓷大碗8英寸斗笠碗2只", "price": 32.59 }
+                ]
+            }, {
+                "shop": "联通",
+                "items": [
+                    { "name": "中国联通APP交费 200.00元", "price": 196.42 }
                 ]
             }
         ],
@@ -2558,6 +2617,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "京东",
                 "items": [
                     { "name": "百卡不锈钢检测液水304鉴别316 检测液15ml", "price": 11.49 }
+                ]
+            }, {
+                "shop": "联通",
+                "items": [
+                    { "name": "中国联通APP交费 200.00元", "price": 197.18 }
                 ]
             }
         ],
@@ -3710,6 +3774,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "温氏供港老母鸡1.2kg 500天", "price": 39.28 }
                 ]
+            }, {
+                "shop": "联通",
+                "items": [
+                    { "name": "中国联通APP交费 200.00元", "price": 195.54 }
+                ]
             }
         ],
         "2024-11-04": [
@@ -3930,6 +3999,17 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2024-12-01": [
+            {
+                "shop": "盒马",
+                "items": [
+                    { "name": "莲藕 500g", "price": 4.83 },
+                    { "name": "进口365日熟甜蕉 1kg", "price": 9.59 },
+                    { "name": "番茄 1kg", "price": 7.65 },
+                    { "name": "必品阁 王饺子(菌菇三鲜) 350g", "price": 8.62 }
+                ]
+            }
+        ],
         "2024-12-03": [
             {
                 "shop": "小象",
@@ -3957,6 +4037,16 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "康沙海南蜜薯 500g", "price": 11.99 },
                     { "name": "统一兰州牛肉面 98g*4", "price": 29.90 },
                     { "name": "蓝月亮旅行洗衣液（白兰香）80g", "price": 0.00 }
+                ]
+            }, {
+                "shop": "盒马NB",
+                "items": [
+                    { "name": "贝贝南瓜 1kg", "price": 6.9 },
+                    { "name": "老干妈 风味鸡油辣椒 280g", "price": 11.9 },
+                    { "name": "普罗旺斯番茄 1kg", "price": 12.9 },
+                    { "name": "泰森 冷鲜鸡大胸 500g", "price": 11.9 },
+                    { "name": "冰鲜 鸡大胸 800g", "price": 11.9 },
+                    { "name": "盒马NB 可生食鸡蛋 10枚", "price": 12.9 }
                 ]
             }, {
                 shop: "京东", items: [
@@ -4001,6 +4091,22 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "怡宝纯净水 6L*1", "price": 7.89 },
                     { "name": "康师傅番茄鸡蛋牛肉面 115g*5袋", "price": 14.90 },
                     { "name": "蓝月亮旅行洗衣液（白兰香）80g", "price": 0.00 }
+                ]
+            }
+        ],
+        "2024-12-14": [
+            {
+                "shop": "盒马",
+                "items": [
+                    { "name": "霜打长白萝卜 1.5kg", "price": 3.99 },
+                    { "name": "紫皮大蒜 500g", "price": 7.9 },
+                    { "name": "新疆阿克苏苹果 1.5kg", "price": 14.9 },
+                    { "name": "新土豆 1kg", "price": 2.99 },
+                    { "name": "味全 活性乳酸菌饮品 950ml", "price": 10.9 },
+                    { "name": "谷物红心鲜鸡蛋 30枚", "price": 23.9 },
+                    { "name": "双拼瑞士卷", "price": 19.9 },
+                    { "name": "冰鲜 琵琶腿 800g", "price": 23.8 },
+                    { "name": "冰鲜猪肋排 1.2kg", "price": 64.9 }
                 ]
             }
         ],
