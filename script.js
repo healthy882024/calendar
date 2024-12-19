@@ -299,6 +299,32 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2024-01-03": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "十月稻田 辽河长粒香大米 5kg", "price": 33.90 },
+                    { "name": "陶华碧老干妈 风味鸡油辣椒 280g", "price": 12.71 }
+                ]
+            }
+        ],
+        "2024-01-14": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "十月稻田 辽河长粒香大米 5kg", "price": 29.76 },
+                    { "name": "陶华碧老干妈 辣三丁油辣椒 280g", "price": 10.48 }
+                ]
+            }
+        ],
+        "2024-01-16": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "双立人（ZWILLING）炒锅不粘锅 Enjoy30cm电磁炉燃气灶通用", "price": 398.98 }
+                ]
+            }
+        ],
         "2024-01-21": [
             {
                 "shop": "叮咚",
@@ -310,6 +336,20 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "大葱", "price": 1.97 },
                     { "name": "五香干", "price": 2.33 },
                     { "name": "大蒜", "price": 4.24 }
+                ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "康师傅 西红柿牛腩 85g*5", "price": 13.90 },
+                    { "name": "康师傅 双萝卜牛腩面 104g*5", "price": 13.90 },
+                    { "name": "优惠券", "price": -11.57 },
+                    { "name": "运费", "price": 6.00 }
+                ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "面包新语breadtalk牛乳厚切吐司 400g", "price": 12.11 },
+                    { "name": "维达（Vinda）厨房卷纸 可水洗75节*8卷", "price": 19.05 }
                 ]
             }
         ],
@@ -326,6 +366,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2024-01-26": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "十月稻田 长粒香大米 5kg", "price": 35.89 }
+                ]
+            }
+        ],
         "2024-01-28": [
             {
                 "shop": "叮咚",
@@ -335,6 +383,39 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "大白菜", "price": 2.64 },
                     { "name": "大葱", "price": 2.46 },
                     { "name": "土豆", "price": 3.25 }
+                ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "十月稻田 长粒香大米 2.5kg", "price": 18.84 }
+                ]
+            }
+        ],
+        "2024-01-30": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "海天 生抽 1.9L", "price": 10.04 },
+                    { "name": "麦格萌 姨妈月经防水垫 50*70cm", "price": 17.80 }
+                ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "双汇 Q趣香肠 香辣风味 80g*5支", "price": 14.00 },
+                    { "name": "双汇 Q趣香肠 孜然风味 80g*5支", "price": 14.00 },
+                    { "name": "优惠券", "price": -0.18 }
+                ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "水塔陈醋4° 420ml", "price": 6.90 },
+                    { "name": "水塔老陈醋6° 420ml", "price": 7.50 },
+                    { "name": "优惠券", "price": -4.37 }
+                ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "利得一次性手撕保鲜膜30cm*100m", "price": 4.78 }
                 ]
             }
         ],
@@ -350,6 +431,31 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2024-02-05": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "金锣 精制哈尔滨风味红肠 135g", "price": 5.98 },
+                    { "name": "卫龙香辣小鱼仔150g/袋", "price": 10.93 },
+                    { "name": "鲁花 花生油 1L", "price": 32.14 }
+                ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "新边界（new boundaries）无核白葡萄干500g", "price": 12.90 },
+                    { "name": "比比赞（BIBIZAN）日式秋刀鱼香辣味100g", "price": 8.90 },
+                    { "name": "比比赞（BIBIZAN）小鱼仔混合味70g", "price": 6.90 },
+                    { "name": "周黑鸭 甜辣卤鸭脖215g", "price": 18.60 },
+                    { "name": "比比赞（BIBIZAN）虎皮凤爪【卤香味】105g", "price": 15.90 },
+                    { "name": "优惠券", "price": -19.35 }
+                ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "凤起德州脱骨扒鸡500g", "price": 14.63 }
+                ]
+            }
+        ],
         "2024-02-06": [
             {
                 "shop": "叮咚",
@@ -360,6 +466,19 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "香糟凤爪", "price": 11.94 },
                     { "name": "虎皮凤爪", "price": 11.88 },
                     { "name": "螺丝椒", "price": 4.19 }
+                ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "马应龙麝香痔疮膏4g*12支/盒", "price": 35.70 }
+                ]
+            }
+        ],
+        "2024-02-08": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "得力(deli)高透明封箱胶带 60mm*100y*50um(91.4m/卷)", "price": 8.40 }
                 ]
             }
         ],
@@ -384,6 +503,93 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "正大优选鸭腿", "price": 9.89 },
                     { "name": "深海大虾", "price": 10.85 },
                     { "name": "一点小葱", "price": 0.00 }
+                ]
+            }
+        ],
+        "2024-02-10": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "英科医疗（INTCO）一次性手套食品级丁腈 L大码100只/盒", "price": 17.32 }
+                ]
+            }
+        ],
+        "2024-02-12": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "绿伞洁厕宝 马桶洁厕块 50g*5块", "price": 9.90 },
+                    { "name": "巨奇严选 下水道除臭剂 500ml*1", "price": 19.90 },
+                    { "name": "优惠券", "price": -14.98 },
+                    { "name": "运费", "price": 6.00 }
+                ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "嘟咔熊手口湿巾 80抽*3包", "price": 8.91 }
+                ]
+            }
+        ],
+        "2024-02-15": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "陶华碧老干妈 风味鸡油辣椒280g", "price": 11.51 },
+                    { "name": "海天 黄豆酱 340g", "price": 7.30 }
+                ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "康师傅 牛尾汤面五连包109g*5", "price": 17.50 },
+                    { "name": "康师傅 日式豚骨面 五连包", "price": 17.50 },
+                    { "name": "优惠券", "price": -11.47 },
+                    { "name": "运费", "price": 3.54 }
+                ]
+            }
+        ],
+        "2024-02-16": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "十月稻田 辽河长粒香大米 5kg", "price": 33.91 }
+                ]
+            }
+        ],
+        "2024-02-19": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "猫人【100%纯棉袜5双】男士袜子", "price": 24.89 }
+                ]
+            }
+        ],
+        "2024-02-20": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "今麦郎 番茄牛肉拉面五连包*2", "price": 20.42 },
+                    { "name": "CP正大食品(CP) 台湾烤肠 500g", "price": 14.39 },
+                    { "name": "克拉古斯 270g 哈尔滨风味红肠3支装", "price": 8.90 },
+                    { "name": "克拉古斯 850g 蒜香烤肠85g*10袋", "price": 27.90 },
+                    { "name": "优惠券", "price": -0.31 }
+                ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "大希地火山石烤肠 肉肠1016g/20根", "price": 24.70 }
+                ]
+            }
+        ],
+        "2024-02-22": [
+            {
+                "shop": "京东",
+                "items": [
+                    { "name": "得力（deli）除胶剂", "price": 8.28 },
+                    { "name": "心相印 75节*8卷纸", "price": 20.07 },
+                    { "name": "温氏 供港三黄鸡 1kg*2", "price": 53.80 },
+                    { "name": "天乐优选麻阳冰糖橙 5斤 单果60-65mm", "price": 9.90 },
+                    { "name": "蒙牛优牧 布丁牛奶口味雪糕 40g*20支/盒", "price": 18.75 },
+                    { "name": "鲜京采 鸡琵琶腿 1kg*3", "price": 48.00 }
                 ]
             }
         ],
