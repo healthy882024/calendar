@@ -25,6 +25,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2023-01-04": [
+            {
+                "shop": "美团",
+                "items": [
+                    { "name": "海鲜烤肉自助晚餐*2", "price": 124.00 }
+                ]
+            }
+        ],
         "2023-03-01": [
             {
                 "shop": "京东",
@@ -221,6 +229,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2023-04-23": [
+            {
+                "shop": "美团",
+                "items": [
+                    { "name": "[通用]单人自助烤肉套餐*2", "price": 153.00 }
+                ]
+            }
+        ],
         "2023-04-28": [
             {
                 "shop": "京东",
@@ -300,6 +316,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "西昊M56 人体工学椅电脑椅", "price": 325.92 },
                     { "name": "黑白调P1人体工学椅电脑椅", "price": 326.00 }
                 ]
+            }, {
+                "shop": "美团",
+                "items": [
+                    { "name": "单人素食自助", "price": 49.31 }
+                ]
             }
         ],
         "2023-05-21": [
@@ -367,6 +388,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2023-06-23": [
+            {
+                "shop": "美团",
+                "items": [
+                    { "name": "M级和牛畅吃", "price": 378.00 }
+                ]
+            }
+        ],
         "2023-06-29": [
             {
                 "shop": "京东",
@@ -399,6 +428,38 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2023-07-26": [
+            {
+                "shop": "美团",
+                "items": [
+                    { "name": "甘食记成都肥肠粉单人餐", "price": 21.97 }
+                ]
+            }
+        ],
+        "2023-07-30": [
+            {
+                "shop": "美团",
+                "items": [
+                    { "name": "龍歌自助双人餐", "price": 119.80 }
+                ]
+            }
+        ],
+        "2023-08-01": [
+            {
+                "shop": "美团",
+                "items": [
+                    { "name": "单人自助套餐", "price": 35.60 }
+                ]
+            }
+        ],
+        "2023-08-06": [
+            {
+                "shop": "美团",
+                "items": [
+                    { "name": "素满香·素食自助餐2人餐", "price": 59.00 }
+                ]
+            }
+        ],
         "2023-08-10": [
             {
                 "shop": "京东",
@@ -419,6 +480,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "京东",
                 "items": [
                     { "name": "得力(deli)透明封箱胶带60mm*100y*50um(91.4m/卷)*3", "price": 27.46 }
+                ]
+            }
+        ],
+        "2023-08-14": [
+            {
+                "shop": "美团",
+                "items": [
+                    { "name": "大茶缸麻辣烫2人餐", "price": 32.71 }
                 ]
             }
         ],
@@ -472,6 +541,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2023-09-10": [
+            {
+                "shop": "美团",
+                "items": [
+                    { "name": "晚餐周末节假日通用餐", "price": 170.00 }
+                ]
+            }
+        ],
         "2023-09-23": [
             {
                 "shop": "京东",
@@ -485,6 +562,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "京东",
                 "items": [
                     { "name": "凤起德州脱骨扒鸡500g", "price": 15.95 }
+                ]
+            }
+        ],
+        "2023-09-26": [
+            {
+                "shop": "美团",
+                "items": [
+                    { "name": "大玩居VR·PS5·解压游乐场（奉化银泰）", "price": 38.00 }
                 ]
             }
         ],
@@ -512,11 +597,51 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2023-10-13": [
+            {
+                "shop": "美团",
+                "items": [
+                    { "name": "王大铲铁锅炖2人餐", "price": 118.00 }
+                ]
+            }
+        ],
+        "2023-10-17": [
+            {
+                "shop": "美团",
+                "items": [
+                    { "name": "锦里巷·美蛙自助火锅2人餐", "price": 168.00 }
+                ]
+            }
+        ],
+        "2023-10-18": [
+            {
+                "shop": "美团",
+                "items": [
+                    { "name": "老妈米线单人餐", "price": 25.90 }
+                ]
+            }
+        ],
+        "2023-10-19": [
+            {
+                "shop": "美团",
+                "items": [
+                    { "name": "素满香·全民素食自助单人素食自助餐", "price": 57.80 }
+                ]
+            }
+        ],
         "2023-10-27": [
             {
                 "shop": "京东",
                 "items": [
                     { "name": "山东联通手机话费充值100元", "price": 96.98 }
+                ]
+            }
+        ],
+        "2023-10-31": [
+            {
+                "shop": "美团",
+                "items": [
+                    { "name": "华莱士·全鸡汉堡[招牌]脆皮全鸡", "price": 15.70 }
                 ]
             }
         ],
@@ -600,6 +725,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2023-11-28": [
+            {
+                "shop": "美团",
+                "items": [
+                    { "name": "茶百道现蒸超厚芋泥奶茶/奶绿2选1", "price": 13.20 }
+                ]
+            }
+        ],
         "2023-12-01": [
             {
                 "shop": "京东",
@@ -655,6 +788,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "联通",
                 "items": [
                     { "name": "中国联通APP交费 100.00元", "price": 99.01 }
+                ]
+            }, {
+                "shop": "美团",
+                "items": [
+                    { "name": "第一医药(福海药房)", "price": 16.90 }
                 ]
             }
         ],
@@ -783,6 +921,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "京东",
                 "items": [
                     { "name": "十月稻田 长粒香大米 2.5kg", "price": 18.84 }
+                ]
+            }, {
+                "shop": "美团",
+                "items": [
+                    { "name": "0T男茶【当季草莓】经典回归2", "price": 24.80 },
+                    { "name": "PHO MI粉迷越南粉2人餐", "price": 108.00 }
                 ]
             }
         ],
@@ -2244,6 +2388,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "蒙牛纯牛奶利乐钻200ml×24盒", "price": 37.91 },
                     { "name": "雅美姬 厨房 凝光白/加大款吊篮", "price": 15.67 }
                 ]
+            }, {
+                "shop": "美团",
+                "items": [
+                    { "name": "益丰大药房(上海鹤洁路店)", "price": 26.29 }
+                ]
             }
         ],
         "2024-07-01": [
@@ -2646,6 +2795,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "THERMOS膳魔师保温杯500ml 紫色", "price": 121.02 },
                     { "name": "THERMOS膳魔师保温杯500ml 珍珠白", "price": 114.98 }
                 ]
+            }, {
+                "shop": "美团",
+                "items": [
+                    { "name": "国大药房(鹤洁路店)", "price": 20.50 }
+                ]
             }
         ],
         "2024-08-04": [
@@ -2926,6 +3080,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "娃哈哈纯净水 5.5L*4桶/组", "price": 31.50 },
                     { "name": "香葱 约50g", "price": 1.59 },
                     { "name": "土鸡蛋8枚 440g", "price": 6.79 }
+                ]
+            }, {
+                "shop": "美团",
+                "items": [
+                    { "name": "马桶刷子", "price": 11.23 }
                 ]
             }
         ],
@@ -3406,6 +3565,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "鲜切南瓜 约500g", "price": 3.89 },
                     { "name": "蓝月亮旅行洗衣液（白兰香）80g", "price": 0.00 }
                 ]
+            }, {
+                "shop": "美团",
+                "items": [
+                    { "name": "德克士【9.9吃堡】堡卷三选一", "price": 8.90 }
+                ]
             }
         ],
         "2024-09-25": [
@@ -3512,6 +3676,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "康沙思瑶蜜薯 500g", "price": 8.80 },
                     { "name": "蓝月亮旅行洗衣液（白兰香）80g", "price": 0.00 }
                 ]
+            }, {
+                "shop": "美团",
+                "items": [
+                    { "name": "珍珠滴眼液；连花清瘟胶囊", "price": 41.49 }
+                ]
             }
         ],
         "2024-10-04": [
@@ -3544,6 +3713,15 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "京东",
                 "items": [
                     { "name": "十月稻田 多彩玉米 2.14kg", "price": 64.79 }
+                ]
+            }
+        ],
+        "2024-10-07": [
+            {
+                "shop": "美团",
+                "items": [
+                    { "name": "香辣鸡腿堡送鸡排堡", "price": 10.00 },
+                    { "name": "全鸡2选1送可乐", "price": 18.90 }
                 ]
             }
         ],
@@ -3799,6 +3977,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "白象走街串巷重庆风味酸辣粉 115g", "price": 6.90 },
                     { "name": "白象多半袋面2代红烧牛肉面 130*5袋", "price": 16.90 }
                 ]
+            }, {
+                "shop": "美团",
+                "items": [
+                    { "name": "屈臣氏(杨浦百联店)", "price": 151.60 }
+                ]
             }
         ],
         "2024-11-05": [
@@ -3935,6 +4118,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2024-11-24": [
+            {
+                "shop": "美团",
+                "items": [
+                    { "name": "[百多邦]莫匹罗星软膏10g/支/盒", "price": 24.5 }
+                ]
+            }
+        ],
         "2024-11-26": [
             {
                 "shop": "叮咚",
@@ -4024,6 +4215,14 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "豆小月响铃卷100g(新老包装随机发货)（赠品）", "price": 0.00 },
                     { "name": "三全撒尿牛肉丸120g（6个）", "price": 7.36 },
                     { "name": "三全撒尿牛肉丸120g（6个）（赠品）", "price": 0.00 }
+                ]
+            }
+        ],
+        "2024-12-07": [
+            {
+                "shop": "美团",
+                "items": [
+                    { "name": "单车 开锁:15:50 时长:18分1秒", "price": 2.5 }
                 ]
             }
         ],
