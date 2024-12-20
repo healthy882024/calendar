@@ -1117,6 +1117,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }, {
                 "shop": "叮咚",
+                "note": "咚哒咚哒",
                 "items": [
                     { "name": "鲜活优养溪泉草鱼 1条 约1.5kg", "price": 26.95 },
                     { "name": "蔡长青吮指鸭锁骨 160g (微辣)", "price": 8.74 },
@@ -4709,6 +4710,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "五得利八星雪花小麦粉 5kg", "price": 19.95 },
                     { "name": "怡宝纯净水 6L*3", "price": 21.48 },
                     { "name": "娃哈哈饮用纯净水 5.5L*1", "price": 6.33 }
+                ]
+            }, {
+                "shop": "超市",
+                "note": "时代优品超市(有巢店)",
+                "items": [
+                    { "name": "雨润 旺润香火腿 220g*2", "price": 15.50 }
                 ]
             }
         ]
