@@ -629,11 +629,53 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2023-10-25": [
+            {
+                "shop": "美团",
+                "items": [
+                    { "name": "单车 16:01 时长:15分33秒", "price": 1.50 }
+                ]
+            }
+        ],
+        "2023-10-26": [
+            {
+                "shop": "美团",
+                "items": [
+                    { "name": "单车 18:27 时长:12分19秒", "price": 1.50 },
+                    { "name": "单车 14:40 时长:5分42秒", "price": 1.50 },
+                    { "name": "单车 11:26 时长:23分17秒", "price": 2.50 }
+                ]
+            }
+        ],
         "2023-10-27": [
             {
                 "shop": "京东",
                 "items": [
                     { "name": "山东联通手机话费充值100元", "price": 96.98 }
+                ]
+            }, {
+                "shop": "美团",
+                "items": [
+                    { "name": "单车 08:07 时长:5分15秒", "price": 1.50 }
+                ]
+            }
+        ],
+        "2023-10-28": [
+            {
+                "shop": "美团",
+                "items": [
+                    { "name": "单车 14:35 时长:11分7秒", "price": 1.50 },
+                    { "name": "单车 12:54 时长:21分44秒", "price": 2.50 },
+                    { "name": "单车 11:25 时长:5分11秒", "price": 1.50 }
+                ]
+            }
+        ],
+        "2023-10-29": [
+            {
+                "shop": "美团",
+                "items": [
+                    { "name": "单车 15:46 时长:9分37秒", "price": 1.50 },
+                    { "name": "单车 15:13 时长:8分54秒", "price": 1.50 }
                 ]
             }
         ],
@@ -642,6 +684,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "美团",
                 "items": [
                     { "name": "华莱士·全鸡汉堡[招牌]脆皮全鸡", "price": 15.70 }
+                ]
+            }, {
+                "shop": "美团",
+                "items": [
+                    { "name": "单车 09:33 时长:8分4秒", "price": 1.50 }
                 ]
             }
         ],
@@ -792,7 +839,10 @@ document.addEventListener("DOMContentLoaded", function () {
             }, {
                 "shop": "美团",
                 "items": [
-                    { "name": "第一医药(福海药房)", "price": 16.90 }
+                    { "name": "[感康]复方氨酚烷胺片6片*2板/盒", "price": 1.59 },
+                    { "name": "[都乐]金嗓子喉片2g*6片*2板/盒", "price": 7.82 },
+                    { "name": "[日康]对乙酰氨基酚片0.3g*12片*2板/盒", "price": 5.49 },
+                    { "name": "配送费", "price": 2.00 }
                 ]
             }
         ],
@@ -1783,6 +1833,20 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "圣农汁汁嫩香鸡（奥尔良味）275g", "price": 9.37 },
                     { "name": "蒜苔 约300g", "price": 3.75 }
                 ]
+            }, {
+                "shop": "美团",
+                "items": [
+                    { "name": "单车 15:05 时长:5分36秒", "price": 1.5 },
+                    { "name": "单车 14:43 时长:7分22秒", "price": 1.5 }
+                ]
+            }
+        ],
+        "2024-05-17": [
+            {
+                "shop": "美团",
+                "items": [
+                    { "name": "单车 14:49 时长:16分55秒", "price": 2.5 }
+                ]
             }
         ],
         "2024-05-18": [
@@ -1803,6 +1867,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "卫龙辣条大面筋650g", "price": 18.86 },
                     { "name": "克拉古斯 哈尔滨红肠270g*3袋共9支", "price": 19.65 }
+                ]
+            }, {
+                "shop": "美团",
+                "items": [
+                    { "name": "单车 16:09 时长:10分18秒", "price": 1.5 }
                 ]
             }
         ],
@@ -2391,7 +2460,10 @@ document.addEventListener("DOMContentLoaded", function () {
             }, {
                 "shop": "美团",
                 "items": [
-                    { "name": "益丰大药房(上海鹤洁路店)", "price": 26.29 }
+                    { "name": "[立方]丹皮酚软膏15g/支/盒", "price": 10.09 },
+                    { "name": "[六神]花露水195ml", "price": 14.70 },
+                    { "name": "配送费", "price": 1.00 },
+                    { "name": "打包费", "price": 0.50 }
                 ]
             }
         ],
@@ -2798,7 +2870,9 @@ document.addEventListener("DOMContentLoaded", function () {
             }, {
                 "shop": "美团",
                 "items": [
-                    { "name": "国大药房(鹤洁路店)", "price": 20.50 }
+                    { "name": "【芬必得】布洛芬缓释胶囊0.4g*24粒/盒", "price": 18.40 },
+                    { "name": "【洁葆诺】棉签80mm*100支/袋", "price": 1.60 },
+                    { "name": "打包费", "price": 0.50 }
                 ]
             }
         ],
@@ -3084,7 +3158,8 @@ document.addEventListener("DOMContentLoaded", function () {
             }, {
                 "shop": "美团",
                 "items": [
-                    { "name": "马桶刷子", "price": 11.23 }
+                    { "name": "一个 创意北欧马桶刷套装", "price": 4.27 },
+                    { "name": "马桶吸皮搋子马桶抽", "price": 6.96 }
                 ]
             }
         ],
@@ -3982,6 +4057,15 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "屈臣氏(杨浦百联店)", "price": 151.60 }
                 ]
+            }, {
+                "shop": "美团",
+                "items": [
+                    { "name": "苏菲超薄随心翻夜用8片", "price": 8.22 },
+                    { "name": "苏菲裸感S贵族日用卫生巾", "price": 5.21 },
+                    { "name": "凡士林维他亮肤亮采修护润", "price": 8.85 },
+                    { "name": "芙丽芳丝净润洗面霜*2", "price": 127.82 },
+                    { "name": "打包费", "price": 1.50 }
+                ]
             }
         ],
         "2024-11-05": [
@@ -4222,7 +4306,8 @@ document.addEventListener("DOMContentLoaded", function () {
             {
                 "shop": "美团",
                 "items": [
-                    { "name": "单车 开锁:15:50 时长:18分1秒", "price": 2.5 }
+                    { "name": "单车 15:50 时长:18分1秒", "price": 2.5 },
+                    { "name": "单车 13:24 时长:11分27秒", "price": 1.5 }
                 ]
             }
         ],
