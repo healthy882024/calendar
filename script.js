@@ -4350,6 +4350,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }, {
                 "shop": "中蔬",
+                "note": "中蔬时代(周浦万达店)",
                 "items": [
                     { "name": "思念（大虾仁）三鲜虾仁水饺", "price": 9.90 },
                     { "name": "烧鸡", "price": 19.80 },
@@ -4575,14 +4576,16 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "盒马NB 可生食鸡蛋 10枚", "price": 12.9 }
                 ]
             }, {
-                shop: "京东", items: [
+                "shop": "京东",
+                "items": [
                     { "name": "桐木 实木板 2cm厚 定制专拍 15cm*25cm", "price": 10.00 }
                 ]
             }
         ],
         "2024-12-10": [
             {
-                shop: "叮咚", items: [
+                "shop": "叮咚",
+                "items": [
                     { "name": "土豆（黄心）约1kg", "price": 4.10 },
                     { "name": "泰森冷鲜鸡大胸 400g", "price": 8.99 },
                     { "name": "进口香蕉 约650g", "price": 6.84 },
@@ -4598,7 +4601,8 @@ document.addEventListener("DOMContentLoaded", function () {
         ],
         "2024-12-12": [
             {
-                shop: "叮咚", items: [
+                "shop": "叮咚",
+                "items": [
                     { "name": "哈尔滨风味红肠 50g", "price": 0 },
                     { "name": "有机黑鸡土鸡蛋15枚675g", "price": 14.77 },
                     { "name": "茄子（精选）约800g", "price": 6.54 },
@@ -4638,7 +4642,8 @@ document.addEventListener("DOMContentLoaded", function () {
         ],
         "2024-12-15": [
             {
-                shop: "京东", items: [
+                "shop": "京东",
+                "items": [
                     { "name": "河套 瑞雪粉5斤", "price": 15.02 },
                     { "name": "李锦记 0添加原酿生抽500ml", "price": 8.29 }
                 ]
@@ -4646,14 +4651,16 @@ document.addEventListener("DOMContentLoaded", function () {
         ],
         "2024-12-16": [
             {
-                shop: "叮咚", items: [
+                "shop": "叮咚",
+                "items": [
                     { "name": "螺丝椒 约300g", "price": 4.19 }
                 ]
             }
         ],
         "2024-12-17": [
             {
-                shop: "叮咚", items: [
+                "shop": "叮咚",
+                "items": [
                     { "name": "怡宝纯净水 6L*1", "price": 7.90 }
                 ]
             }, {
@@ -4705,7 +4712,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ]
-
 
 
     };
@@ -4938,34 +4944,83 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
+    // 函数：显示注释
+    function showNote(event, note) {
+        // 创建注释的弹出层
+        const notePopup = document.createElement('div');
+        notePopup.classList.add('note-popup');
+        notePopup.innerHTML = note;
+
+        // 计算点击平台名的位置
+        const rect = event.target.getBoundingClientRect();
+        notePopup.style.top = `${rect.bottom + window.scrollY + 10}px`;  // 显示在平台名的下方
+        notePopup.style.left = `${rect.left + window.scrollX}px`;  // 显示在平台名的左边
+
+        // 将注释弹窗添加到页面
+        document.body.appendChild(notePopup);
+
+        // 设置 2 秒后自动关闭
+        const closeTimeout = setTimeout(() => {
+            notePopup.remove();
+        }, 2000);
+
+        // 点击其他地方关闭注释
+        document.addEventListener('click', function closePopup(event) {
+            // 检查点击是否在弹窗外部
+            if (!notePopup.contains(event.target) && !event.target.closest('.platform-link')) {
+                notePopup.remove();  // 移除注释
+                clearTimeout(closeTimeout);  // 清除自动关闭的计时器
+                document.removeEventListener('click', closePopup);  // 移除关闭事件监听
+            }
+        });
+    }
 
     // 显示消费详情
     window.showDetails = function (dateStr) {
+        const modal = document.getElementById("modal");
+        const modalDetails = document.getElementById("modal-details");
         modal.style.display = "block";
 
         const details = expensesData[dateStr];
         if (details) {
-            let contentHTML = `<h3>${dateStr} 总消费：￥${details.reduce((sum, d) => sum + d.totalAmount, 0).toFixed(2)}</h3>`; // 使用 totalAmount 而不是 amount
+            let contentHTML = `<h3>${dateStr} 总消费：￥${details.reduce((sum, d) => sum + d.totalAmount, 0).toFixed(2)}</h3>`;
             contentHTML += `<table class="modal-table"><thead><tr><th>平台</th><th>总计</th><th>商品</th><th>实付</th></tr></thead><tbody>`;
 
             details.forEach(d => {
+                let platformHTML = d.shop;
+                if (d.note) {  // 如果平台有注释，平台名变为链接
+                    platformHTML = `<a href="#" class="platform-link" data-note="${d.note}">${d.shop}</a>`;
+                }
+
                 contentHTML += `<tr class="platform-row">
-                                <td rowspan="${d.items.length}">${d.shop}</td>
-                                <td rowspan="${d.items.length}" class="platform-amount">￥${d.totalAmount.toFixed(2)}</td> <!-- 使用 totalAmount -->
+                                <td rowspan="${d.items.length}" class="platform-cell">
+                                    ${platformHTML}
+                                </td>
+                                <td rowspan="${d.items.length}" class="platform-amount">￥${d.totalAmount.toFixed(2)}</td>
                                 <td class="product-name">${d.items[0].name}</td>
-                                <td class="product-amount">￥${d.items[0].price.toFixed(2)}</td> <!-- 保留两位小数 -->
-                                </tr>`;
+                                <td class="product-amount">￥${d.items[0].price.toFixed(2)}</td>
+                            </tr>`;
 
                 for (let i = 1; i < d.items.length; i++) {
                     contentHTML += `<tr class="product-row">
                                     <td class="product-name">${d.items[i].name}</td>
-                                    <td class="product-amount">￥${d.items[i].price.toFixed(2)}</td> <!-- 保留两位小数 -->
-                                    </tr>`;
+                                    <td class="product-amount">￥${d.items[i].price.toFixed(2)}</td>
+                                </tr>`;
                 }
             });
 
             contentHTML += `</tbody></table>`;
             modalDetails.innerHTML = contentHTML;
+
+            // 为每个链接添加点击事件，显示对应的 note
+            const platformLinks = document.querySelectorAll('.platform-link');
+            platformLinks.forEach(link => {
+                link.addEventListener('click', function (event) {
+                    event.preventDefault();  // 防止链接跳转
+                    const note = this.getAttribute('data-note');
+                    showNote(event, note);  // 调用 showNote 函数显示注释
+                });
+            });
         } else {
             modalDetails.innerHTML = `<p>无消费记录。</p>`;
         }
@@ -5090,7 +5145,6 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         });
     }
-
 
     window.selectMonth = function (year, month) {
         modal.style.display = "none";
