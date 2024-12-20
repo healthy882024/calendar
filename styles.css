@@ -291,3 +291,44 @@ h3 {
         font-size: 14px;
     }
 }
+
+/* 定义从左到右揭开的动画效果 */
+@keyframes reveal {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: auto;
+    }
+}
+
+.note-popup {
+    position: absolute;
+    background-color: #4CAF50;
+    /* 鲜艳的绿色背景色 */
+    color: white;
+    padding: 6px 8px;
+    /* 增加内边距 */
+    border-radius: 5px;
+    font-size: 14px;
+    z-index: 9999;
+    max-width: 300px;
+    /* 设置最大宽度，避免弹窗过宽 */
+    width: auto;
+    /* 自动根据内容调整宽度 */
+    white-space: nowrap;
+    /* 防止文本换行 */
+    word-wrap: break-word;
+    /* 超过最大宽度时换行 */
+    overflow: hidden;
+    /* 防止内容溢出 */
+    animation: reveal 0.01s forwards;
+    /* 动画时长为0.01秒，前进方向 */
+
+    /* 居中显示 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
