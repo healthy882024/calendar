@@ -3980,6 +3980,27 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2024-10-28": [
+            {
+                "shop": "ALDI",
+                "items": [
+                    { "name": "超值 山东红富士 1千克", "price": 7.86 },
+                    { "name": "超值 生菜 400克", "price": 7.86 },
+                    { "name": "精制香百页（千张） 300g", "price": 2.99 },
+                    { "name": "进口超甜蕉 700g", "price": 7.90 },
+                    { "name": "MARKETPLACE精选鲜鸡蛋 10枚", "price": 9.80 },
+                    { "name": "可生食鲜鸡蛋 10枚装", "price": 9.80 },
+                    { "name": "苏北风味锅烧老豆腐 400g", "price": 13.90 },
+                    { "name": "超值 冷鲜鸡琵琶腿 500g", "price": 5.90 },
+                    { "name": "超值 冷鲜鸡大胸 400g", "price": 7.43 },
+                    { "name": "悠白裸酸奶 340克", "price": 5.95 },
+                    { "name": "梅林 午餐肉罐头 340克", "price": 8.90 },
+                    { "name": "青尖椒 300克", "price": 15.90 },
+                    { "name": "霜打菜 青萝卜 1kg", "price": 5.99 },
+                    { "name": "超值 香蕉 1千克", "price": 8.99 }
+                ]
+            }
+        ],
         "2024-10-29": [
             {
                 "shop": "叮咚",
@@ -4013,6 +4034,26 @@ document.addEventListener("DOMContentLoaded", function () {
         ],
         "2024-11-02": [
             {
+                "shop": "ALDI",
+                "items": [
+                    { "name": "进口有机香蕉 650克", "price": 12.90 },
+                    { "name": "野生鲅鱼水饺 480g(24只)", "price": 19.90 },
+                    { "name": "潮汕牛肉丸 250g", "price": 19.90 },
+                    { "name": "澳大利亚小蜜桔 800g", "price": 19.90 },
+                    { "name": "青尖椒 300克", "price": 5.99 },
+                    { "name": "超值 上海青 500克", "price": 1.99 },
+                    { "name": "超值 生菜 400克", "price": 2.99 },
+                    { "name": "悠白4.0娟姗牛奶 950ml", "price": 15.90 },
+                    { "name": "超值 去皮红洋葱 500克", "price": 2.99 },
+                    { "name": "可生食鲜鸡蛋 10枚装*2", "price": 27.80 },
+                    { "name": "超值 烟薯 1千克", "price": 5.90 },
+                    { "name": "悠白裸酸奶 340克", "price": 8.90 },
+                    { "name": "超值 高山白菜 500克", "price": 4.65 },
+                    { "name": "超值 蒜头 500克", "price": 6.90 },
+                    { "name": "普罗旺斯番茄 500克*2", "price": 24.98 },
+                    { "name": "促销优惠", "price": -6.18 }
+                ]
+            }, {
                 "shop": "京东",
                 "items": [
                     { "name": "威猛先生（Mr Muscle） 洁厕宝 40g*5块 清香型", "price": 9.17 },
@@ -4096,6 +4137,25 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "土豆（黄心）约600g", "price": 0.00 },
                     { "name": "黑钻世家黑猪火腿午餐肉 198g/罐", "price": 16.90 },
                     { "name": "娃哈哈纯净水 5.5L/桶 (4桶)", "price": 23.80 }
+                ]
+            }, {
+                "shop": "ALDI",
+                "items": [
+                    { "name": "超值 白菜猪肉水饺 1kg", "price": 18.90 },
+                    { "name": "霜打菜 超值 高山白菜 500克", "price": 4.65 },
+                    { "name": "Aldi Delight 多彩鱼皮裹衣花生 268g", "price": 12.90 },
+                    { "name": "Aldi Delight 虎皮核桃仁 168g", "price": 14.90 },
+                    { "name": "超值 经典原味午餐肉罐头 340克", "price": 9.90 },
+                    { "name": "超值 冷鲜猪肉糜 500g", "price": 7.10 },
+                    { "name": "Aldi Delight 每日坚果七袋装 30g*7", "price": 26.90 },
+                    { "name": "梨汁黄桃罐头(4杯) 113克*4", "price": 13.90 },
+                    { "name": "超值 山东红富士 1千克", "price": 8.60 },
+                    { "name": "超值 鱿鱼丝 65g", "price": 8.90 },
+                    { "name": "可生食鲜鸡蛋 10枚装*2", "price": 27.80 },
+                    { "name": "青尖椒 300克*2·", "price": 11.98 },
+                    { "name": "进口超甜蕉 700g", "price": 9.80 },
+                    { "name": "悠白裸酸奶 340克", "price": 8.90 },
+                    { "name": "促销优惠", "price": -0.80 }
                 ]
             }
         ],
@@ -4251,6 +4311,39 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "紫林 山西老陈醋6度 500ml", "price": 15.97 },
                     { "name": "李锦记 0添加原酿生抽500ml", "price": 5.17 }
+                ]
+            }
+        ],
+        "2024-11-28": [
+            {
+                "shop": "ALDI",
+                "items": [
+                    { "name": "超值卫生湿巾 80片", "price": 6.90 },
+                    { "name": "经典提拉米苏蛋糕 300克", "price": 39.90 },
+                    { "name": "海底捞菌汤火锅汤料 110g", "price": 11.80 },
+                    { "name": "桥头重庆老火锅底料 90克*4块", "price": 18.80 },
+                    { "name": "超值 松花菜 500克", "price": 2.99 },
+                    { "name": "蟹味棒 132g", "price": 9.90 },
+                    { "name": "超值 生菜 400克", "price": 1.99 },
+                    { "name": "莲藕 500克", "price": 7.99 },
+                    { "name": "鱼籽福袋 180g", "price": 19.90 },
+                    { "name": "精制香百页（千张） 300g", "price": 7.90 },
+                    { "name": "潮汕牛肉丸 250g", "price": 19.90 },
+                    { "name": "悠白裸酸奶 340克", "price": 8.90 },
+                    { "name": "可生食鲜鸡蛋 10枚装*2", "price": 27.80 },
+                    { "name": "太太乐鸡精调味料 227克", "price": 12.90 },
+                    { "name": "超值 胡萝卜 800克", "price": 3.60 },
+                    { "name": "超值 冷鲜带皮猪五花肉 400g", "price": 14.30 },
+                    { "name": "0添加红油郫县豆瓣 500克", "price": 11.90 },
+                    { "name": "超值 去皮红洋葱 500克", "price": 3.90 },
+                    { "name": "中盐牌未加碘纯精岩盐 400克", "price": 3.80 },
+                    { "name": "超值 蒜头 500克", "price": 6.90 },
+                    { "name": "促销优惠", "price": -2.30 }
+                ]
+            }, {
+                "shop": "ALDI",
+                "items": [
+                    { "name": "ALDI无纺布购物袋小号(限重5公斤)", "price": 1.00 }
                 ]
             }
         ],
@@ -4449,6 +4542,17 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "大葱 约550g", "price": 4.65 },
                     { "name": "西葫芦 约850g", "price": 5.40 },
                     { "name": "象大厨小油豆腐 130g", "price": 3.90 }
+                ]
+            }
+        ],
+        "2024-12-20": [
+            {
+                "shop": "小象",
+                "items": [
+                    { "name": "本地鸡毛菜 约250g", "price": 1.52 },
+                    { "name": "五得利八星雪花小麦粉 5kg", "price": 19.95 },
+                    { "name": "怡宝纯净水 6L*3", "price": 21.48 },
+                    { "name": "娃哈哈饮用纯净水 5.5L*1", "price": 6.33 }
                 ]
             }
         ]
