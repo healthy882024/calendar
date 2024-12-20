@@ -4348,6 +4348,16 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "安食六和经典原味兰州牛肉面121.5g", "price": 9.90 },
                     { "name": "蓝月亮旅行洗衣液(白兰香)80g", "price": 0.00 }
                 ]
+            }, {
+                "shop": "中蔬",
+                "items": [
+                    { "name": "思念（大虾仁）三鲜虾仁水饺", "price": 9.90 },
+                    { "name": "烧鸡", "price": 19.80 },
+                    { "name": "香辣银鱼", "price": 3.66 },
+                    { "name": "八角", "price": 15.00 },
+                    { "name": "内蒙热气牛腩", "price": 58.42 },
+                    { "name": "白萝卜", "price": 0.58 }
+                ]
             }
         ],
         "2024-11-19": [
@@ -4390,6 +4400,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "美团",
                 "items": [
                     { "name": "[百多邦]莫匹罗星软膏10g/支/盒", "price": 24.5 }
+                ]
+            }
+        ],
+        "2024-11-25": [
+            {
+                "shop": "宜家",
+                "items": [
+                    { "name": "瑞典风味圣诞自助餐*2 周六 12月28日 16:30-19:00", "price": 196.00 }
                 ]
             }
         ],
@@ -4515,6 +4533,14 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "豆小月响铃卷100g(新老包装随机发货)（赠品）", "price": 0.00 },
                     { "name": "三全撒尿牛肉丸120g（6个）", "price": 7.36 },
                     { "name": "三全撒尿牛肉丸120g（6个）（赠品）", "price": 0.00 }
+                ]
+            }
+        ],
+        "2024-12-06": [
+            {
+                "shop": "微信",
+                "items": [
+                    { "name": "接驳车票*2 地铁军区总医院站→熊猫基地(西门)", "price": 4.00 }
                 ]
             }
         ],
