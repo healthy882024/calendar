@@ -1117,7 +1117,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }, {
                 "shop": "叮咚",
-                "note": "咚哒咚哒",
                 "items": [
                     { "name": "鲜活优养溪泉草鱼 1条 约1.5kg", "price": 26.95 },
                     { "name": "蔡长青吮指鸭锁骨 160g (微辣)", "price": 8.74 },
@@ -3440,6 +3439,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "九华山林间散养土鸡蛋 10枚 400g", "price": 9.90 },
                     { "name": "正大叶黄素可生食鲜鸡蛋 10枚 530g", "price": 11.90 }
                 ]
+            }, {
+                "shop": "天猫",
+                "note": "香山旗舰店",
+                "items": [
+                    { "name": "香山精准电子秤体重秤 云姿2 LED萌白 电池", "price": 22.24 }
+                ]
             }
         ],
         "2024-09-08": [
@@ -3451,6 +3456,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "李锦记 0添加原酿生抽500ml", "price": 14.72 },
                     { "name": "正宗山东烟薯25号 中果净重4.5斤单果3-8两", "price": 12.33 },
                     { "name": "映趣电动鼻毛修剪器", "price": 0.00 }
+                ]
+            }, {
+                "shop": "淘宝",
+                "note": "nerdy旗舰店",
+                "items": [
+                    { "name": "NERDY 开衫连帽宽松休闲卫衣女 深蓝色 S", "price": 193.64 }
                 ]
             }
         ],
@@ -3827,6 +3838,21 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "十月稻田 多彩玉米 2.14kg", "price": 64.79 }
                 ]
+            }, {
+                "shop": "天猫",
+                "note": "天猫超市",
+                "items": [
+                    { "name": "OLAY玉兰油玻尿酸沐浴露 润泽舒缓730ml*1件", "price": 39.8 },
+                    { "name": "威露士倍护滋润抵御干燥抑菌洗手液 525ml 自然香型*1件", "price": 19.90 },
+                    { "name": "超市立减", "price": -14.80 },
+                    { "name": "红包", "price": -5.00 }
+                ]
+            }, {
+                "shop": "天猫",
+                "note": "天猫超市",
+                "items": [
+                    { "name": "千禾酱油35%减盐简盐特级生抽500ml", "price": 7.12 }
+                ]
             }
         ],
         "2024-10-07": [
@@ -3835,6 +3861,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "香辣鸡腿堡送鸡排堡", "price": 10.00 },
                     { "name": "全鸡2选1送可乐", "price": 18.90 }
+                ]
+            }, {
+                "shop": "天猫",
+                "note": "绿林官方旗舰店",
+                "items": [
+                    { "name": "绿林扎带尼龙塑料拉紧器 3.6*200白色 100根", "price": 4.29 }
                 ]
             }
         ],
@@ -3947,6 +3979,13 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "朴西 棉拖鞋女 浅水绿 38-39", "price": 39.80 },
                     { "name": "优惠券", "price": -41.06 },
                     { "name": "静韵 睡衣 蓝猫灰 男士圆领套装", "price": 48.17 }
+                ]
+            }, {
+                "shop": "天猫",
+                "note": "天猫超市",
+                "items": [
+                    { "name": "妙洁2024新款空气绵厨房专用百洁布海绵", "price": 10.70 },
+                    { "name": "英科一次性手套食品级 L标准黑丁腈手套 100只/盒", "price": 16.38 }
                 ]
             }
         ],
@@ -4078,6 +4117,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "超值 番茄 1千克", "price": 13.90 },
                     { "name": "云南金秋砂糖桔 950g", "price": 29.90 },
                     { "name": "促销优惠", "price": -5.00 }
+                ]
+            }, {
+                "shop": "天猫",
+                "note": "天猫超市",
+                "items": [
+                    { "name": "十月稻田 东北长粒香大米5kg*1", "price": 27.02 }
                 ]
             }
         ],
@@ -4496,6 +4541,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "螺丝椒 约300g", "price": 6.89 }
                 ]
+            }, {
+                "shop": "天猫",
+                "note": "天猫超市",
+                "items": [
+                    { "name": "十月稻田 五常大米5kg*1", "price": 46.52 }
+                ]
             }
         ],
         "2024-11-30": [
@@ -4507,6 +4558,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "舒客钻光粹白牙膏 120克净白薄荷香型", "price": 9.82 },
                     { "name": "优惠券", "price": -1.94 },
                     { "name": "多力 黄金3益葵花籽油1.8L 含维生素a", "price": 27.65 }
+                ]
+            }, {
+                "shop": "淘宝",
+                "items": [
+                    { "name": "realme 真我 GT Neo5【灰色】手机壳", "price": 2.90 },
+                    { "name": "realme 真我 GT Neo5【直边液态:经典黑】手机壳", "price": 3.72 }
                 ]
             }
         ],
