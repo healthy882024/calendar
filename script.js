@@ -813,6 +813,15 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2023-12-14": [
+            {
+                "shop": "天猫",
+                "note": "恒安生活馆",
+                "items": [
+                    { "name": "心相印厨房用纸吸油吸水厨房纸 套餐三", "price": 10.51 }
+                ]
+            }
+        ],
         "2023-12-17": [
             {
                 "shop": "京东",
@@ -860,6 +869,15 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "十月稻田 辽河长粒香大米 5kg", "price": 33.90 },
                     { "name": "陶华碧老干妈 风味鸡油辣椒 280g", "price": 12.71 }
+                ]
+            }
+        ],
+        "2024-01-07": [
+            {
+                "shop": "天猫",
+                "note": "五月花官方旗舰店",
+                "items": [
+                    { "name": "五月花厨房纸 套餐一", "price": 7.40 }
                 ]
             }
         ],
@@ -927,6 +945,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "面包新语breadtalk牛乳厚切吐司 400g", "price": 12.11 },
                     { "name": "维达（Vinda）厨房卷纸 可水洗75节*8卷", "price": 19.05 }
                 ]
+            }, {
+                "shop": "天猫",
+                "note": "黛尔佳人旗舰店",
+                "items": [
+                    { "name": "内裤女士 纯色D组【加送2条，实发7条】XL[(适合110-130斤)", "price": 27.70 }
+                ]
             }
         ],
         "2024-01-24": [
@@ -977,6 +1001,15 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "0T男茶【当季草莓】经典回归2", "price": 24.80 },
                     { "name": "PHO MI粉迷越南粉2人餐", "price": 108.00 }
+                ]
+            }
+        ],
+        "2024-01-29": [
+            {
+                "shop": "天猫",
+                "note": "三只松鼠旗舰店",
+                "items": [
+                    { "name": "三只松鼠大礼包【9袋/1465g】4袋坚果 2袋炒货", "price": 45.35 }
                 ]
             }
         ],
@@ -1361,6 +1394,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "老管家 管道除臭剂 1L", "price": 14.17 }
                 ]
+            }, {
+                "shop": "天猫",
+                "note": "联合利华官方旗舰店",
+                "items": [
+                    { "name": "多芬巴西莓果滋润保湿沐浴露【特惠装】深层滋养400g", "price": 18.74 }
+                ]
             }
         ],
         "2024-03-05": [
@@ -1585,6 +1624,15 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2024-04-13": [
+            {
+                "shop": "天猫",
+                "note": "innisfree官方旗舰店",
+                "items": [
+                    { "name": "悦诗风吟绿茶精萃清润保湿氨基酸洁面洗面奶 2支", "price": 76.2 }
+                ]
+            }
+        ],
         "2024-04-15": [
             {
                 "shop": "京东",
@@ -1688,6 +1736,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "双汇王中王优级火腿肠 400g/袋", "price": 12.11 },
                     { "name": "深海大虾 200g/袋", "price": 10.23 }
                 ]
+            }, {
+                "shop": "天猫",
+                "note": "联合利华官方旗舰店",
+                "items": [
+                    { "name": "力士精油香氛依兰香沐浴露【艾叶山茶】550g", "price": 22.68 }
+                ]
             }
         ],
         "2024-04-29": [
@@ -1728,6 +1782,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "滴露（Dettol）抑菌洗手液茉莉与绿茶清香500g", "price": 9.29 },
                     { "name": "茶花 肥皂盒 1只装", "price": 4.14 }
+                ]
+            }, {
+                "shop": "淘工厂",
+                "note": "淘特100官方旗舰店",
+                "items": [
+                    { "name": "厨房剪刀三件套【弯刀剪3件套】", "price": 0.01 }
                 ]
             }
         ],
@@ -2149,6 +2209,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "斯凯奇 黑白老爹鞋 BKW黑色/白色（女款）37.5", "price": 263.75 }
                 ]
+            }, {
+                "shop": "天猫",
+                "note": "安踏官方网店",
+                "items": [
+                    { "name": "【王一博同款】安踏ACE丨休闲鞋男 象牙白/新墨水蓝-1;44", "price": 238.18 }
+                ]
             }
         ],
         "2024-06-09": [
@@ -2304,6 +2370,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "山东红富士苹果4个 860g", "price": 9.90 },
                     { "name": "一点小葱 约20g", "price": 0.00 }
                 ]
+            }, {
+                "shop": "天猫",
+                "note": "禧天龙官方旗舰店",
+                "items": [
+                    { "name": "禧天龙面条收纳盒 2L【密封防潮】一个装-食品级材质-冰箱微波炉可用", "price": 7.37 }
+                ]
             }
         ],
         "2024-06-20": [
@@ -2334,6 +2406,22 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "京东",
                 "items": [
                     { "name": "伯爵 特级初榨橄榄油 500ml", "price": 64.34 }
+                ]
+            }
+        ],
+        "2024-06-22": [
+            {
+                "shop": "天猫",
+                "note": "御巍旗舰店",
+                "items": [
+                    { "name": "realme 真我 GT Neo5 SE:-K2187面包家族【直边透黑软壳】", "price": 3.6 },
+                    { "name": "realme 真我 GT Neo5 SE:-F4600可爱虎【直边透明软壳】", "price": 2.97 }
+                ]
+            }, {
+                "shop": "天猫",
+                "note": "仙阁里旗舰店",
+                "items": [
+                    { "name": "realme 真我 GT Neo5:【远峰蓝】", "price": 0.70 }
                 ]
             }
         ],
@@ -2473,6 +2561,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "京愿 烟台苹果 10斤75-80mm 净重8.5斤", "price": 22.65 }
                 ]
+            }, {
+                "shop": "天猫",
+                "note": "帮杰旗舰店",
+                "items": [
+                    { "name": "304不锈钢晾碗架 304不锈钢沥水架", "price": 128.57 }
+                ]
             }
         ],
         "2024-07-02": [
@@ -2575,6 +2669,15 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2024-07-09": [
+            {
+                "shop": "天猫",
+                "note": "yottoy旗舰店",
+                "items": [
+                    { "name": "瑜伽垫 珊瑚粉 185*61cm三件套【瑜伽垫+网包+捆绳】185x80cm;6mm(初学者)", "price": 30.40 }
+                ]
+            }
+        ],
         "2024-07-10": [
             {
                 "shop": "小象",
@@ -2620,6 +2723,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "维达（Vinda）厨房卷纸 可水洗75节*2卷", "price": 5.21 },
                     { "name": "炊大皇 塑料保鲜盒套装 720ml*3正方形白色", "price": 7.66 }
                 ]
+            }, {
+                "shop": "天猫",
+                "note": "可可尚佳家居旗舰店",
+                "items": [
+                    { "name": "牛筋乳胶手套 耐磨耐用加厚款【1双装】L", "price": 0.24 }
+                ]
             }
         ],
         "2024-07-15": [
@@ -2648,6 +2757,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "京东",
                 "items": [
                     { "name": "张小泉 乌檀木整木菜板（30*20*2.2cm）", "price": 44.47 }
+                ]
+            }, {
+                "shop": "天猫",
+                "note": "康巴赫官方旗舰店",
+                "items": [
+                    { "name": "康巴赫旗舰店擀面杖 304不锈钢擀面杖", "price": 17.47 }
                 ]
             }
         ],
@@ -3354,6 +3469,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "心相印有芯卷纸 茶语系列4层200g*10卷", "price": 18.77 },
                     { "name": "水塔红盖老陈醋6°420ml", "price": 5.18 }
                 ]
+            }, {
+                "shop": "天猫",
+                "note": "天猫超市",
+                "items": [
+                    { "name": "清风厨房纸巾抽取式 2层76抽3包", "price": 3.6 }
+                ]
             }
         ],
         "2024-09-02": [
@@ -3373,6 +3494,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "京东",
                 "items": [
                     { "name": "农科玉五常甜糯玉米4.6斤 230g*10根", "price": 37.68 }
+                ]
+            }, {
+                "shop": "天猫",
+                "note": "天猫超市",
+                "items": [
+                    { "name": "道道全压榨菜籽油食用油1.8L", "price": 23.55 }
                 ]
             }
         ],
