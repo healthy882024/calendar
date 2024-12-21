@@ -33,6 +33,15 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2023-01-08": [
+            {
+                "shop": "天猫",
+                "note": "GIANXI旗舰店",
+                "items": [
+                    { "name": "多功能厨房剪刀家用 鸡骨剪(黑色)", "price": 6.21 }
+                ]
+            }
+        ],
         "2023-01-09": [
             {
                 "shop": "天猫",
@@ -66,6 +75,36 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "遮光窗帘 加密加厚【送粘钩】宽1.7高1.6*1", "price": 24.00 },
                     { "name": "店铺优惠", "price": -2.00 },
                     { "name": "官方立减", "price": -4.36 }
+                ]
+            }, {
+                "shop": "天猫",
+                "note": "立白岚起专卖店",
+                "items": [
+                    { "name": "立白 超洁薰衣香粉2斤【一袋】", "price": 8.81 }
+                ]
+            }, {
+                "shop": "天猫",
+                "note": "立白壹品专卖店",
+                "items": [
+                    { "name": "立白西柚洗洁精小瓶 套餐五", "price": 8.90 }
+                ]
+            }, {
+                "shop": "天猫",
+                "note": "海麦斯居家日用专营店",
+                "items": [
+                    { "name": "清扬洗发水沐浴露 洗发水500g+沐浴露700g(350gx2瓶)+送浴球", "price": 36.61 }
+                ]
+            }, {
+                "shop": "天猫",
+                "note": "海静居家日用专营店",
+                "items": [
+                    { "name": "潘婷洗发水 乳液修护洗发水500ml", "price": 25.81 }
+                ]
+            }, {
+                "shop": "天猫",
+                "note": "线橙旗舰店",
+                "items": [
+                    { "name": "3盒牙签家用竹制", "price": 7.82 }
                 ]
             }
         ],
