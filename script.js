@@ -33,6 +33,119 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2023-01-09": [
+            {
+                "shop": "天猫",
+                "note": "烤乐仕旗舰店",
+                "items": [
+                    { "name": "烤乐仕锡纸烤箱家用 经典款【拍1发2】长10米*宽30cm*15微米(送10米)", "price": 12.22 }
+                ]
+            }, {
+                "shop": "天猫",
+                "note": "美的生活电器旗舰店",
+                "items": [
+                    { "name": "美的空气炸锅 黑色-5.8L双旋钮", "price": 298.23 }
+                ]
+            }, {
+                "shop": "天猫",
+                "note": "高睿家纺旗舰店",
+                "items": [
+                    { "name": "隔断帘免打孔安装 牛油果【挂环款】送大环扣+安装绳;宽1.8x高2.25m", "price": 14.32 }
+                ]
+            }, {
+                "shop": "天猫",
+                "note": "高睿家纺旗舰店",
+                "items": [
+                    { "name": "隔断帘免打孔安装 浅蓝白花【挂环款】送大环扣+安装绳;宽2.5x高2.25m", "price": 19.04 }
+                ]
+            }, {
+                "shop": "天猫",
+                "note": "霏彩旗舰店",
+                "items": [
+                    { "name": "遮光窗帘 加密加厚【送粘钩】宽1.0高1.4*2", "price": 19.60 },
+                    { "name": "遮光窗帘 加密加厚【送粘钩】宽1.7高1.6*1", "price": 24.00 },
+                    { "name": "店铺优惠", "price": -2.00 },
+                    { "name": "官方立减", "price": -4.36 }
+                ]
+            }
+        ],
+        "2023-01-10": [
+            {
+                "shop": "天猫",
+                "note": "米恋家居专营店",
+                "items": [
+                    { "name": "木浆棉洗碗海绵百洁布【不粘锅专用】木浆棉4片", "price": 6.49 }
+                ]
+            }, {
+                "shop": "天猫",
+                "note": "九阳厨具旗舰店",
+                "items": [
+                    { "name": "九阳大铁锅炒锅家用 32CM-送盖<送钢铲>-精铁", "price": 79.2 }
+                ]
+            }
+        ],
+        "2023-01-11": [
+            {
+                "shop": "天猫",
+                "note": "渝里香旗舰店",
+                "items": [
+                    { "name": "辣椒面贵州特产 微辣特细500g", "price": 14.60 }
+                ]
+            }
+        ],
+        "2023-01-12": [
+            {
+                "shop": "天猫",
+                "note": "pissa旗舰店",
+                "items": [
+                    { "name": "除甲醛果冻 薄荷香型 3x1x200g", "price": 21.80 }
+                ]
+            }
+        ],
+        "2023-01-13": [
+            {
+                "shop": "天猫",
+                "note": "衣炫旗舰店",
+                "items": [
+                    { "name": "不锈钢落地晾衣架 双杆款1.6米【可伸缩】“送30挂钩", "price": 23.82 }
+                ]
+            }, {
+                "shop": "天猫",
+                "note": "蓝云天旗舰店",
+                "items": [
+                    { "name": "刀削面5斤一箱整", "price": 22.8 }
+                ]
+            }, {
+                "shop": "淘宝",
+                "note": "SONMI星美管业",
+                "items": [
+                    { "name": "PVC管 塑料管 给水管20mm*壁厚2.0【白】1m*3", "price": 5.67 },
+                    { "name": "PVC管 塑料管 给水管25mm*壁厚2.0【白】1m*2", "price": 5.36 },
+                    { "name": "淘金币抵扣", "price": -0.33 }
+                ]
+            }
+        ],
+        "2023-01-14": [
+            {
+                "shop": "天猫",
+                "note": "飞利浦个人护理旗舰店",
+                "items": [
+                    { "name": "飞利浦理发器电推剪理发神器 深蓝色", "price": 97.00 }
+                ]
+            }
+        ],
+        "2023-02-16": [
+            {
+                "shop": "天猫",
+                "note": "奥克斯宇田专卖店",
+                "items": [
+                    { "name": "奥克斯吸尘器湿拖一体家用小型【标配版】白色", "price": 119.00 },
+                    { "name": "店铺优惠", "price": -20.00 },
+                    { "name": "红包", "price": -87.20 },
+                    { "name": "支付宝红包", "price": -0.1 }
+                ]
+            }
+        ],
         "2023-03-01": [
             {
                 "shop": "京东",
@@ -160,6 +273,21 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2023-04-08": [
+            {
+                "shop": "天猫",
+                "note": "好意诗旗舰店",
+                "items": [
+                    { "name": "三脚架【2.1m加粗支架】单机位+收纳袋+抖音遥控器", "price": 23.33 }
+                ]
+            }, {
+                "shop": "天猫",
+                "note": "茜茜公主玩具旗舰店",
+                "items": [
+                    { "name": "迷你小厨房 皇家御厨+烧烤套装【送防护6件套】", "price": 83.1 }
+                ]
+            }
+        ],
         "2023-04-09": [
             {
                 "shop": "京东",
@@ -180,6 +308,49 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "优惠券", "price": -0.44 },
                     { "name": "香雪面粉 美味富强粉面粉5kg", "price": 20.90 },
                 ]
+            }, {
+                "shop": "天猫",
+                "note": "缦呼吸旗舰店",
+                "items": [
+                    { "name": "风景背景布ins简约 DM-1:[11.5米*2.0米(送6米星星灯+送安装包)", "price": 32.88 }
+                ]
+            }, {
+                "shop": "天猫",
+                "note": "南极人贝扬专卖店",
+                "items": [
+                    { "name": "南极人迷你小型洗衣机 4.5KG升级款 白色", "price": 124.23 }
+                ]
+            }, {
+                "shop": "天猫",
+                "note": "旱龙旗舰店",
+                "items": [
+                    { "name": "围裙【可擦手】(小熊-丹青蓝+小鹿-卡其粉)", "price": 15.3 }
+                ]
+            }, {
+                "shop": "天猫",
+                "note": "怡沁园旗舰店",
+                "items": [
+                    { "name": "桌布 菱格少女粉(买1送1);80*120cm", "price": 18.00 }
+                ]
+            }, {
+                "shop": "天猫",
+                "note": "长虹思彤专卖店",
+                "items": [
+                    { "name": "长虹电饼铛 珍珠白【升级滑杆调温】30CM", "price": 118.33 }
+                ]
+            }, {
+                "shop": "天猫",
+                "note": "carote卡罗特官方旗舰店",
+                "items": [
+                    { "name": "卡罗特麦饭石不粘锅2件套(煎炒锅+汤锅)", "price": 200.57 },
+                    { "name": "卡罗特硅胶铲子家用炒勺 2件套(菜铲+汤勺)", "price": 41.41 }
+                ]
+            }, {
+                "shop": "天猫",
+                "note": "耐家旗舰店",
+                "items": [
+                    { "name": "可折叠电脑桌 黑胡桃色120x60", "price": 68.6 }
+                ]
             }
         ],
         "2023-04-10": [
@@ -192,6 +363,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "妙洁 一次性保鲜膜 经济装60米*30cm", "price": 10.89 },
                     { "name": "英科医疗（INTCO）一次性手套食品级黑色丁腈，L大号 100只/盒", "price": 25.40 },
                     { "name": "优惠券", "price": -2.08 }
+                ]
+            }, {
+                "shop": "天猫",
+                "note": "米爱数码专营店",
+                "items": [
+                    { "name": "【500W高亮补光灯】+落地俯拍支架", "price": 83.09 }
                 ]
             }
         ],
@@ -356,6 +533,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "漫步者（EDIFIER）M30 电脑音响音箱 蓝牙5.3", "price": 160.19 }
                 ]
+            }, {
+                "shop": "淘宝",
+                "note": "办公软件安装维护",
+                "items": [
+                    { "name": "11专业永久使用 10/11企业版【支持重装】", "price": 4.26 }
+                ]
             }
         ],
         "2023-05-30": [
@@ -404,11 +587,29 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2023-07-06": [
+            {
+                "shop": "淘宝",
+                "note": "小韩家 轻熟套装",
+                "items": [
+                    { "name": "夏款 西装+裤子+衬衫(可系腰)XL[建议120-129斤]", "price": 137.52 }
+                ]
+            }
+        ],
         "2023-07-15": [
             {
                 "shop": "京东",
                 "items": [
                     { "name": "福临门 特选东北长粒香大米 10斤/袋", "price": 20.59 }
+                ]
+            }
+        ],
+        "2023-07-20": [
+            {
+                "shop": "淘宝",
+                "note": "ROMON罗蒙男装总店",
+                "items": [
+                    { "name": "罗蒙西服套装男士 两扣无白边黑色 西装+裤子+衬衫 4XL(建议165-185斤穿)", "price": 309.48 }
                 ]
             }
         ],
@@ -523,6 +724,18 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "VICTORIATOURIST双肩包 17.3英寸 黑色", "price": 134.98 }
                 ]
+            }, {
+                "shop": "天猫",
+                "note": "挑枣儿官方旗舰店",
+                "items": [
+                    { "name": "陕西黄金蜜瓜4.5斤装 3斤:500g+", "price": 0.01 }
+                ]
+            }, {
+                "shop": "天猫",
+                "note": "FLYCO飞科官方旗舰店",
+                "items": [
+                    { "name": "飞科剃须刀 FS903黑色", "price": 154.44 }
+                ]
             }
         ],
         "2023-08-20": [
@@ -571,6 +784,24 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "大玩居VR·PS5·解压游乐场（奉化银泰）", "price": 38.00 }
                 ]
+            }, {
+                "shop": "天猫",
+                "note": "miiow猫人洋翊专卖店",
+                "items": [
+                    { "name": "猫人袜子 深灰+浅灰+藏青+白色+黑色【5双装】均码(39-44码)", "price": 20.21 }
+                ]
+            }, {
+                "shop": "企",
+                "note": "玲珑阁品质好袜",
+                "items": [
+                    { "name": "白色袜子女中筒袜 奶白+卡其+浅咖+深咖+黑色[5双组合J]", "price": 11.77 }
+                ]
+            }, {
+                "shop": "天猫",
+                "note": "黛尔佳人旗舰店",
+                "items": [
+                    { "name": "女士内裤女 天气D组【加送2条，实发7条】XL(适合110-130斤)", "price": 25.9 }
+                ]
             }
         ],
         "2023-10-01": [
@@ -586,6 +817,24 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "富昌 腐竹500g", "price": 28.90 },
                     { "name": "优惠券", "price": -15.69 },
                     { "name": "运费", "price": 6.00 }
+                ]
+            }
+        ],
+        "2023-10-02": [
+            {
+                "shop": "企",
+                "note": "味千寻",
+                "items": [
+                    { "name": "正宗好欢螺螺蛳粉【9月日期】加辣加臭400g*3袋", "price": 30.10 }
+                ]
+            }
+        ],
+        "2023-10-03": [
+            {
+                "shop": "淘宝",
+                "note": "食品零食店",
+                "items": [
+                    { "name": "卫龙亲嘴烧100片整盒 三口味各一盒【共120片】", "price": 32.99 }
                 ]
             }
         ],
@@ -736,6 +985,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "苏泊尔（SUPOR）电饭煲饭勺汤勺量杯食品PP塑料不粘3件套", "price": 19.93 },
                     { "name": "十月稻田 长粒香大米 2.5kg", "price": 17.96 }
                 ]
+            }, {
+                "shop": "天猫",
+                "note": "carote卡罗特官方旗舰店",
+                "items": [
+                    { "name": "卡罗特硅胶铲子 木柄硅胶菜铲(白)", "price": 15.73 }
+                ]
             }
         ],
         "2023-11-10": [
@@ -743,6 +998,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "京东",
                 "items": [
                     { "name": "妙洁 海绵百洁布 四色分用 8片装", "price": 7.72 }
+                ]
+            }, {
+                "shop": "天猫",
+                "note": "澳宝化妆品旗舰店",
+                "items": [
+                    { "name": "【超值购】澳宝沐浴露橙花补水500ml;橙花白茶沐浴露", "price": 7.99 }
                 ]
             }
         ],
@@ -753,6 +1014,21 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "维达（Vinda）厨房卷纸 可水洗75节*8卷", "price": 21.89 },
                     { "name": "十月稻田 长粒香大米 5kg", "price": 26.90 }
                 ]
+            }, {
+                "shop": "天猫",
+                "note": "力东鸣居家日用专营店",
+                "items": [
+                    { "name": "舒蕾洗发水 蚕丝顺滑去屑洗发露600ml", "price": 18.6 }
+                ]
+            }
+        ],
+        "2023-11-13": [
+            {
+                "shop": "天猫",
+                "note": "fzt旗舰店",
+                "items": [
+                    { "name": "踩屎感男士棉拖鞋男 48-49【适合47-48】深灰【羽绒升级款】", "price": 16.83 }
+                ]
             }
         ],
         "2023-11-14": [
@@ -761,6 +1037,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "卫龙辣条大面筋650g", "price": 11.81 },
                     { "name": "暖火暖宝宝暖贴通用20片", "price": 7.16 }
+                ]
+            }, {
+                "shop": "天猫",
+                "note": "天猫超市",
+                "items": [
+                    { "name": "舒客成人软毛牙刷舒克炭丝能量 备长炭4支装", "price": 3.72 }
                 ]
             }
         ],
@@ -772,11 +1054,26 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2023-11-25": [
+            {
+                "shop": "天猫",
+                "note": "天猫超市",
+                "items": [
+                    { "name": "十月稻田 长粒香米 2.5kg; 1件", "price": 11.96 }
+                ]
+            }
+        ],
         "2023-11-28": [
             {
                 "shop": "美团",
                 "items": [
                     { "name": "茶百道现蒸超厚芋泥奶茶/奶绿2选1", "price": 13.20 }
+                ]
+            }, {
+                "shop": "企",
+                "note": "啊鲤鱼潮流店",
+                "items": [
+                    { "name": "Kakao可拆卸线1万毫安充电宝10000mAh;屁桃款[1台]", "price": 1.00 }
                 ]
             }
         ],
@@ -794,6 +1091,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "金龙鱼 食用油 900mL", "price": 16.43 }
                 ]
+            }, {
+                "shop": "淘宝",
+                "note": "0I0I线上店",
+                "items": [
+                    { "name": "【正品】韩国潮牌rose朴彩英oioi卫衣 oioi藏青色【加绒加厚】M", "price": 91.47 }
+                ]
             }
         ],
         "2023-12-04": [
@@ -810,6 +1113,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "洁柔有芯卷纸 蓝面子加厚4层140g*12卷", "price": 18.88 },
                     { "name": "双枪红檀木筷子天然抗菌木筷 10双", "price": 19.82 }
+                ]
+            }, {
+                "shop": "天猫",
+                "note": "骆驼官方旗舰店",
+                "items": [
+                    { "name": "骆驼行者小红书同款卫衣 亚麻棕(男女同款);2XL[160-180斤]", "price": 125.43 }
                 ]
             }
         ],
