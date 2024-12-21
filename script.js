@@ -5534,7 +5534,15 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "雨润 旺润香火腿 220g*2", "price": 15.50 }
                 ]
             }
-        ]
+        ],
+        "2024-12-22": [
+            {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "土鸡蛋10枚 400g", "price": 9.5 },
+                ]
+            }
+        ],
 
 
     };
