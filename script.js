@@ -2669,6 +2669,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "陶华碧老干妈 风味鸡油辣椒 280g*2", "price": 25.28 }
                 ]
+            }, {
+                "shop": "PDD",
+                "note": "连云港鲁花粮油米面专卖店",
+                "items": [
+                    { "name": "鲁花 花生油,5S压榨一级生油1000ML", "price": 32.12 }
+                ]
             }
         ],
         "2024-04-12": [
@@ -2777,6 +2783,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "海天 金标 生抽 500ml*2", "price": 17.86 },
                     { "name": "水塔老陈醋6° 420ml", "price": 9.50 },
                     { "name": "思念 至臻虾皇317g20只*3", "price": 51.44 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "DARLIE好来口腔旗舰店",
+                "items": [
+                    { "name": "DARLIE好来(原黑人)牙膏180g+白桃40g", "price": 11.61 }
                 ]
             }
         ],
@@ -3072,6 +3084,18 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "汰渍洗衣粉3.1斤", "price": 11.29 },
                     { "name": "肯贝恩外开内开窗专用纱窗（白纱黑边）", "price": 21.76 }
                 ]
+            }, {
+                "shop": "PDD",
+                "note": "联合利华官方旗舰店",
+                "items": [
+                    { "name": "力士水润丝滑洗发水520g", "price": 22.46 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "维达个人护理旗舰店",
+                "items": [
+                    { "name": "山茶花杀菌湿巾【80片*2包】", "price": 14.88 }
+                ]
             }
         ],
         "2024-05-27": [
@@ -3114,6 +3138,18 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "十月稻田 长粒香大米2.5kg", "price": 13.27 },
                     { "name": "白象 珍骨汤老母鸡汤面102g*5", "price": 7.87 },
                     { "name": "统一 巧面馆油泼辣子酸汤面 110g*5", "price": 7.94 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "专人韩国代购",
+                "items": [
+                    { "name": "韩式潮牌waikei粉色【三只狗狗】WK01", "price": 34.90 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "专人韩国代购",
+                "items": [
+                    { "name": "韩式潮牌waikei白色 原版260克 WK01", "price": 33.00 }
                 ]
             }
         ],
@@ -3171,6 +3207,30 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "京鲜生 广西武鸣沃柑 净重8斤装 单果110g+", "price": 22.16 }
                 ]
+            }, {
+                "shop": "PDD",
+                "note": "伽卫家居生活旗舰店",
+                "items": [
+                    { "name": "细纱款-全包澡巾【每样一色】组合装", "price": 3.45 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "贰斯美学旗舰店",
+                "items": [
+                    { "name": "线条小狗鼠标垫超大号 900x400mmx3mm", "price": 25.90 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "朵朵棉官方旗舰店",
+                "items": [
+                    { "name": "2件朵朵棉无痕内衣女 肤色+蓝色,L", "price": 38.32 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "安睡宝床品官方旗舰店",
+                "items": [
+                    { "name": "抗菌棉花床垫【海洋蓝格】150x200cm", "price": 45.64 }
+                ]
             }
         ],
         "2024-06-03": [
@@ -3216,6 +3276,18 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "中国联通APP交费 200.00元", "price": 196.42 }
                 ]
+            }, {
+                "shop": "PDD",
+                "note": "朵朵棉官方旗舰店",
+                "items": [
+                    { "name": "朵朵棉男士内裤 4条装(青绿海蓝灰)", "price": 37.93 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "有棵树裤袜官方旗舰店",
+                "items": [
+                    { "name": "有棵树男士内裤 黑色+深灰+中灰,3XL", "price": 44.91 }
+                ]
             }
         ],
         "2024-06-05": [
@@ -3247,6 +3319,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "源氏大豆筋 200g*5袋", "price": 24.89 },
                     { "name": "达利园老面包提子味775g", "price": 12.58 }
                 ]
+            }, {
+                "shop": "PDD",
+                "note": "轩源见官方旗舰店",
+                "items": [
+                    { "name": "屏风帘子布艺【门宽50-70】帘宽100X高150配50-90杆", "price": 24.00 }
+                ]
             }
         ],
         "2024-06-08": [
@@ -3269,6 +3347,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "note": "安踏官方网店",
                 "items": [
                     { "name": "【王一博同款】安踏ACE丨休闲鞋男 象牙白/新墨水蓝-1;44", "price": 238.18 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "炊大皇厨具官方旗舰店",
+                "items": [
+                    { "name": "炊大皇陶瓷削皮刀", "price": 4.77 }
                 ]
             }
         ],
@@ -3375,6 +3459,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "运费", "price": 6.00 },
                     { "name": "森马（Semir）牛仔裤男 中蓝33", "price": 126.78 }
                 ]
+            }, {
+                "shop": "PDD",
+                "note": "森马官方旗舰店",
+                "items": [
+                    { "name": "森马休闲裤 黑色,165/70A/L", "price": 47.35 }
+                ]
             }
         ],
         "2024-06-16": [
@@ -3395,6 +3485,30 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "陕西洛川红富士4个 800g", "price": 10.24 },
                     { "name": "一点小葱 约20g", "price": 0.00 }
                 ]
+            }, {
+                "shop": "PDD",
+                "note": "高洁丝Kotex旗舰店",
+                "items": [
+                    { "name": "高洁丝安睡裤 夜安裤L码", "price": 2.93 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "回力男装旗舰店",
+                "items": [
+                    { "name": "回力冰丝裤子男款 直筒-黑(HL灰方块X),2XL", "price": 49.90 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "回力淘友专卖店",
+                "items": [
+                    { "name": "回力半袖男 浅米(HL像素摸鱼X),2XL", "price": 23.20 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "森马官方旗舰店",
+                "items": [
+                    { "name": "森马纯棉短袖T恤 咖色调170/88A/M", "price": 26.55 }
+                ]
             }
         ],
         "2024-06-18": [
@@ -3413,6 +3527,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "京愿 山东烟台 苹果 10斤大果80-85mm", "price": 24.13 }
                 ]
+            }, {
+                "shop": "PDD",
+                "note": "PUELLA女装服饰旗舰店",
+                "items": [
+                    { "name": "拉夏贝尔PUELLA美式速干工装裤女【绿色】常规,L", "price": 49.50 }
+                ]
             }
         ],
         "2024-06-19": [
@@ -3430,6 +3550,30 @@ document.addEventListener("DOMContentLoaded", function () {
                 "note": "禧天龙官方旗舰店",
                 "items": [
                     { "name": "禧天龙面条收纳盒 2L【密封防潮】一个装-食品级材质-冰箱微波炉可用", "price": 7.37 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "禧天龙家居官方旗舰店",
+                "items": [
+                    { "name": "禧天龙杂粮密封盒 2L中号,1个装", "price": 12.60 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "东弘图家居生活专营店",
+                "items": [
+                    { "name": "家用粘钩 进口亚克力10个", "price": 1.78 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "黑猫神居家日用官方旗舰店",
+                "items": [
+                    { "name": "黑猫神洁厕块6块", "price": 7.92 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "三利sanli日用旗舰店",
+                "items": [
+                    { "name": "三利毛巾 水色蓝+米票白", "price": 10.53 }
                 ]
             }
         ],
@@ -3477,6 +3621,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "note": "仙阁里旗舰店",
                 "items": [
                     { "name": "realme 真我 GT Neo5:【远峰蓝】", "price": 0.70 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "汉世刘家汉景专卖店",
+                "items": [
+                    { "name": "垃圾袋手提98只, 2.53g厚", "price": 0.76 }
                 ]
             }
         ],
@@ -3688,6 +3838,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "第2件半价", "price": -6.95 },
                     { "name": "商品优惠券", "price": -10.00 }
                 ]
+            }, {
+                "shop": "PDD",
+                "note": "CANDY KNIFE服装旗舰店",
+                "items": [
+                    { "name": "日系t恤 米黄色,M", "price": 25.48 }
+                ]
             }
         ],
         "2024-07-07": [
@@ -3783,6 +3939,18 @@ document.addEventListener("DOMContentLoaded", function () {
                 "note": "可可尚佳家居旗舰店",
                 "items": [
                     { "name": "牛筋乳胶手套 耐磨耐用加厚款【1双装】L", "price": 0.24 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "冠恒劳防用品官方旗舰店",
+                "items": [
+                    { "name": "冠恒乳胶手套-长筒版大码,1双珍珠白", "price": 3.97 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "Libresse薇尔旗舰店",
+                "items": [
+                    { "name": "薇尔卫生巾285日用32片+420夜用18片", "price": 30.94 }
                 ]
             }
         ],
@@ -4282,6 +4450,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "运费", "price": 4.39 },
                     { "name": "优惠券", "price": 10.52 }
                 ]
+            }, {
+                "shop": "PDD",
+                "note": "CLL穗美人",
+                "items": [
+                    { "name": "睡裙 带固定胸垫 冰丝-郁金香,XL码", "price": 28.80 }
+                ]
             }
         ],
         "2024-08-20": [
@@ -4309,6 +4483,30 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "维达（Vinda）厨房抽纸 80抽*3包", "price": 8.90 },
                     { "name": "李锦记 精选系列 精选生抽500ml", "price": 6.86 },
                     { "name": "水塔老陈醋6° 420ml", "price": 4.84 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "回力一兴专卖店",
+                "items": [
+                    { "name": "回力 T恤短袖 丁香紫-紫Fhsl(5)K,L", "price": 26.40 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "爱丽缇女装旗舰店",
+                "items": [
+                    { "name": "短袖t恤 收麦子油画:白色023,L", "price": 34.41 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "MINISO名创优品女装旗舰店",
+                "items": [
+                    { "name": "名创优品 短袖t恤-浅蓝(秀线字),L", "price": 31.95 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "回力男装服饰旗舰店",
+                "items": [
+                    { "name": "回力短裤男士 黑(HL白LOGO),XXL", "price": 23.20 }
                 ]
             }
         ],
@@ -4427,6 +4625,36 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "十月稻田 糯米 2斤", "price": 15.80 },
                     { "name": "优惠券", "price": -35.54 }
                 ]
+            }, {
+                "shop": "PDD",
+                "note": "森马官方旗舰店",
+                "items": [
+                    { "name": "森马外套男 浅卡其,180/96A/XL", "price": 137.70 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "热风女装官方旗舰店",
+                "items": [
+                    { "name": "热风女士复古直筒牛仔裤 兰色 29", "price": 98.30 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "MissWiss内衣旗舰店",
+                "items": [
+                    { "name": "Misswiss防晒口罩 银河灰", "price": 7.70 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "回力男装服饰旗舰店",
+                "items": [
+                    { "name": "回力外穿短裤 灰(HL白LOGO),XXL", "price": 23.20 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "小野和子旗舰店",
+                "items": [
+                    { "name": "防晒面罩 黑色【3D显瘦】", "price": 19.00 }
+                ]
             }
         ],
         "2024-08-27": [
@@ -4438,6 +4666,18 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "猪五花肉 约400g", "price": 24.11 },
                     { "name": "浓香型白酒 480mL", "price": 10.14 },
                     { "name": "怡宝纯净水 6L/桶", "price": 8.22 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "热风女装官方旗舰店",
+                "items": [
+                    { "name": "热风 披肩条纹针织衫 棕色 M", "price": 71.10 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "AKASUGU内衣官方旗舰店",
+                "items": [
+                    { "name": "Akasugu秋裤女士 羊绒蛋白 远红外升温zf, XL", "price": 31.40 }
                 ]
             }
         ],
@@ -4452,6 +4692,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "切片南瓜 约500g", "price": 3.41 },
                     { "name": "紫薯 500g", "price": 10.65 },
                     { "name": "香葱 约20g", "price": 0.00 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "七匹狼男士内衣旗舰店",
+                "items": [
+                    { "name": "七匹狼纯棉秋裤男士 深灰+黑色,2XL", "price": 65.90 }
                 ]
             }
         ],
@@ -4592,6 +4838,18 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "蓝月亮旅行洗衣液（白兰香）80g", "price": 0.00 },
                     { "name": "香葱(赠品)", "price": 0.00 }
                 ]
+            }, {
+                "shop": "PDD",
+                "note": "御庭沁居",
+                "items": [
+                    { "name": "马克杯 米奇粉680ml", "price": 5.14 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "御庭沁居",
+                "items": [
+                    { "name": "马克杯 奶青色680ml", "price": 5.14 }
+                ]
             }
         ],
         "2024-09-05": [
@@ -4627,6 +4885,18 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "香山精准电子秤体重秤 云姿2 LED萌白 电池", "price": 22.24 }
                 ]
+            }, {
+                "shop": "PDD",
+                "note": "清恒日化专营店",
+                "items": [
+                    { "name": "冷酸灵牙刷2支", "price": 4.28 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "欧莱雅LOREAL洗护专卖店",
+                "items": [
+                    { "name": "欧莱雅洗发水 洗护套装-700ml", "price": 29.61 }
+                ]
             }
         ],
         "2024-09-08": [
@@ -4644,6 +4914,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "note": "nerdy旗舰店",
                 "items": [
                     { "name": "NERDY 开衫连帽宽松休闲卫衣女 深蓝色 S", "price": 193.64 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "东北农嫂旗舰店",
+                "items": [
+                    { "name": "东北农嫂 黄糯玉米1.45kg(8-9根) ", "price": 20.39 }
                 ]
             }
         ],
@@ -4670,6 +4946,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "散养谷粮蛋 15枚", "price": 18.08 },
                     { "name": "紫皮大蒜 约350g", "price": 6.16 },
                     { "name": "香冬瓜 约1.2kg", "price": 7.32 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "匠CEGAR旗舰店",
+                "items": [
+                    { "name": "匠牌刀削面刀1.2毫米款+全钢无缝", "price": 13.90 }
                 ]
             }
         ],
@@ -4851,6 +5133,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "光明上海农场散养土鸡蛋 10枚400g", "price": 14.40 },
                     { "name": "蓝月亮旅行洗衣液（白兰香）80g", "price": 0.00 }
                 ]
+            }, {
+                "shop": "PDD",
+                "note": "充值中心",
+                "items": [
+                    { "name": "流量充值-山东联通-14G", "price": 23.94 }
+                ]
             }
         ],
         "2024-09-26": [
@@ -4934,6 +5222,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "水星家纺 枕头 记忆棉枕 对装 高10cm", "price": 123.34 },
                     { "name": "无印良品 毛巾 2条装", "price": 16.02 },
                     { "name": "美厨（maxcook）316L不锈钢盘碟 22cm", "price": 20.37 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "充值中心",
+                "items": [
+                    { "name": "流量充值-山东联通-7G", "price": 18.90 }
                 ]
             }
         ],
@@ -5112,6 +5406,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "京东",
                 "items": [
                     { "name": "朴西 拖鞋男 深灰44-45", "price": 21.55 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "谕锋家具官方旗舰店",
+                "items": [
+                    { "name": "床上书桌折叠 高级白+方形桌面", "price": 14.70 }
                 ]
             }
         ],
@@ -5610,6 +5910,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "怡宝纯净水 6L*2", "price": 17.60 },
                     { "name": "蓝月亮旅行洗衣液(白兰香)80g", "price": 0.00 }
                 ]
+            }, {
+                "shop": "PDD",
+                "note": "泡泡玛特旗舰店",
+                "items": [
+                    { "name": "POPMART泡泡玛特 手机挂绳", "price": 24.00 }
+                ]
             }
         ],
         "2024-11-22": [
@@ -5822,6 +6128,21 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2024-12-09": [
+            {
+                "shop": "PDD",
+                "note": "联合利华官方旗舰店",
+                "items": [
+                    { "name": "多芬沐浴露 深层滋养650g*1", "price": 15.04 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "益迷个护生活馆",
+                "items": [
+                    { "name": "舒客-宽洁牙刷8支装", "price": 12.87 }
+                ]
+            }
+        ],
         "2024-12-10": [
             {
                 "shop": "叮咚",
@@ -5843,7 +6164,7 @@ document.addEventListener("DOMContentLoaded", function () {
             {
                 "shop": "叮咚",
                 "items": [
-                    { "name": "哈尔滨风味红肠 50g", "price": 0 },
+                    { "name": "哈尔滨风味红肠 50g", "price": 0.00 },
                     { "name": "有机黑鸡土鸡蛋15枚675g", "price": 14.77 },
                     { "name": "茄子（精选）约800g", "price": 6.54 },
                     { "name": "螺丝椒 约300g", "price": 3.34 },
@@ -5964,8 +6285,23 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "土鸡蛋10枚 400g", "price": 9.5 },
                 ]
+            }, {
+                "shop": "盒马",
+                "note": "盒马NB浦东航头浦乐汇店",
+                "items": [
+                    { "name": "生菜 400g", "price": 1.99 },
+                    { "name": "新土豆 1kg", "price": 2.99 },
+                    { "name": "冰鲜 鸡爪 500g", "price": 21.90 },
+                    { "name": "山东红富士 1.5kg", "price": 12.90 },
+                    { "name": "冰鲜 猪肋排 1.2kg", "price": 59.90 },
+                    { "name": "进口365日熟甜蕉 1kg", "price": 9.90 },
+                    { "name": "紫长茄 500g", "price": 4.99 },
+                    { "name": "无抗大码鲜鸡蛋 20枚 1.2kg", "price": 17.90 },
+                    { "name": "支付优惠", "price": -0.12 }
+                ]
             }
         ],
+
 
 
     };
