@@ -1853,6 +1853,21 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "鲁花 花生油,1L*1瓶", "price": 30.40 }
                 ]
+            }, {
+                "shop": "PDD",
+                "note": "纳美居家日用旗舰店",
+                "items": [
+                    { "name": "纳美小苏打牙膏 海盐160g+龙井160g", "price": 14.45 }
+                ]
+            }
+        ],
+        "2024-01-02": [
+            {
+                "shop": "PDD",
+                "note": "龙游天虾食品旗舰店",
+                "items": [
+                    { "name": "四川特产 红花椒250g", "price": 15.65 }
+                ]
             }
         ],
         "2024-01-03": [
@@ -1870,6 +1885,15 @@ document.addEventListener("DOMContentLoaded", function () {
                 "note": "五月花官方旗舰店",
                 "items": [
                     { "name": "五月花厨房纸 套餐一", "price": 7.40 }
+                ]
+            }
+        ],
+        "2024-01-10": [
+            {
+                "shop": "PDD",
+                "note": "顺心日化天天",
+                "items": [
+                    { "name": "牙刷,家庭装【陆支装】", "price": 4.80 }
                 ]
             }
         ],
@@ -2405,6 +2429,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "精选冷冻肥牛卷", "price": 15.80 },
                     { "name": "怡宝纯净水", "price": 23.40 }
                 ]
+            }, {
+                "shop": "PDD",
+                "note": "VERO MODA官方奥莱店",
+                "items": [
+                    { "name": "Vero Moda奥莱毛呢大衣 SC2浅丛林绿色,L", "price": 342.30 }
+                ]
             }
         ],
         "2024-03-06": [
@@ -2518,6 +2548,39 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "青菜 约500g", "price": 1.48 },
                     { "name": "进口香蕉 约900g", "price": 8.29 },
                     { "name": "优质番茄 约500g", "price": 3.62 }
+                ]
+            }
+        ],
+        "2024-03-25": [
+            {
+                "shop": "PDD",
+                "note": "舒客旗舰店",
+                "items": [
+                    { "name": "舒客 软毛牙刷*2", "price": 12.16 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "云淼纺织",
+                "items": [
+                    { "name": "雪花布枕巾 太阳花,一对", "price": 12.69 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "舒客官方旗舰店",
+                "items": [
+                    { "name": "舒客花蕊刷细毛薄头牙刷【4支】", "price": 10.93 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "三利sanli家居日用旗舰店",
+                "items": [
+                    { "name": "三利毛巾 浅灰色+奶茶色", "price": 9.90 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "JOYROOM机乐堂居家官方旗舰店",
+                "items": [
+                    { "name": "全自动折叠雨伞", "price": 35.40 }
                 ]
             }
         ],
