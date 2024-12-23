@@ -1576,6 +1576,19 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2023-11-02": [
+            {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "水电 上海隽诚公寓管理有限公司", "price": 150.00 }
+                ]
+            }, {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "房租 上海隽诚公寓管理有限公司", "price": 3304.00 }
+                ]
+            }
+        ],
         "2023-11-03": [
             {
                 "shop": "京东",
@@ -1728,6 +1741,19 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2023-11-24": [
+            {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "水电 上海隽诚公寓管理有限公司", "price": 50.00 }
+                ]
+            }, {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "房租 上海隽诚公寓管理有限公司", "price": 3360.00 }
+                ]
+            }
+        ],
         "2023-11-25": [
             {
                 "shop": "天猫",
@@ -1771,6 +1797,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "【正品】韩国潮牌rose朴彩英oioi卫衣 oioi藏青色【加绒加厚】M", "price": 91.47 }
                 ]
+            }, {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "水电 上海隽诚公寓管理有限公司", "price": 100.00 }
+                ]
             }
         ],
         "2023-12-04": [
@@ -1778,6 +1809,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "京东",
                 "items": [
                     { "name": "塑料布加厚透明塑料薄膜 3米宽3米长 厚度8s", "price": 12.00 }
+                ]
+            }
+        ],
+        "2023-12-08": [
+            {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "水电 上海隽诚公寓管理有限公司", "price": 20.00 }
                 ]
             }
         ],
@@ -1803,6 +1842,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "心相印厨房用纸吸油吸水厨房纸 套餐三", "price": 10.51 }
                 ]
+            }, {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "水电 上海隽诚公寓管理有限公司", "price": 50.00 }
+                ]
             }
         ],
         "2023-12-17": [
@@ -1810,6 +1854,22 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "京东",
                 "items": [
                     { "name": "十月稻田 辽河长粒香大米 5kg", "price": 28.83 }
+                ]
+            }
+        ],
+        "2023-12-20": [
+            {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "水电 上海隽诚公寓管理有限公司", "price": 50.00 }
+                ]
+            }
+        ],
+        "2023-12-21": [
+            {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "水电 上海隽诚公寓管理有限公司", "price": 20.00 }
                 ]
             }
         ],
@@ -1847,6 +1907,19 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "可折叠伸缩盆【大中小】三件套", "price": 9.30 }
                 ]
+            }, {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "水电 上海隽诚公寓管理有限公司", "price": 50.00 }
+                ]
+            }
+        ],
+        "2023-12-25": [
+            {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "房租 上海隽诚公寓管理有限公司", "price": 3360.00 }
+                ]
             }
         ],
         "2023-12-26": [
@@ -1865,11 +1938,27 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2023-12-27": [
+            {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "水电 上海隽诚公寓管理有限公司", "price": 50.00 }
+                ]
+            }
+        ],
         "2023-12-30": [
             {
                 "shop": "京东",
                 "items": [
                     { "name": "洁婷 日夜用卫生巾组合樱花透气双U姨妈巾10包68片", "price": 24.12 }
+                ]
+            }
+        ],
+        "2023-12-31": [
+            {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "水电 上海隽诚公寓管理有限公司", "price": 100.00 }
                 ]
             }
         ],
@@ -1913,6 +2002,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "五月花厨房纸 套餐一", "price": 7.40 }
                 ]
+            }, {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "水电 上海隽诚公寓管理有限公司", "price": 20.00 }
+                ]
             }
         ],
         "2024-01-10": [
@@ -1924,12 +2018,30 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2024-01-12": [
+            {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "水电 上海隽诚公寓管理有限公司", "price": 50.00 }
+                ]
+            }
+        ],
         "2024-01-14": [
             {
                 "shop": "京东",
                 "items": [
                     { "name": "十月稻田 辽河长粒香大米 5kg", "price": 29.76 },
                     { "name": "陶华碧老干妈 辣三丁油辣椒 280g", "price": 10.48 }
+                ]
+            }, {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "房租 上海隽诚公寓管理有限公司", "price": 3147.59 }
+                ]
+            }, {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "水电 上海隽诚公寓管理有限公司", "price": 115.86 }
                 ]
             }
         ],
@@ -1938,6 +2050,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "京东",
                 "items": [
                     { "name": "双立人（ZWILLING）炒锅不粘锅 Enjoy30cm电磁炉燃气灶通用", "price": 398.98 }
+                ]
+            }
+        ],
+        "2024-01-17": [
+            {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "水电 上海隽诚公寓管理有限公司", "price": 50.00 }
                 ]
             }
         ],
@@ -1996,6 +2116,19 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2024-01-23": [
+            {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "水电 上海隽诚公寓管理有限公司", "price": 50.00 }
+                ]
+            }, {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "水电 上海隽诚公寓管理有限公司", "price": 50.00 }
+                ]
+            }
+        ],
         "2024-01-24": [
             {
                 "shop": "叮咚",
@@ -2016,11 +2149,27 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2024-01-25": [
+            {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "水电 上海隽诚公寓管理有限公司", "price": 20.00 }
+                ]
+            }
+        ],
         "2024-01-26": [
             {
                 "shop": "京东",
                 "items": [
                     { "name": "十月稻田 长粒香大米 5kg", "price": 35.89 }
+                ]
+            }
+        ],
+        "2024-01-27": [
+            {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "水电 上海隽诚公寓管理有限公司", "price": 50.00 }
                 ]
             }
         ],
@@ -2089,6 +2238,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "联通",
                 "items": [
                     { "name": "中国联通APP交费 200.00元", "price": 197.21 }
+                ]
+            }, {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "水电 上海隽诚公寓管理有限公司", "price": 100.00 }
                 ]
             }
         ],
@@ -2216,6 +2370,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2024-02-11": [
+            {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "水电 上海隽诚公寓管理有限公司", "price": 100.00 }
+                ]
+            }
+        ],
         "2024-02-12": [
             {
                 "shop": "京东",
@@ -2229,6 +2391,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "京东",
                 "items": [
                     { "name": "嘟咔熊手口湿巾 80抽*3包", "price": 8.91 }
+                ]
+            }
+        ],
+        "2024-02-13": [
+            {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "水电 上海隽诚公寓管理有限公司", "price": 20.00 }
                 ]
             }
         ],
@@ -2306,6 +2476,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2024-02-21": [
+            {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "水电 上海隽诚公寓管理有限公司", "price": 50.00 }
+                ]
+            }
+        ],
         "2024-02-22": [
             {
                 "shop": "京东",
@@ -2359,6 +2537,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "潮味码头潮汕手打牛肉丸150g*2", "price": 32.00 },
                     { "name": "优惠券", "price": -115.86 }
                 ]
+            }, {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "房租 上海隽诚公寓管理有限公司", "price": 3260.00 }
+                ]
             }
         ],
         "2024-02-24": [
@@ -2377,6 +2560,19 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "米德恩 气囊梳【茉莉粉】带清洁刷", "price": 5.80 },
                     { "name": "静闲居粘钩 透明挂钩10个装", "price": 2.80 }
+                ]
+            }
+        ],
+        "2024-02-26": [
+            {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "水电 上海隽诚公寓管理有限公司", "price": 50.00 }
+                ]
+            }, {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "水电 上海隽诚公寓管理有限公司", "price": 50.00 }
                 ]
             }
         ],
@@ -2428,6 +2624,16 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "十月稻田 辽河长粒香大米 5kg", "price": 27.95 },
                     { "name": "PLUS京典年卡 PLUS会员卡", "price": 99.00 }
+                ]
+            }, {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "水电 上海隽诚公寓管理有限公司", "price": 100.00 }
+                ]
+            }, {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "水电 上海隽诚公寓管理有限公司", "price": 20.00 }
                 ]
             }
         ],
@@ -2527,6 +2733,16 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "稻稻熊红花椒100g", "price": 14.78 },
                     { "name": "十月稻田 辽河长粒香大米 5kg", "price": 33.72 }
                 ]
+            }, {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "水电 上海隽诚公寓管理有限公司", "price": 50.00 }
+                ]
+            }, {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "水电 上海隽诚公寓管理有限公司", "price": 20.00 }
+                ]
             }
         ],
         "2024-03-15": [
@@ -2559,6 +2775,22 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "味好美（McCormicK）番茄沙司挤挤装 330g*2", "price": 10.36 },
                     { "name": "高洁丝【胖东来同款系列】卫生巾10包66片", "price": 34.36 }
+                ]
+            }
+        ],
+        "2024-03-20": [
+            {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "水电 上海隽诚公寓管理有限公司", "price": 50.00 }
+                ]
+            }
+        ],
+        "2024-03-22": [
+            {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "房租 上海隽诚公寓管理有限公司", "price": 3260.00 }
                 ]
             }
         ],
@@ -2627,6 +2859,19 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2024-03-28": [
+            {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "水电 上海隽诚公寓管理有限公司", "price": 20.00 }
+                ]
+            }, {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "水电 上海隽诚公寓管理有限公司", "price": 50.00 }
+                ]
+            }
+        ],
         "2024-03-29": [
             {
                 "shop": "叮咚",
@@ -2690,6 +2935,22 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2024-04-04": [
+            {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "水电 上海隽诚公寓管理有限公司", "price": 50.00 }
+                ]
+            }
+        ],
+        "2024-04-08": [
+            {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "水电 上海隽诚公寓管理有限公司", "price": 20.00 }
+                ]
+            }
+        ],
         "2024-04-09": [
             {
                 "shop": "京东",
@@ -2701,6 +2962,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 "note": "连云港鲁花粮油米面专卖店",
                 "items": [
                     { "name": "鲁花 花生油,5S压榨一级生油1000ML", "price": 32.12 }
+                ]
+            }
+        ],
+        "2024-04-11": [
+            {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "水电 上海隽诚公寓管理有限公司", "price": 50.00 }
                 ]
             }
         ],
@@ -2747,6 +3016,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2024-04-20": [
+            {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "水电 上海隽诚公寓管理有限公司", "price": 50.00 }
+                ]
+            }
+        ],
         "2024-04-21": [
             {
                 "shop": "京东",
@@ -2756,6 +3033,21 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "统一 藤椒牛肉面100g*5", "price": 9.44 },
                     { "name": "卫龙辣条大面筋650g", "price": 23.66 },
                     { "name": "大紅門台湾风味烤肠700g", "price": 24.27 }
+                ]
+            }, {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "房租 上海隽诚公寓管理有限公司", "price": 3414.19 }
+                ]
+            }, {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "水电 上海隽诚公寓管理有限公司", "price": 20.00 }
+                ]
+            }, {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "水电 上海隽诚公寓管理有限公司", "price": 105.16 }
                 ]
             }
         ],
@@ -2883,6 +3175,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "厨房剪刀三件套【弯刀剪3件套】", "price": 0.01 }
                 ]
+            }, {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "水电 上海隽诚公寓管理有限公司", "price": 20.00 }
+                ]
             }
         ],
         "2024-05-04": [
@@ -2969,6 +3266,14 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "禾煜大料 50g/袋", "price": 7.92 },
                     { "name": "优选四川黄柠檬4个 500g/份", "price": 5.21 },
                     { "name": "禾煜桂皮 50g/袋", "price": 4.72 }
+                ]
+            }
+        ],
+        "2024-05-13": [
+            {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "水电 上海隽诚公寓管理有限公司", "price": 20.00 }
                 ]
             }
         ],
@@ -3097,6 +3402,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2024-05-25": [
+            {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "水电 上海隽诚公寓管理有限公司", "price": 117.60 }
+                ]
+            }
+        ],
         "2024-05-26": [
             {
                 "shop": "叮咚",
@@ -3134,6 +3447,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 "note": "维达个人护理旗舰店",
                 "items": [
                     { "name": "山茶花杀菌湿巾【80片*2包】", "price": 14.88 }
+                ]
+            }, {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "水电 上海隽诚公寓管理有限公司", "price": 2.00 }
                 ]
             }
         ],
@@ -3218,6 +3536,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "京东",
                 "items": [
                     { "name": "馨美凯实木电脑桌 桌面水性漆【厚度2.7-3.0cm】 160*70*75cm", "price": 472.41 }
+                ]
+            }
+        ],
+        "2024-05-31": [
+            {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "水电 上海隽诚公寓管理有限公司", "price": 2.00 }
                 ]
             }
         ],
