@@ -3046,6 +3046,18 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "foojo颈枕u型枕 浅灰米白", "price": 37.72 }
                 ]
+            }, {
+                "shop": "微信",
+                "note": "上海浦东土控资产经营有限公司",
+                "items": [
+                    { "name": "固定租金(2024/05/26-2024/05/31)上海兴利开发有限公司", "price": 480.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "上海浦东土控资产经营有限公司",
+                "items": [
+                    { "name": "固定租金(2024/06/01-2024/06/30)上海兴利开发有限公司", "price": 2434.00 }
+                ]
             }
         ],
         "2024-05-23": [
@@ -3314,6 +3326,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "厨房台面挡水条 白色【高1.2厘米 宽2厘米】120cm", "price": 9.90 }
                 ]
+            }, {
+                "shop": "微信",
+                "note": "上海浦东土控资产经营有限公司",
+                "items": [
+                    { "name": "公寓水费(2024/05/26-2024/06/01)上海兴利开发有限公司", "price": 5.24 }
+                ]
             }
         ],
         "2024-06-04": [
@@ -3360,6 +3378,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "小号理线器40个装", "price": 3.04 },
                     { "name": "振牛插电式照明灯 5米开关线+30W白光灯泡", "price": 27.95 },
                     { "name": "靓佳 纯白陶瓷米饭碗 5英寸4个装", "price": 15.94 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "上海浦东土控资产经营有限公司",
+                "items": [
+                    { "name": "公寓电费(2024/05/26-2024/06/01)上海兴利开发有限公司", "price": 13.63 }
                 ]
             }
         ],
@@ -3782,6 +3806,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "德青源A级鲜鸡蛋32枚2.74斤", "price": 27.34 }
                 ]
+            }, {
+                "shop": "微信",
+                "note": "上海浦东土控资产经营有限公司",
+                "items": [
+                    { "name": "固定租金(2024/07/01-2024/07/31)上海兴利开发有限公司", "price": 2434.00 }
+                ]
             }
         ],
         "2024-06-29": [
@@ -3906,6 +3936,18 @@ document.addEventListener("DOMContentLoaded", function () {
                 "note": "CANDY KNIFE服装旗舰店",
                 "items": [
                     { "name": "日系t恤 米黄色,M", "price": 25.48 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "上海浦东土控资产经营有限公司",
+                "items": [
+                    { "name": "公寓电费(2024/06/01-2024/07/01)上海兴利开发有限公司", "price": 90.39 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "上海浦东土控资产经营有限公司",
+                "items": [
+                    { "name": "公寓水费(2024/06/01-2024/07/01)上海兴利开发有限公司", "price": 33.21 }
                 ]
             }
         ],
@@ -4173,6 +4215,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "力士(LUX)香氛抑菌洗手液 400G", "price": 10.03 },
                     { "name": "洁柔有芯卷纸 4层200克*10卷", "price": 27.72 }
                 ]
+            }, {
+                "shop": "微信",
+                "note": "上海浦东土控资产经营有限公司",
+                "items": [
+                    { "name": "固定租金(2024/08/01-2024/08/31)上海兴利开发有限公司", "price": 2434.00 }
+                ]
             }
         ],
         "2024-07-30": [
@@ -4220,6 +4268,18 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "白砂糖 400g", "price": 5.90 },
                     { "name": "香葱 60g", "price": 0.00 },
                     { "name": "香葱(赠品)", "price": 0.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "上海浦东土控资产经营有限公司",
+                "items": [
+                    { "name": "公寓电费(2024/07/01-2024/08/01)上海兴利开发有限公司", "price": 195.10 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "上海浦东土控资产经营有限公司",
+                "items": [
+                    { "name": "公寓水费(2024/07/01-2024/08/01)上海兴利开发有限公司", "price": 38.89 }
                 ]
             }
         ],
@@ -4786,6 +4846,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "七匹狼纯棉秋裤男士 深灰+黑色,2XL", "price": 65.90 }
                 ]
+            }, {
+                "shop": "微信",
+                "note": "上海浦东土控资产经营有限公司",
+                "items": [
+                    { "name": "固定租金(2024/09/01-2024/09/30)上海兴利开发有限公司", "price": 2434.00 }
+                ]
             }
         ],
         "2024-08-29": [
@@ -4910,6 +4976,18 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "DR.RILEY臭虫杀虫剂", "price": 18.68 },
                     { "name": "老管家 管道除臭剂 1L", "price": 16.49 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "上海浦东土控资产经营有限公司",
+                "items": [
+                    { "name": "公寓水费(2024/08/01-2024/09/01)上海兴利开发有限公司", "price": 46.76 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "上海浦东土控资产经营有限公司",
+                "items": [
+                    { "name": "公寓电费(2024/08/01-2024/09/01)上海兴利开发有限公司", "price": 250.46 }
                 ]
             }
         ],
@@ -5274,6 +5352,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "泰森冷鲜去皮上腿肉 400g", "price": 11.82 },
                     { "name": "泰森冷鲜鸡琵琶腿 400g", "price": 8.74 }
                 ]
+            }, {
+                "shop": "微信",
+                "note": "上海浦东土控资产经营有限公司",
+                "items": [
+                    { "name": "固定租金(2024/10/01-2024/10/31)上海兴利开发有限公司", "price": 2434.00 }
+                ]
             }
         ],
         "2024-09-29": [
@@ -5326,6 +5410,21 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "怡宝纯净水 6L*4", "price": 35.20 },
                     { "name": "白象多半袋面2代红烧牛肉面 130*5袋", "price": 16.90 },
                     { "name": "鲜切南瓜 约500g", "price": 0.00 }
+                ]
+            }
+        ],
+        "2024-10-02": [
+            {
+                "shop": "微信",
+                "note": "上海浦东土控资产经营有限公司",
+                "items": [
+                    { "name": "公寓电费(2024/09/01-2024/10/01)上海兴利开发有限公司", "price": 129.24 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "上海浦东土控资产经营有限公司",
+                "items": [
+                    { "name": "公寓水费(2024/09/01-2024/10/01)上海兴利开发有限公司", "price": 40.20 }
                 ]
             }
         ],
@@ -5755,6 +5854,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "青尖椒 300克", "price": 5.99 },
                     { "name": "霜打菜 青萝卜 1kg", "price": 8.99 }
                 ]
+            }, {
+                "shop": "微信",
+                "note": "上海浦东土控资产经营有限公司",
+                "items": [
+                    { "name": "固定租金(2024/11/01-2024/11/30)上海兴利开发有限公司", "price": 2434.00 }
+                ]
             }
         ],
         "2024-10-29": [
@@ -5820,6 +5925,18 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "联通",
                 "items": [
                     { "name": "中国联通APP交费 200.00元", "price": 195.54 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "上海浦东土控资产经营有限公司",
+                "items": [
+                    { "name": "公寓水费(2024/10/01-2024/11/01)上海兴利开发有限公司", "price": 38.46 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "上海浦东土控资产经营有限公司",
+                "items": [
+                    { "name": "公寓电费(2024/10/01-2024/11/01)上海兴利开发有限公司", "price": 102.26 }
                 ]
             }
         ],
@@ -6103,6 +6220,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "紫林 山西老陈醋6度 500ml", "price": 15.97 },
                     { "name": "李锦记 0添加原酿生抽500ml", "price": 5.17 }
                 ]
+            }, {
+                "shop": "微信",
+                "note": "上海浦东土控资产经营有限公司",
+                "items": [
+                    { "name": "固定租金(2024/12/01-2024/12/31)上海兴利开发有限公司", "price": 2434.00 }
+                ]
             }
         ],
         "2024-11-28": [
@@ -6193,6 +6316,18 @@ document.addEventListener("DOMContentLoaded", function () {
                 "note": "太平保险经纪有限公司",
                 "items": [
                     { "name": "保险产品", "price": 39.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "上海浦东土控资产经营有限公司",
+                "items": [
+                    { "name": "公寓水费(2024/11/01-2024/12/01)上海兴利开发有限公司", "price": 45.01 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "上海浦东土控资产经营有限公司",
+                "items": [
+                    { "name": "公寓电费(2024/11/01-2024/12/01)上海兴利开发有限公司", "price": 145.01 }
                 ]
             }
         ],
