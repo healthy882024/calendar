@@ -6309,6 +6309,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "去哪",
                 "note": "去哪儿网(北京嘉信浩远信息技术有限公司)",
                 "items": [
+                    { "name": "上海→成都 2024-12-05 09:15-12:50 国航CA4592", "price": 393.00 }
+                ]
+            }, {
+                "shop": "去哪",
+                "note": "去哪儿网(北京嘉信浩远信息技术有限公司)",
+                "items": [
                     { "name": "上海→成都 2024-12-05 09:15-12:50 国航CA4592", "price": 331.00 }
                 ]
             }, {
@@ -6316,6 +6322,18 @@ document.addEventListener("DOMContentLoaded", function () {
                 "note": "太平保险经纪有限公司",
                 "items": [
                     { "name": "保险产品", "price": 39.00 }
+                ]
+            }, {
+                "shop": "携程",
+                "note": "支付宝-携程旅行网",
+                "items": [
+                    { "name": "12月7日 成都→上海 南航CZ8198 天府机场T2→浦东机场T2", "price": 419.00 }
+                ]
+            }, {
+                "shop": "携程",
+                "note": "支付宝-携程旅行网",
+                "items": [
+                    { "name": "12月7日 成都→上海 南航CZ8198 天府机场T2→浦东机场T2", "price": 409.00 }
                 ]
             }, {
                 "shop": "微信",
@@ -6345,6 +6363,26 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "豆小月响铃卷100g(新老包装随机发货)（赠品）", "price": 0.00 },
                     { "name": "三全撒尿牛肉丸120g（6个）", "price": 7.36 },
                     { "name": "三全撒尿牛肉丸120g（6个）（赠品）", "price": 0.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "成都大熊猫繁育研究基地",
+                "items": [
+                    { "name": "熊猫基地-成人票(上午票)*2", "price": 110.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "成都武侯祠",
+                "items": [
+                    { "name": "武侯祠-文物区全价票*2", "price": 100.00 }
+                ]
+            }
+        ],
+        "2024-12-04": [
+            {
+                "shop": "携程",
+                "items": [
+                    { "name": "杜甫草堂门票成人票-上午场x2份", "price": 100.00 }
                 ]
             }
         ],
@@ -6378,6 +6416,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "note": "成都天府通数字科技有限公司",
                 "items": [
                     { "name": "成都地铁(天府广场2024-12-05 15:41:20-春熙路2024-12-05 15:48:03)", "price": 2.00 }
+                ]
+            }, {
+                "shop": "去哪",
+                "note": "西姆清居成都春熙路太古里酒店",
+                "items": [
+                    { "name": "12月5日 周四 1晚 翰雅大床房", "price": 186.00 }
                 ]
             }
         ],
@@ -6428,6 +6472,24 @@ document.addEventListener("DOMContentLoaded", function () {
                 "note": "成都天府通数字科技有限公司",
                 "items": [
                     { "name": "成都地铁(市二医院2024-12-06 07:57:00-军区总医院2024-12-06 08:18:34)", "price": 4.00 }
+                ]
+            }, {
+                "shop": "去哪",
+                "note": "西姆怡特成都宽窄巷子省医院酒店",
+                "items": [
+                    { "name": "12月5日 周五1晚 阳光榻榻米大床房", "price": 161.00 }
+                ]
+            }, {
+                "shop": "携程",
+                "note": "蜀风雅韵川剧院",
+                "items": [
+                    { "name": "《川剧变脸》演出-成人票-20:00场-甲票x2份", "price": 294.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "成都大熊猫繁育研究基地",
+                "items": [
+                    { "name": "观光车票*2", "price": 60.00 }
                 ]
             }
         ],
