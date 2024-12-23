@@ -1813,6 +1813,27 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2023-12-23": [
+            {
+                "shop": "PDD",
+                "note": "橙晴防护专营店",
+                "items": [
+                    { "name": "一次性手套 丁腈 白色【100只装】", "price": 12.90 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "小丫头de店铺_748474",
+                "items": [
+                    { "name": "门窗密封条1.5厘米宽【灰色】2卷4米", "price": 3.41 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "兴利天兴家居用品店",
+                "items": [
+                    { "name": "强力EVA白色海绵门窗密封胶条1.5cm宽【单面胶】5mm厚【2m长】", "price": 4.47 }
+                ]
+            }
+        ],
         "2023-12-24": [
             {
                 "shop": "京东",
@@ -3237,6 +3258,18 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "抗菌棉花床垫【海洋蓝格】150x200cm", "price": 45.64 }
                 ]
+            }, {
+                "shop": "PDD",
+                "note": "宇娜布艺饰品",
+                "items": [
+                    { "name": "定制纱窗自粘条 灰纱灰边", "price": 10.00 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "荣业食品旗舰店",
+                "items": [
+                    { "name": "荣业广味腊肠500g", "price": 16.10 }
+                ]
             }
         ],
         "2024-06-03": [
@@ -3256,6 +3289,30 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "大希地 精制肥牛卷 500g", "price": 32.59 },
                     { "name": "白象  川渝风味酸辣粉93g*5", "price": 10.36 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "双苑水果生鲜官方旗舰店",
+                "items": [
+                    { "name": "海南贵妃芒【带箱9-10斤】,中果【101-151g】", "price": 22.90 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "东方雨虹美家旗舰店",
+                "items": [
+                    { "name": "雨虹密封胶泥20包【足量600g】", "price": 13.99 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "福来财五金店",
+                "items": [
+                    { "name": "静电贴自粘墙面保护膜 静电强吸附【90厘米*2米】", "price": 10.90 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "创勒官方旗舰店",
+                "items": [
+                    { "name": "厨房台面挡水条 白色【高1.2厘米 宽2厘米】120cm", "price": 9.90 }
                 ]
             }
         ],
@@ -4438,6 +4495,30 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "黄瓜 约600g", "price": 8.21 },
                     { "name": "怡宝纯净水 6L/桶 (3桶)", "price": 24.66 }
                 ]
+            }, {
+                "shop": "PDD",
+                "note": "友固不锈钢",
+                "items": [
+                    { "name": "卡扣304不锈钢U型抱箍M6*60*80", "price": 2.63 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "金超官方旗舰店",
+                "items": [
+                    { "name": "金超304不锈钢钩钉M5*60-直钩型", "price": 3.97 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "友固不锈钢",
+                "items": [
+                    { "name": "304抱箍不锈钢管夹51mm【M6螺丝+平弹帽】", "price": 7.30 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "大器家具五金",
+                "items": [
+                    { "name": "不锈钢三角支架3mm厚(12寸拆卸)30cm一支", "price": 6.33 }
+                ]
             }
         ],
         "2024-08-19": [
@@ -5480,6 +5561,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "note": "VPN",
                 "items": [
                     { "name": "VIP会员包季", "price": 65.00 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "创勒官方旗舰店",
+                "items": [
+                    { "name": "厨房台面挡水条 白色 高1.2cm 宽2cm,100cm", "price": 6.10 }
                 ]
             }
         ],
