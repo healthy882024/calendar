@@ -7093,6 +7093,17 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2024-12-24": [
+            {
+                "shop": "小象",
+                "items": [
+                    { "name": "螺丝椒 约300g", "price": 2.86 },
+                    { "name": "新黄心土豆约600g(大号)", "price": 1.78 },
+                    { "name": "怡宝纯净水6L*1", "price": 6.05 },
+                    { "name": "配送费", "price": 3.00 }
+                ]
+            }
+        ],
 
 
 
