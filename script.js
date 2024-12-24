@@ -7102,6 +7102,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "怡宝纯净水6L*1", "price": 6.05 },
                     { "name": "配送费", "price": 3.00 }
                 ]
+            }, {
+                "shop": "小象",
+                "items": [
+                    { "name": "【经典红肠】山林大红大块肉红肠", "price": 10.90 }
+                ]
             }
         ],
 
