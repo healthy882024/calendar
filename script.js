@@ -7109,6 +7109,21 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2024-12-25": [
+            {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "饮用天然水5.2L*1", "price": 5.50 },
+                    { "name": "娃哈哈纯净水5.5L/桶*1", "price": 6.30 }
+                ]
+            }, {
+                "shop": "小象",
+                "items": [
+                    { "name": "【经典红肠】山林大红大块肉红肠", "price": 10.90 },
+                    { "name": "【有机】大白菜1.2kg", "price": 10.90 }
+                ]
+            }
+        ],
 
 
 
