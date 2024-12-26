@@ -7124,6 +7124,18 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2024-12-26": [
+            {
+                "shop": "盒马",
+                "note": "盒马NB(航头浦乐汇店)",
+                "items": [
+                    { "name": "冰鲜 黑猪去皮五花肉 350g/盒", "price": 25.90 },
+                    { "name": "蒜苗 500g", "price": 5.90 },
+                    { "name": "新土豆 1kg", "price": 1.99 },
+                    { "name": "粉藕 550g", "price": 4.99 }
+                ]
+            }
+        ],
 
 
 
