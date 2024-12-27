@@ -7136,6 +7136,15 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2024-12-27": [
+            {
+                "shop": "小象",
+                "items": [
+                    { "name": "卫龙大面筋106g*3", "price": 10.01 },
+                    { "name": "娃哈哈饮用纯净水5.5L*1", "price": 6.69 }
+                ]
+            }
+        ],
 
 
 
