@@ -7147,9 +7147,10 @@ document.addEventListener("DOMContentLoaded", function () {
         ],
         "2024-12-28": [
             {
-                "shop": "隽寓",
+                "shop": "微信",
+                "note": "上海浦东土控资产经营有限公司",
                 "items": [
-                    { "name": "房租 上海隽诚公寓管理有限公司", "price": 2434.00 }
+                    { "name": "固定租金(2024/06/01-2024/06/30)上海兴利开发有限公司", "price": 2434.00 }
                 ]
             }
         ],
