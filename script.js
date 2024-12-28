@@ -7145,6 +7145,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2024-12-28": [
+            {
+                "shop": "隽寓",
+                "items": [
+                    { "name": "房租 上海隽诚公寓管理有限公司", "price": 2434.00 }
+                ]
+            }
+        ],
 
 
 
