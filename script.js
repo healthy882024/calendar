@@ -7196,6 +7196,40 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2024-12-30": [
+            {
+                "shop": "盒马",
+                "note": "盒马NB浦东航头浦乐汇店",
+                "items": [
+                    { "name": "桥头 老火锅底料 360g", "price": 16.50 },
+                    { "name": "霜打长白萝卜 1.5kg", "price": 3.99 },
+                    { "name": "鲜鸡蛋30枚 1.6kg", "price": 16.80 },
+                    { "name": "冰鲜 猪小里脊 1kg", "price": 34.90 },
+                    { "name": "冰鲜 老母鸡 1kg", "price": 29.90 },
+                    { "name": "新土豆 1kg", "price": 1.99 },
+                    { "name": "山东红富士 1.5kg装(单果190g+)", "price": 8.33 },
+                    { "name": "支付优惠", "price": -0.21 }
+                ]
+            }, {
+                "shop": "京东",
+                "note": "妙洁家居京东自营旗舰店",
+                "items": [
+                    { "name": "妙洁 免刀撕保鲜膜*1", "price": 12.80 }
+                ]
+            }, {
+                "shop": "京东",
+                "note": "辉英喜达方便食品京东自营旗舰店",
+                "items": [
+                    { "name": "辉英喜达印尼拌面 劲辣风味5包", "price": 3.76 }
+                ]
+            }, {
+                "shop": "京东",
+                "note": "英科医疗(INTCO)手套京东自营旗舰店",
+                "items": [
+                    { "name": "英科医疗 一次性手套", "price": 11.97 }
+                ]
+            }
+        ],
 
 
 
