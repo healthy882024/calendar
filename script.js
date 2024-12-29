@@ -5536,6 +5536,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "中百页 150g", "price": 5.09 }
                 ]
+            }, {
+                "shop": "微信",
+                "note": "上海公共交通卡股份有限公司MOT",
+                "items": [
+                    { "name": "上海交通卡·交通联合版充值", "price": 30.00 }
+                ]
             }
         ],
         "2024-09-19": [
@@ -5813,6 +5819,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "联想（Lenovo）头戴式无线蓝牙耳机", "price": 77.45 },
                     { "name": "绿联（UGREEN）AUX音频线 2米", "price": 25.47 }
                 ]
+            }, {
+                "shop": "微信",
+                "note": "上海公共交通卡股份有限公司MOT",
+                "items": [
+                    { "name": "上海交通卡·交通联合版充值", "price": 30.00 }
+                ]
             }
         ],
         "2024-10-06": [
@@ -6058,6 +6070,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "悠白4.0娟姗牛奶 950ml", "price": 15.90 },
                     { "name": "促销优惠", "price": -25.00 }
                 ]
+            }, {
+                "shop": "微信",
+                "note": "上海公共交通卡股份有限公司MOT",
+                "items": [
+                    { "name": "上海交通卡·交通联合版充值", "price": 30.00 }
+                ]
             }
         ],
         "2024-10-20": [
@@ -6185,6 +6203,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "note": "上海浦东土控资产经营有限公司",
                 "items": [
                     { "name": "固定租金(2024/11/01-2024/11/30)上海兴利开发有限公司", "price": 2434.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "上海公共交通卡股份有限公司MOT",
+                "items": [
+                    { "name": "上海交通卡·交通联合版充值", "price": 30.00 }
                 ]
             }
         ],
@@ -6406,6 +6430,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "白萝卜", "price": 0.40 },
                     { "name": "泥萝卜", "price": 3.64 }
                 ]
+            }, {
+                "shop": "微信",
+                "note": "上海公共交通卡股份有限公司MOT",
+                "items": [
+                    { "name": "上海交通卡·交通联合版充值", "price": 30.00 }
+                ]
             }
         ],
         "2024-11-16": [
@@ -6493,6 +6523,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "美团",
                 "items": [
                     { "name": "[百多邦]莫匹罗星软膏10g/支/盒", "price": 24.5 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "上海公共交通卡股份有限公司MOT",
+                "items": [
+                    { "name": "上海交通卡·交通联合版充值", "price": 30.00 }
                 ]
             }
         ],
@@ -6748,6 +6784,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "note": "西姆清居成都春熙路太古里酒店",
                 "items": [
                     { "name": "12月5日 周四 1晚 翰雅大床房", "price": 186.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "上海公共交通卡股份有限公司MOT",
+                "items": [
+                    { "name": "上海交通卡·交通联合版充值", "price": 30.00 }
                 ]
             }
         ],
