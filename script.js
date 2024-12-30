@@ -7237,6 +7237,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "哇哈哈纯净水 5.5L/桶*2", "price": 15.44 },
                     { "name": "怡宝纯净水 6L/桶*3", "price": 24.26 }
                 ]
+            }, {
+                "shop": "小象",
+                "items": [
+                    { "name": "锋味派原味黑猪肉爆汁烤肠210g摜敏35g*6)", "price": 16.90 }
+                ]
             }
         ]
 
