@@ -7240,7 +7240,7 @@ document.addEventListener("DOMContentLoaded", function () {
             }, {
                 "shop": "小象",
                 "items": [
-                    { "name": "锋味派原味黑猪肉爆汁烤肠210g摜敏35g*6)", "price": 16.90 }
+                    { "name": "锋味派原味黑猪肉爆汁烤肠210g(35g*6)", "price": 16.90 }
                 ]
             }
         ]
