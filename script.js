@@ -7196,7 +7196,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
-        "2024-12-30": [
+        "2024-12-29": [
             {
                 "shop": "盒马",
                 "note": "盒马NB浦东航头浦乐汇店",
@@ -7230,6 +7230,15 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2024-12-30": [
+            {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "哇哈哈纯净水 5.5L/桶*2", "price": 15.44 },
+                    { "name": "怡宝纯净水 6L/桶*3", "price": 24.26 }
+                ]
+            }
+        ]
 
 
 
