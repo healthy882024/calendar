@@ -7243,6 +7243,15 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "锋味派原味黑猪肉爆汁烤肠210g(35g*6)", "price": 16.90 }
                 ]
             }
+        ],
+        "2024-12-31": [
+            {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "王守义包子饺子调料40g/袋", "price": 2.76 },
+                    { "name": "有机大白菜 1.2kg/份", "price": 7.04 }
+                ]
+            }
         ]
 
 
