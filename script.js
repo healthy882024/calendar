@@ -7251,6 +7251,14 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "王守义包子饺子调料40g/袋", "price": 2.76 },
                     { "name": "有机大白菜 1.2kg/份", "price": 7.04 }
                 ]
+            }, {
+                "shop": "盒马",
+                "note": "盒马NB浦东航头浦乐汇店",
+                "items": [
+                    { "name": "NB 大红袍花椒 50g", "price": 8.90 },
+                    { "name": "冰鲜 肥瘦猪肉馅(肥瘦比约2:8) 500g/盒.", "price": 10.90 },
+                    { "name": "冰鲜 带皮大五花肉 1.5kg", "price": 44.90 }
+                ]
             }
         ]
 
