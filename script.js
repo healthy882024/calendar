@@ -3453,6 +3453,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "水电 上海隽诚公寓管理有限公司", "price": 2.00 }
                 ]
+            }, {
+                "shop": "微信",
+                "note": "搬家-小面包车-货拉拉",
+                "items": [
+                    { "name": "路劲悦茂府-B座→慧智·有巢国际公寓社区(鹤涛路店)", "price": 180.00 }
+                ]
             }
         ],
         "2024-05-27": [
