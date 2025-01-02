@@ -7302,6 +7302,13 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "公寓水费(2024/12/01-2025/01/01)上海兴利开发有限公司", "price": 37.58 },
                     { "name": "公寓电费(2024/12/01-2025/01/01)上海兴利开发有限公司", "price": 174.14 }
                 ]
+            }, {
+                "shop": "小象",
+                "items": [
+                    { "name": "【有机】胡萝卜300g", "price": 4.80 },
+                    { "name": "【有机】土豆 500g", "price": 7.39 },
+                    { "name": "【供港】黄瓜500g", "price": 7.99 }
+                ]
             }
         ]
 
