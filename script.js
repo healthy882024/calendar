@@ -7318,6 +7318,15 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
                 ]
+            }, {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "娃哈哈纯净水 5.5L/桶*1", "price": 7.14 },
+                    { "name": "湘味软皮椒 200g/份", "price": 5.95 },
+                    { "name": "进口有机香蕉 650g", "price": 12.56 },
+                    { "name": "有机茄子(长茄)300g", "price": 12.24 },
+                    { "name": "礼品卡", "price": -0.01 }
+                ]
             }
         ]
 
