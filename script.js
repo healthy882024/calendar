@@ -7353,15 +7353,14 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "鲜鸡蛋30枚 1.6kg", "price": 17.90 },
                     { "name": "冰鲜鸡翅中 500g", "price": 21.60 },
                     { "name": "冰鲜猪大排 800g", "price": 24.90 },
-                    { "name": "可爱多棒棒 流心脆", "price": 9.90 },
+                    { "name": "可爱多棒棒 流心脆 雪糕", "price": 9.90 },
                     { "name": "双汇台式烤香肠 38g*5", "price": 8.40 },
                     { "name": "老干妈风味鸡油辣椒 280g", "price": 11.90 },
                     { "name": "康师傅1倍半红烧牛肉面 129g*5", "price": 9.90 },
                     { "name": "统一老坛酸菜牛肉面 121g*5", "price": 10.90 },
-                    { "name": "支付优惠", "price": -0.90 }
                 ]
             }
-        ],
+        ]
 
 
 
