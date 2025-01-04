@@ -7327,6 +7327,18 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "有机茄子(长茄)300g", "price": 12.24 },
                     { "name": "礼品卡", "price": -0.01 }
                 ]
+            }, {
+                "shop": "PDD",
+                "note": "维达官方旗舰店",
+                "items": [
+                    { "name": "维达厨房专用卷纸75节8卷箱装【可水洗共600节】", "price": 20.80 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "蓝棉花家居生活专卖店",
+                "items": [
+                    { "name": "蓝棉花医护级卫生巾pH值A类6.0弱酸性益生菌姨妈巾【徐璐同款)", "price": 20.85 }
+                ]
             }
         ]
 
