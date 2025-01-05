@@ -7360,6 +7360,14 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "统一老坛酸菜牛肉面 121g*5", "price": 10.90 },
                 ]
             }
+        ],
+        "2025-01-05": [
+            {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "怡宝纯净水 6L", "price": 7.90 }
+                ]
+            }
         ]
 
 
