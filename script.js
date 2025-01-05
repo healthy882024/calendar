@@ -7367,6 +7367,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "怡宝纯净水 6L", "price": 7.90 }
                 ]
+            }, {
+                "shop": "天猫",
+                "note": "天猫超市",
+                "items": [
+                    { "name": "2024年新米柴火大院五常大米5k", "price": 57.24 }
+                ]
             }
         ]
 
