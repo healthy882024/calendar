@@ -7374,6 +7374,14 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "2024年新米柴火大院五常大米5k", "price": 57.24 }
                 ]
             }
+        ],
+        "2025-01-06": [
+            {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "娃哈哈纯净水 5.5L*4桶", "price": 26.90 }
+                ]
+            }
         ]
 
 
