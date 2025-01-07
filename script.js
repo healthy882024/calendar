@@ -7396,6 +7396,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
                 ]
+            }, {
+                "shop": "小象",
+                "items": [
+                    { "name": "【有机】土豆 500g", "price": 6.99 },
+                    { "name": "【有机】大白菜 1.2kg", "price": 8.90 }
+                ]
             }
         ],
         "2025-01-08": [
