@@ -7402,6 +7402,16 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "【有机】土豆 500g", "price": 6.99 },
                     { "name": "【有机】大白菜 1.2kg", "price": 8.90 }
                 ]
+            }, {
+                "shop": "美团",
+                "note": "国大药房(慧鑫店)",
+                "items": [
+                    { "name": "[芬必得]布洛芬缓释胶囊0.4g*24粒/盒", "price": 19.20 },
+                    { "name": "[洁葆诺]棉签100支/袋", "price": 1.20 },
+                    { "name": "配送费", "price": 6.00 },
+                    { "name": "打包费", "price": 0.50 },
+                    { "name": "医保个账支付", "price": -17.28 }
+                ]
             }
         ],
         "2025-01-08": [
