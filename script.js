@@ -7432,8 +7432,6 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         ]
 
-
-
     };
 
 
