@@ -7421,6 +7421,15 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
                 ]
             }
+        ],
+        "2025-01-10": [
+            {
+                "shop": "支",
+                "note": "上海公共交通卡股份有限公司",
+                "items": [
+                    { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
+                ]
+            }
         ]
 
 
