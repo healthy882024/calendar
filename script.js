@@ -7425,7 +7425,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "小象",
                 "note": "小象超市-鹤波路站",
                 "items": [
-                    { "name": "五得利八星雪花小麦粉 5kg", "price": 27.90 }
+                    { "name": "五得利八星雪花小麦粉 5kg", "price": 27.90 },
+                    { "name": "【经典红肠】山林大红大块肉红肠260g", "price": 10.90 }
                 ]
             }
         ],
