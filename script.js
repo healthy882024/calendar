@@ -7421,6 +7421,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
                 ]
+            }, {
+                "shop": "小象",
+                "note": "小象超市-鹤波路站",
+                "items": [
+                    { "name": "五得利八星雪花小麦粉 5kg", "price": 27.90 }
+                ]
             }
         ],
         "2025-01-09": [
