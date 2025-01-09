@@ -7437,6 +7437,18 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
                 ]
+            }, {
+                "shop": "盒马",
+                "note": "盒马NB浦东航头浦乐汇店",
+                "items": [
+                    { "name": "普罗旺斯番茄 1kg", "price": 9.90 },
+                    { "name": "北海牧场 经典原味风味发酵乳 100g*3/组", "price": 7.90 },
+                    { "name": "冰鲜 鸡全腿 700g", "price": 14.90 },
+                    { "name": "冰鲜 猪小里脊 1kg", "price": 34.90 },
+                    { "name": "鲜鸡蛋30枚 1.6kg", "price": 15.80 },
+                    { "name": "康师傅 1倍半红烧牛肉面 129g*5", "price": 9.90 }
+
+                ]
             }
         ],
         "2025-01-10": [
