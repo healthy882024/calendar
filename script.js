@@ -7458,6 +7458,18 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
                 ]
+            }, {
+                "shop": "京东",
+                "note": "北纯京东自营旗舰店",
+                "items": [
+                    { "name": "北纯 有机玉米粉 1.5kg", "price": 8.77 }
+                ]
+            }, {
+                "shop": "京东",
+                "note": "西王京东自营旗舰店",
+                "items": [
+                    { "name": "西王 葵花籽油1.8L", "price": 25.94 }
+                ]
             }
         ]
 
