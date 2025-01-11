@@ -7471,6 +7471,23 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "西王 葵花籽油1.8L", "price": 25.94 }
                 ]
             }
+        ],
+        "2025-01-11": [
+            {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "湘味软皮椒 200g/份", "price": 4.95 },
+                    { "name": "有机茄子(长茄)300g", "price": 11.14 }
+                ]
+            }, {
+                "shop": "小象",
+                "note": "小象超市-鹤波路站",
+                "items": [
+                    { "name": "【有机】胡萝卜300g", "price": 4.08 },
+                    { "name": "【有机】土豆 500g", "price": 5.04 },
+                    { "name": "娃哈哈饮用纯净水5.5L*1", "price": 6.62 }
+                ]
+            }
         ]
 
 
