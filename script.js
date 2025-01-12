@@ -7488,7 +7488,15 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "娃哈哈饮用纯净水5.5L*1", "price": 6.62 }
                 ]
             }
-        ]
+        ],
+        "2024-12-30": [
+            {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "哇哈哈纯净水 5.5L/桶*4", "price": 25.90 }
+                ]
+            }
+        ],
 
 
 
