@@ -7497,6 +7497,22 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2025-01-13": [
+            {
+                "shop": "盒马",
+                "note": "盒马NB浦东航头浦乐汇店",
+                "items": [
+                    { "name": "山东红富士 1.5kg装", "price": 12.90 },
+                    { "name": "鲜鸡蛋30枚 1.6kg", "price": 17.90 },
+                    { "name": "康师傅 1倍半红烧牛肉面 129g*5", "price": 9.90 }
+                ]
+            }, {
+                "shop": "小象",
+                "items": [
+                    { "name": "【有机】土豆 500g", "price": 5.99 }
+                ]
+            }
+        ],
 
 
 
