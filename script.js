@@ -7519,7 +7519,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }, {
                 "shop": "超市",
-                "note": "时代优品超市",
+                "note": "时代优品超市(有巢店)",
                 "items": [
                     { "name": "精品西红柿", "price": 4.42 }
                 ]
