@@ -7499,6 +7499,12 @@ document.addEventListener("DOMContentLoaded", function () {
         ],
         "2025-01-13": [
             {
+                "shop": "支",
+                "note": "上海公共交通卡股份有限公司",
+                "items": [
+                    { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
+                ]
+            }, {
                 "shop": "盒马",
                 "note": "盒马NB浦东航头浦乐汇店",
                 "items": [
@@ -7511,8 +7517,50 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "【有机】土豆 500g", "price": 5.99 }
                 ]
+            }, {
+                "shop": "超市",
+                "note": "时代优品超市",
+                "items": [
+                    { "name": "精品西红柿", "price": 4.42 }
+                ]
             }
         ],
+        "2025-01-14": [
+            {
+                "shop": "支",
+                "note": "上海公共交通卡股份有限公司",
+                "items": [
+                    { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
+                ]
+            }
+        ],
+        "2025-01-15": [
+            {
+                "shop": "支",
+                "note": "上海公共交通卡股份有限公司",
+                "items": [
+                    { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
+                ]
+            }
+        ],
+        "2025-01-16": [
+            {
+                "shop": "支",
+                "note": "上海公共交通卡股份有限公司",
+                "items": [
+                    { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
+                ]
+            }
+        ],
+        "2025-01-17": [
+            {
+                "shop": "支",
+                "note": "上海公共交通卡股份有限公司",
+                "items": [
+                    { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
+                ]
+            }
+        ]
 
 
 
