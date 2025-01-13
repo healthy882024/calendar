@@ -7523,6 +7523,18 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "精品西红柿 0.44kg", "price": 4.42 }
                 ]
+            }, {
+                "shop": "京东",
+                "note": "联合利华京东自营旗舰店",
+                "items": [
+                    { "name": "力士(LUX)香氛抑菌洗手液", "price": 8.07 }
+                ]
+            }, {
+                "shop": "京东",
+                "note": "洁柔京东自营官方旗舰店",
+                "items": [
+                    { "name": "洁柔有芯卷纸 黑Face加厚4层200克*10卷", "price": 25.08 }
+                ]
             }
         ],
         "2025-01-14": [
