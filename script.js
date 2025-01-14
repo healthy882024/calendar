@@ -7544,6 +7544,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
                 ]
+            }, {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "有机土豆 500g/份", "price": 7.13 },
+                    { "name": "有机茄子(长茄)300g", "price": 13.26 }
+                ]
             }
         ],
         "2025-01-15": [
