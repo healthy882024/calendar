@@ -7579,6 +7579,17 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
                 ]
+            }, {
+                "shop": "超市",
+                "note": "时代优品超市(有巢店)",
+                "items": [
+                    { "name": "精品西红柿 0.49kg", "price": 4.92 }
+                ]
+            }, {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "有机胡萝卜 400g/份", "price": 3.59 }
+                ]
             }
         ],
         "2025-01-17": [
