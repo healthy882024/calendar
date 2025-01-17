@@ -7599,6 +7599,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
                 ]
+            }, {
+                "shop": "盒马",
+                "note": "盒马NB浦东航头浦乐汇店",
+                "items": [
+                    { "name": "冰鲜 鸡爪500g", "price": 21.90 },
+                    { "name": "鲜鸡蛋30枚 1.6kg", "price": 17.90 },
+                    { "name": "欣和 葱伴侣6月香豆瓣酱", "price": 8.90 }
+                ]
             }
         ]
 
