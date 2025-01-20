@@ -7670,6 +7670,19 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
                 ]
+            }, {
+                "shop": "小象",
+                "items": [
+                    { "name": "【有机】大白菜1.2kg", "price": 9.90 },
+                    { "name": "配送费", "price": 3.00 }
+                ]
+            }, {
+                "shop": "小象",
+                "items": [
+                    { "name": "【有机】胡萝卜300g", "price": 4.85 },
+                    { "name": "俄式精制红肠210g(3根装)", "price": 8.80 },
+                    { "name": "配送费", "price": 3.00 }
+                ]
             }
         ],
         "2025-01-21": [
