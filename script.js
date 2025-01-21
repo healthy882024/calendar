@@ -7653,7 +7653,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "京东",
                 "note": "格琳诺尔京东自营旗舰店",
                 "items": [
-                    { "name": "格琳诺尔 有机纯玉米粉1kg", "price": 13.83 }
+                    { "name": "格琳诺尔 有机纯玉米粉1kg", "price": 13.83 },
+                    { "name": "格琳诺尔 有机荞麦面1kg", "price": 23.06 }
                 ]
             }, {
                 "shop": "京东",
@@ -7691,6 +7692,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 "note": "上海公共交通卡股份有限公司",
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
+                ]
+            }, {
+                "shop": "盒马",
+                "note": "盒马NB(航头浦乐汇店)",
+                "items": [
+                    { "name": "NB 苏北老豆腐 350g", "price": 2.99 },
+                    { "name": "冰鲜 琵琶腿 800g*2", "price": 23.80 },
+                    { "name": "鲜鸡蛋30枚 1.6kg", "price": 17.90 }
                 ]
             }
         ],
