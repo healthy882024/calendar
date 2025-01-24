@@ -7710,6 +7710,18 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
                 ]
+            }, {
+                "shop": "小象",
+                "items": [
+                    { "name": "慢养黑猪冷鲜精瘦肉240g", "price": 9.60 },
+                    { "name": "配送费", "price": 3.00 }
+                ]
+            }, {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "有机水果黄瓜 300g/份", "price": 5.90 },
+                    { "name": "配送费", "price": 5.00 }
+                ]
             }
         ],
         "2025-01-23": [
@@ -7719,6 +7731,17 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
                 ]
+            }, {
+                "shop": "小象",
+                "items": [
+                    { "name": "【有机】胡萝卜300g", "price": 4.85 },
+                    { "name": "象大厨卤水经典老豆腐380g", "price": 4.50 },
+                    { "name": "安琪高活性干酵母低糖型50g(5g*10袋)", "price": 6.90 },
+                    { "name": "【有机】土豆 500g", "price": 6.99 },
+                    { "name": "【有机】大白菜1.2kg", "price": 8.60 },
+                    { "name": "【娃哈哈饮用纯净水5.5L*1", "price": 7.90 },
+                    { "name": "双汇Q趣儿蘑菇风味香肠70g", "price": 0.00 }
+                ]
             }
         ],
         "2025-01-24": [
@@ -7727,6 +7750,18 @@ document.addEventListener("DOMContentLoaded", function () {
                 "note": "上海公共交通卡股份有限公司",
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
+                ]
+            }, {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "石屏腐竹 250g/袋", "price": 11.64 },
+                    { "name": "农夫山泉桶装水5L*4桶", "price": 28.76 }
+                ]
+            }, {
+                "shop": "联通",
+                "note": "China Unicom Software",
+                "items": [
+                    { "name": "话费 200元", "price": 195.54 }
                 ]
             }
         ]
