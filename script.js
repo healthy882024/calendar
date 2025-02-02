@@ -7796,7 +7796,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
-        "2024-01-26": [
+        "2025-01-26": [
             {
                 "shop": "美团",
                 "note": "外滩小馆·上海特色菜·小笼包（外滩店）",
@@ -7808,7 +7808,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "日日鲜光明鲜牛奶1.35L", "price": 23.52 },
                     { "name": "怡宝纯净水 6L", "price": 16.18 },
-                    { "name": "优惠券", "price": -4.00 },
                     { "name": "礼品卡", "price": -0.01 }
                 ]
             }, {
@@ -7843,7 +7842,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
-        "2024-01-27": [
+        "2025-01-27": [
             {
                 "shop": "小象",
                 "items": [
@@ -7862,7 +7861,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
-        "2024-01-28": [
+        "2025-01-28": [
             {
                 "shop": "微信",
                 "note": "上海公共交通卡股份有限公司MOT",
@@ -7907,7 +7906,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
-        "2024-01-29": [
+        "2025-01-29": [
             {
                 "shop": "美团",
                 "note": "避风塘(周浦万达店)",
@@ -7982,7 +7981,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
-        "2024-01-30": [
+        "2025-01-30": [
             {
                 "shop": "滴滴",
                 "items": [
@@ -8043,7 +8042,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
-        "2024-01-31": [
+        "2025-01-31": [
             {
                 "shop": "微信",
                 "note": "上海公共交通卡股份有限公司MOT",
@@ -8071,8 +8070,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "保萝工坊虎皮瑞士卷160g", "price": 12.98 },
                     { "name": "经典提子拿破仑酥135g", "price": 15.72 },
-                    { "name": "配送费", "price": 8.00 },
-                    { "name": "优惠券", "price": -4.00 }
+                    { "name": "配送费", "price": 8.00 }
                 ]
             }, {
                 "shop": "小象",
@@ -8095,7 +8093,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
-        "2024-02-01": [
+        "2025-02-01": [
             {
                 "shop": "微信",
                 "note": "上海公共交通卡股份有限公司MOT",
@@ -8110,8 +8108,30 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "豫娃娃有机石磨荞麦粉1kg", "price": 14.34 },
                     { "name": "圣牧有机纯酸奶400g/盒", "price": 11.92 },
                     { "name": "有机红洋葱 300g/份", "price": 5.03 },
-                    { "name": "配送费", "price": 3.00 },
-                    { "name": "优惠券", "price": -4.00 }
+                    { "name": "配送费", "price": 3.00 }
+                ]
+            }, {
+                "shop": "小象",
+                "items": [
+                    { "name": "秋林里道斯红肠110g", "price": 15.90 },
+                    { "name": "怡宝纯净水6L*1", "price": 8.90 },
+                    { "name": "【有机】水果甘蓝500g", "price": 8.29 },
+                    { "name": "【小炒肉搭档】湘香软皮椒200g", "price": 6.19 },
+                    { "name": "蓝月亮旅行洗衣液(白兰香)80g", "price": 0.00 },
+                    { "name": "配送费", "price": 3.00 }
+                ]
+            }
+        ],
+        "2025-02-02": [
+            {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "哈尔滨风味红肠 50g", "price": 0.00 },
+                    { "name": "千禾零添加特级生抽500mL", "price": 13.68 },
+                    { "name": "海天有机蚝油鲜露 600g", "price": 14.57 },
+                    { "name": "有机黑猪冷鲜肉馅 450g", "price": 27.15 },
+                    { "name": "有机黑猪冷鲜肉馅 200g", "price": 13.51 },
+                    { "name": "配送费", "price": 3.00 }
                 ]
             }
         ]
