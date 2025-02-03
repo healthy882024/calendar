@@ -8134,6 +8134,20 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "配送费", "price": 3.00 }
                 ]
             }
+        ],
+        "2025-02-03": [
+            {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "云蕾棉柔抹布1片装", "price": 0.00 },
+                    { "name": "有机水果甘蓝 500g/份", "price": 9.24 },
+                    { "name": "有机茄子(长茄)300g", "price": 12.98 },
+                    { "name": "秋浦河山林散养谷粮蛋15枚", "price": 18.58 },
+                    { "name": "怡宝纯净水 6L*1", "price": 8.31 },
+                    { "name": "有机土豆 500g/份", "price": 8.02 },
+                    { "name": "娃哈哈纯净水 5.5L*4桶", "price": 27.96 }
+                ]
+            }
         ]
 
 
