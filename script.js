@@ -8221,6 +8221,30 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "费用代扣第1期", "price": 659.00 },
                     { "name": "办单费 提供两轮电动车租赁服务", "price": 10.00 }
                 ]
+            }, {
+                "shop": "小象",
+                "items": [
+                    { "name": "秋林里道斯红肠110g", "price": 15.90 },
+                    { "name": "【有机】大白菜1.2kg", "price": 9.90 }
+                ]
+            }, {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "德青源无抗鲜鸡蛋20枚1kg", "price": 20.65 },
+                    { "name": "有机胡萝卜400g/份", "price": 6.36 }
+                ]
+            }, {
+                "shop": "京东",
+                "note": "supfire神火京东自营旗舰店",
+                "items": [
+                    { "name": "神火(SupFire)lk18电动车手机支架", "price": 16.92 }
+                ]
+            }, {
+                "shop": "京东",
+                "note": "爱玛电动车京东自营旗舰店",
+                "items": [
+                    { "name": "爱玛冬季电动车挡风被", "price": 22.58 }
+                ]
             }
         ],
 
