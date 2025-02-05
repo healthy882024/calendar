@@ -8188,6 +8188,41 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2025-02-05": [
+            {
+                "shop": "支",
+                "note": "上海公共交通卡股份有限公司",
+                "items": [
+                    { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
+                ]
+            }, {
+                "shop": "支",
+                "note": "哈啰出行",
+                "items": [
+                    { "name": "共享单车", "price": 1.40 },
+                    { "name": "共享单车", "price": 5.50 }
+                ]
+            }, {
+                "shop": "支",
+                "note": "美团骑行",
+                "items": [
+                    { "name": "共享单车", "price": 1.50 }
+                ]
+            }, {
+                "shop": "支",
+                "note": "上海公共交通卡股份有限公司",
+                "items": [
+                    { "name": "公交车", "price": 1.00 }
+                ]
+            }, {
+                "shop": "支",
+                "note": "上海众简新能源科技有限公司",
+                "items": [
+                    { "name": "费用代扣第1期", "price": 659.00 },
+                    { "name": "办单费 提供两轮电动车租赁服务", "price": 10.00 }
+                ]
+            }
+        ],
 
 
 
