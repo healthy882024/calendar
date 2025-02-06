@@ -8257,18 +8257,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "摩托车捆绑绳后备箱绑带挂勾弹力松紧绳", "price": 3.99 }
                 ]
-            }, {
-                "shop": "PDD",
-                "note": "大头的日用百货",
-                "items": [
-                    { "name": "弹性绑绳挂钩可调节弹力绳", "price": 6.60 }
-                ]
-            }, {
-                "shop": "PDD",
-                "note": "汇鹰摩配源头店",
-                "items": [
-                    { "name": "电动货架外卖摩托车固定托架", "price": 18.80 }
-                ]
             }
         ],
         "2025-02-06": [
@@ -8283,6 +8271,29 @@ document.addEventListener("DOMContentLoaded", function () {
                 "note": "加加林京东自营旗舰店",
                 "items": [
                     { "name": "JAJALIN手机防尘袋专用", "price": 7.80 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "上海市浦东新区周浦医院",
+                "items": [
+                    { "name": "健康证-体检", "price": 139.00 }
+                ]
+            }, {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "有机茄子(长茄)300g", "price": 13.46 },
+                    { "name": "统一茄皇牛肉面126g*5", "price": 17.44 }
+                ]
+            }, {
+                "shop": "小象",
+                "items": [
+                    { "name": "【有机】胡萝卜300g", "price": 4.85 },
+                    { "name": "【有机】土豆 500g", "price": 7.75 }
+                ]
+            }, {
+                "shop": "微信",
+                "items": [
+                    { "name": "美团众包-保证金", "price": 100.00 }
                 ]
             }
         ],
