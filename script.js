@@ -8278,6 +8278,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
                 ]
+            }, {
+                "shop": "京东",
+                "note": "加加林京东自营旗舰店",
+                "items": [
+                    { "name": "JAJALIN手机防尘袋专用", "price": 7.80 }
+                ]
             }
         ],
         "2025-02-07": [
