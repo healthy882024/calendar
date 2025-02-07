@@ -8304,6 +8304,24 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
                 ]
+            }, {
+                "shop": "京东",
+                "note": "永久(FOREVER)骑行装备...",
+                "items": [
+                    { "name": "永久(FOREVER)3C认证骑行头盔", "price": 55.05 }
+                ]
+            }, {
+                "shop": "京东",
+                "note": "星骑侠摩托车装备专营店",
+                "items": [
+                    { "name": "追羚摩托车尾箱大容量57L", "price": 81.00 }
+                ]
+            }, {
+                "shop": "京东",
+                "note": "萎动力(LINGDONGLI)车品京东自营旗舰店",
+                "items": [
+                    { "name": "菱动力电动车后备箱45L", "price": 146.52 }
+                ]
             }
         ],
         "2025-02-08": [
