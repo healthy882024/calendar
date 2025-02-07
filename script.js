@@ -8306,7 +8306,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }, {
                 "shop": "京东",
-                "note": "永久(FOREVER)骑行装备...",
+                "note": "永久(FOREVER)骑行装备京东自营旗舰店",
                 "items": [
                     { "name": "永久(FOREVER)3C认证骑行头盔", "price": 55.05 }
                 ]
