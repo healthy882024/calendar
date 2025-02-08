@@ -1477,7 +1477,7 @@ document.addEventListener("DOMContentLoaded", function () {
             {
                 "shop": "盒马",
                 "items": [
-                    { "name": "盒马NB 哈尔滨风味红肠 240g/袋", "price": 10.90 }
+                    { "name": "NB哈尔滨风味红肠 240g/袋", "price": 10.90 }
                 ]
             }
         ],
@@ -3157,7 +3157,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "风味鸡油辣椒 280g", "price": 13.9 },
                     { "name": "三黄土鸡整只 1kg", "price": 29.9 },
                     { "name": "AD钙 220g*4", "price": 8 },
-                    { "name": "盒马烘焙 蔓越莓", "price": 12.9 },
+                    { "name": "烘焙 蔓越莓", "price": 12.9 },
                     { "name": "优惠券", "price": -0.1 }
                 ]
             }
@@ -6664,6 +6664,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "2024-12-01": [
             {
                 "shop": "盒马",
+                "note": "盒马NB浦东航头浦乐汇店",
                 "items": [
                     { "name": "莲藕 500g", "price": 4.83 },
                     { "name": "进口365日熟甜蕉 1kg", "price": 9.59 },
@@ -6937,7 +6938,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }, {
                 "shop": "盒马",
-                "note": "盒马NB",
+                "note": "盒马NB浦东航头浦乐汇店",
                 "items": [
                     { "name": "贝贝南瓜 1kg", "price": 6.9 },
                     { "name": "老干妈 风味鸡油辣椒 280g", "price": 11.9 },
@@ -7028,6 +7029,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "2024-12-14": [
             {
                 "shop": "盒马",
+                "note": "盒马NB浦东航头浦乐汇店",
                 "items": [
                     { "name": "霜打长白萝卜 1.5kg", "price": 3.99 },
                     { "name": "紫皮大蒜 500g", "price": 7.9 },
@@ -7080,6 +7082,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }, {
                 "shop": "盒马",
+                "note": "盒马NB浦东航头浦乐汇店",
                 "items": [
                     { "name": "油炸花生 500g", "price": 14.90 },
                     { "name": "粉藕 550g", "price": 4.99 },
@@ -8318,9 +8321,23 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }, {
                 "shop": "京东",
-                "note": "萎动力(LINGDONGLI)车品京东自营旗舰店",
+                "note": "菱动力(LINGDONGLI)车品京东自营旗舰店",
                 "items": [
                     { "name": "菱动力电动车后备箱45L", "price": 146.52 }
+                ]
+            }, {
+                "shop": "盒马",
+                "note": "盒马NB浦东航头浦乐汇店",
+                "items": [
+                    { "name": "鲜鸡蛋30枚 1.6kg", "price": 15.90 },
+                    { "name": "冰鲜鸡翅中 500g", "price": 21.60 },
+                    { "name": "现烤 新奥尔良大鸡腿 3只装", "price": 26.90 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "吴建茂-浦东鹤沙路736号雅迪电动车",
+                "items": [
+                    { "name": "后视镜 校正", "price": 2.00 }
                 ]
             }
         ],
@@ -8330,6 +8347,24 @@ document.addEventListener("DOMContentLoaded", function () {
                 "note": "上海公共交通卡股份有限公司",
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "联华超市叶红店",
+                "items": [
+                    { "name": "南瓜", "price": 8.60 },
+                    { "name": "红薯", "price": 5.20 },
+                    { "name": "辣椒", "price": 3.00 },
+                    { "name": "土豆", "price": 2.80 },
+                    { "name": "茄子", "price": 7.30 },
+                    { "name": "胡萝卜", "price": 2.60 }
+                ]
+            }, {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "哈尔滨风味红肠 50g", "price": 0.00 },
+                    { "name": "康师傅大食袋红烧牛肉面5包*2", "price": 23.54 },
+                    { "name": "统一酸酸辣辣豚骨拉面5袋", "price": 17.26 }
                 ]
             }
         ],
