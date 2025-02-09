@@ -8250,12 +8250,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }, {
                 "shop": "京东",
-                "note": "魔轮户外京东自营专区",
-                "items": [
-                    { "name": "SolarStorm自行车货架行李绳", "price": 15.64 }
-                ]
-            }, {
-                "shop": "京东",
                 "note": "京喜自营官方店",
                 "items": [
                     { "name": "摩托车捆绑绳后备箱绑带挂勾弹力松紧绳", "price": 3.99 }
@@ -8320,12 +8314,6 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "追羚摩托车尾箱大容量57L", "price": 81.00 }
                 ]
             }, {
-                "shop": "京东",
-                "note": "菱动力(LINGDONGLI)车品京东自营旗舰店",
-                "items": [
-                    { "name": "菱动力电动车后备箱45L", "price": 146.52 }
-                ]
-            }, {
                 "shop": "盒马",
                 "note": "盒马NB浦东航头浦乐汇店",
                 "items": [
@@ -8374,6 +8362,51 @@ document.addEventListener("DOMContentLoaded", function () {
                 "note": "浙江东大日用品",
                 "items": [
                     { "name": "电动车防风棉把套", "price": 1.29 }
+                ]
+            }
+        ],
+        "2025-02-10": [
+            {
+                "shop": "支",
+                "note": "上海公共交通卡股份有限公司",
+                "items": [
+                    { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
+                ]
+            }
+        ],
+        "2025-02-11": [
+            {
+                "shop": "支",
+                "note": "上海公共交通卡股份有限公司",
+                "items": [
+                    { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
+                ]
+            }
+        ],
+        "2025-02-12": [
+            {
+                "shop": "支",
+                "note": "上海公共交通卡股份有限公司",
+                "items": [
+                    { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
+                ]
+            }
+        ],
+        "2025-02-13": [
+            {
+                "shop": "支",
+                "note": "上海公共交通卡股份有限公司",
+                "items": [
+                    { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
+                ]
+            }
+        ],
+        "2025-02-14": [
+            {
+                "shop": "支",
+                "note": "上海公共交通卡股份有限公司",
+                "items": [
+                    { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
                 ]
             }
         ],
