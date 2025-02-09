@@ -8368,6 +8368,15 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2025-02-09": [
+            {
+                "shop": "PDD",
+                "note": "浙江东大日用品",
+                "items": [
+                    { "name": "电动车防风棉把套", "price": 1.29 }
+                ]
+            }
+        ],
 
 
     };
