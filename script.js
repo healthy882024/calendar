@@ -8363,6 +8363,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "电动车防风棉把套", "price": 1.29 }
                 ]
+            }, {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "山林大块肉红肠 260g", "price": 9.95 },
+                    { "name": "有机黑猪冷鲜肉馅 200g", "price": 16.80 }
+                ]
             }
         ],
         "2025-02-10": [
