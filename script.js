@@ -8390,6 +8390,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "[2024年新米]十月稻田寒地之最 五常大米5kg;1件", "price": 53.14 }
                 ]
+            }, {
+                "shop": "小象",
+                "items": [
+                    { "name": "怡宝纯净水6L*1", "price": 8.90 }
+                ]
             }
         ],
         "2025-02-11": [
@@ -8398,6 +8403,36 @@ document.addEventListener("DOMContentLoaded", function () {
                 "note": "上海公共交通卡股份有限公司",
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
+                ]
+            }, {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "娃哈哈纯净水 5.5L*4桶", "price": 28.50 }
+                ]
+            }, {
+                "shop": "京东",
+                "note": "清风京东自营旗舰店",
+                "items": [
+                    { "name": "清风有芯 4层 200g/卷10卷", "price": 25.19 }
+                ]
+            }, {
+                "shop": "京东",
+                "note": "水塔京东自营旗舰店",
+                "items": [
+                    { "name": "水塔老陈醋【3陈酿】6度420ml", "price": 3.36 }
+                ]
+            }, {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "有机土豆 500g/份", "price": 7.62 },
+                    { "name": "湘佳冷鲜有机鸡边腿 250g", "price": 22.81 },
+                    { "name": "湘佳鸡小腿 430g", "price": 23.76 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "面馆 弄堂记忆",
+                "items": [
+                    { "name": "葱油面", "price": 8.00 }
                 ]
             }
         ],
