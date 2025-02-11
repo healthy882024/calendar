@@ -8378,6 +8378,18 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
                 ]
+            }, {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "思念无糖黑芝麻汤圆 400g", "price": 7.91 },
+                    { "name": "山林大块肉红肠 260g", "price": 23.89 }
+                ]
+            }, {
+                "shop": "京东",
+                "note": "天猫超市",
+                "items": [
+                    { "name": "[2024年新米]十月稻田寒地之最 五常大米5kg;1件", "price": 53.14 }
+                ]
             }
         ],
         "2025-02-11": [
