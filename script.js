@@ -8416,12 +8416,6 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "清风有芯 4层 200g/卷10卷", "price": 25.19 }
                 ]
             }, {
-                "shop": "京东",
-                "note": "水塔京东自营旗舰店",
-                "items": [
-                    { "name": "水塔老陈醋【3陈酿】6度420ml", "price": 3.36 }
-                ]
-            }, {
                 "shop": "叮咚",
                 "items": [
                     { "name": "有机土豆 500g/份", "price": 7.62 },
