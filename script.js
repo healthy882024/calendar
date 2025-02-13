@@ -8450,6 +8450,7 @@ document.addEventListener("DOMContentLoaded", function () {
             }, {
                 "shop": "小象",
                 "items": [
+                    { "name": "进口香蕉 约600g", "price": 7.35 },
                     { "name": "锋味派黑胡椒味猪肉爆汁烤肠200g(4根)", "price": 22.90 },
                     { "name": "思念招财进宝黑芝麻开心果元宝汤圆312g(20只)", "price": 9.50 }
                 ]
