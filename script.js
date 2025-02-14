@@ -8469,6 +8469,25 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
                 ]
+            }, {
+                "shop": "微信",
+                "note": "红烧牛肉面(周市路122号)",
+                "items": [
+                    { "name": "红烧牛肉面", "price": 20.00 }
+                ]
+            }, {
+                "shop": "美团",
+                "note": "黑土屯老朴家铁锅炖(航头浦...",
+                "items": [
+                    { "name": "老朴家铁锅大丰收双人餐", "price": 181.00 },
+                    { "name": "大窑嘉宾橙", "price": 10.00 }
+                ]
+            }, {
+                "shop": "天猫",
+                "note": "teenieweeniebag旗舰店",
+                "items": [
+                    { "name": "TeenieWeenie单肩饺子包 温柔白杏色", "price": 188.80 }
+                ]
             }
         ],
         "2025-02-14": [
