@@ -8548,7 +8548,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "叮咚",
                 "items": [
                     { "name": "德青源无抗鲜鸡蛋20枚1kg", "price": 23.80 },
-                    { "name": "娃哈哈纯净水 5.5L*4桶", "price": 29.90 }
+                    { "name": "娃哈哈纯净水 5.5L*4桶", "price": 29.90 },
+                    { "name": "礼品卡", "price": -0.02 }
                 ]
             }, {
                 "shop": "叮咚",
