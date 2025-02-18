@@ -8581,6 +8581,24 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "杨饰公子 手套 漏二指黑【春夏薄款】均码", "price": 15.28 }
                 ]
+            }, {
+                "shop": "小象",
+                "items": [
+                    { "name": "龙凤经典鲜美肉汤圆 200g(10个)", "price": 6.75 },
+                    { "name": "三全飘香馄饨三鲜馅 300g (36只)", "price": 4.29 },
+                    { "name": "优诺4.0g优质乳蛋白牛乳950ml", "price": 13.49 },
+                    { "name": "【经典红肠】山林大红大块肉红肠260g", "price": 10.30 },
+                    { "name": "优质冷鲜鸡琵琶腿 400g", "price": 6.83 },
+                    { "name": "【有机】土豆 500g", "price": 6.14 },
+                    { "name": "【有机】湘佳散养土鸡琵琶腿250g", "price": 16.41 },
+                    { "name": "优惠券", "price": -10.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "路边摊",
+                "items": [
+                    { "name": "烤红薯", "price": 10.00 }
+                ]
             }
         ],
         "2025-02-18": [
