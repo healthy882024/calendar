@@ -8590,8 +8590,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "【经典红肠】山林大红大块肉红肠260g", "price": 10.30 },
                     { "name": "优质冷鲜鸡琵琶腿 400g", "price": 6.83 },
                     { "name": "【有机】土豆 500g", "price": 6.14 },
-                    { "name": "【有机】湘佳散养土鸡琵琶腿250g", "price": 16.41 },
-                    { "name": "优惠券", "price": -10.00 }
+                    { "name": "【有机】湘佳散养土鸡琵琶腿250g", "price": 16.41 }
                 ]
             }, {
                 "shop": "微信",
@@ -8607,6 +8606,21 @@ document.addEventListener("DOMContentLoaded", function () {
                 "note": "上海公共交通卡股份有限公司",
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "路边摊",
+                "items": [
+                    { "name": "沙糖桔", "price": 6.00 }
+                ]
+            }, {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "必品阁韩式泡菜王饺子14个", "price": 15.90 },
+                    { "name": "雀巢威化黑巧克力120g", "price": 17.50 },
+                    { "name": "有机大蒜 180g/份", "price": 8.09 },
+                    { "name": "紫色细长茄 约400g", "price": 8.19 },
+                    { "name": "有机土豆 500g/份", "price": 6.38 }
                 ]
             }
         ],
