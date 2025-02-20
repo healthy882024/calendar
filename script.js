@@ -8620,7 +8620,8 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "雀巢威化黑巧克力120g", "price": 17.50 },
                     { "name": "有机大蒜 180g/份", "price": 8.09 },
                     { "name": "紫色细长茄 约400g", "price": 8.19 },
-                    { "name": "有机土豆 500g/份", "price": 6.38 }
+                    { "name": "有机土豆 500g/份", "price": 6.38 },
+                    { "name": "礼品卡", "price": -0.40 }
                 ]
             }
         ],
@@ -8630,6 +8631,27 @@ document.addEventListener("DOMContentLoaded", function () {
                 "note": "上海公共交通卡股份有限公司",
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "京穆聚红烧牛肉面上海航头店",
+                "items": [
+                    { "name": "蛋炒饭", "price": 15.00 },
+                    { "name": "传统牛肉面", "price": 13.00 }
+                ]
+            }, {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "线椒约160g", "price": 4.50 },
+                    { "name": "【沙瓤多汁】普罗旺斯西红柿约500g", "price": 7.49 },
+                    { "name": "慢养黑猪冷鲜通脊(里脊)300g", "price": 19.90 },
+                    { "name": "必品阁白菜猪肉王饺子350g(10只)", "price": 10.90 }
+                ]
+            }, {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "元气森林白桃味气泡水 2L", "price": 5.69 },
+                    { "name": "100%橙汁 1L/瓶", "price": 8.45 }
                 ]
             }
         ],
