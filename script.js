@@ -8671,7 +8671,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "支",
                 "note": "有巢生活住房租赁(深圳)有限责任公司",
                 "items": [
-                    { "name": "会员费 散客合同起租账单", "price": 297.00 }
+                    { "name": "有巢会员费 散客合同起租账单", "price": 297.00 }
                 ]
             }, {
                 "shop": "小象",
@@ -8724,6 +8724,15 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "有机番茄 300g/盒", "price": 12.98 },
                     { "name": "宛禾砂锅土豆粉 320g*2", "price": 16.59 },
                     { "name": "娃哈哈纯净水 5.5L*4桶", "price": 27.95 }
+                ]
+            }
+        ],
+        "2025-02-22": [
+            {
+                "shop": "PDD",
+                "note": "蓝棉花家居生活专卖店",
+                "items": [
+                    { "name": "蓝棉花益生菌 医护级特护卫生巾 日8+夜6+加长夜5+迷你10+便携2", "price": 14.95 }
                 ]
             }
         ],
