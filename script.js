@@ -8751,7 +8751,8 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "李锦记0添加薄盐生抽615g", "price": 8.90 },
                     { "name": "无抗冷冻鸡大胸 400g", "price": 11.50 },
                     { "name": "有机胡萝卜400g/份", "price": 6.59 },
-                    { "name": "有机西兰花 300g/份", "price": 9.90 }
+                    { "name": "有机西兰花 300g/份", "price": 9.90 },
+                    { "name": "礼品卡", "price": -0.18 }
                 ]
             }
         ],
