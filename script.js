@@ -8736,6 +8736,25 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2025-02-23": [
+            {
+                "shop": "微信",
+                "note": "上海宜家家居有限公司浦东分公司北蔡商场",
+                "items": [
+                    { "name": "宜家兼职员工餐", "price": 20.00 }
+                ]
+            }, {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "每日鲜语鲜牛奶 950mL", "price": 12.50 },
+                    { "name": "必品阁韩式泡菜王饺子14个", "price": 15.90 },
+                    { "name": "李锦记0添加薄盐生抽615g", "price": 8.90 },
+                    { "name": "无抗冷冻鸡大胸 400g", "price": 11.50 },
+                    { "name": "有机胡萝卜400g/份", "price": 6.59 },
+                    { "name": "有机西兰花 300g/份", "price": 9.90 }
+                ]
+            }
+        ],
         "2025-02-24": [
             {
                 "shop": "支",
