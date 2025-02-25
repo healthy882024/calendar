@@ -8763,6 +8763,28 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
                 ]
+            }, {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "雀巢奇巧威化120g", "price": 16.65 },
+                    { "name": "必品阁玉米猪肉王饺子 490g", "price": 17.03 },
+                    { "name": "有机草原黑猪肉丝 200g", "price": 12.84 },
+                    { "name": "有豆志中百页 150g/份", "price": 5.03 },
+                    { "name": "湘味软皮椒 200g/份", "price": 7.37 },
+                    { "name": "礼品卡", "price": -0.01 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "小张车行(周浦镇周泰路96号台铃)",
+                "items": [
+                    { "name": "预约办理电动自行车车牌 定金 200", "price": 200.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "江西小炒上海周泰路店",
+                "items": [
+                    { "name": "青椒(酸辣)土豆丝木桶饭", "price": 14.00 }
+                ]
             }
         ],
         "2025-02-25": [
