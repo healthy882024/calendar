@@ -8801,6 +8801,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "宜家兼职员工餐", "price": 20.00 }
                 ]
             }, {
+                "shop": "京东",
+                "note": "道道全京东自营旗舰店",
+                "items": [
+                    { "name": "菜籽油 压榨一级1.8L", "price": 29.24 }
+                ]
+            }, {
                 "shop": "叮咚",
                 "items": [
                     { "name": "康师傅大食袋红烧牛肉面5包", "price": 14.45 },
@@ -8843,12 +8849,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 "note": "清真西北拉面 周泰路94号",
                 "items": [
                     { "name": "红烧牛肉面", "price": 15.00 }
-                ]
-            }, {
-                "shop": "京东",
-                "note": "道道全京东自营旗舰店",
-                "items": [
-                    { "name": "菜籽油 压榨一级1.8L", "price": 29.24 }
                 ]
             }, {
                 "shop": "小象",
