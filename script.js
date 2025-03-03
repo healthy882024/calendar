@@ -8986,6 +8986,17 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
                 ]
+            }, {
+                "shop": "小象",
+                "items": [
+                    { "name": "丹丹红油郫县豆瓣500g", "price": 8.80 },
+                    { "name": "秋林里道斯红肠110g", "price": 15.90 },
+                    { "name": "螺丝椒 约300g", "price": 4.89 },
+                    { "name": "【有机】胡萝卜300g", "price": 4.85 },
+                    { "name": "慢养黑猪冷鲜肉馅(肥瘦约3:7)300g", "price": 10.90 },
+                    { "name": "【无抗】可生食鲜鸡蛋20枚1kg", "price": 21.90 },
+                    { "name": "蓝月亮旅行洗衣液(白兰香)80g", "price": 0.00 }
+                ]
             }
         ],
         "2025-03-04": [
