@@ -8952,7 +8952,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "微信",
                 "note": "上海宜家家居有限公司浦东分公司北蔡商场",
                 "items": [
-                    { "name": "宜家兼职员工餐", "price": 20.00 }
+                    { "name": "宜家兼职员工餐", "price": 10.00 }
                 ]
             }
         ],
