@@ -8933,12 +8933,6 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "多芬丰盈 丰盈宠肤 730g 1瓶", "price": 16.21 }
                 ]
             }, {
-                "shop": "PDD",
-                "note": "施华蔻美发染发专卖店",
-                "items": [
-                    { "name": "施华蔻氨基酸极光瓶 洗发露400mL", "price": 49.32 }
-                ]
-            }, {
                 "shop": "小象",
                 "items": [
                     { "name": "【有机】胡萝卜 300g", "price": 4.85 },
@@ -8963,6 +8957,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "农夫山泉桶装水5L*4桶", "price": 31.60 },
                     { "name": "有机土豆 500g/份", "price": 7.99 },
                     { "name": "礼品卡", "price": -0.13 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "施华蔻美发染发专卖店",
+                "items": [
+                    { "name": "施华蔻氨基酸极光瓶 洗发露400mL", "price": 49.32 }
                 ]
             }, {
                 "shop": "盒马",
