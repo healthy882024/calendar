@@ -9051,6 +9051,42 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
                 ]
+            }, {
+                "shop": "微信",
+                "note": "陕西新在线壹佰分教育有限公司",
+                "items": [
+                    { "name": "叉车 题库 安全生产在线学习", "price": 20.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "上海御康医院有限公司",
+                "items": [
+                    { "name": "叉车 体检", "price": 30.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "康桥叉车培训",
+                "items": [
+                    { "name": "叉车 报名 王先发15216687970", "price": 1200.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "朴大叔拌饭-金航城店",
+                "items": [
+                    { "name": "甄选肥牛锅 + 牛肉石锅拌饭", "price": 49.90 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "中国兰州拉面康沈路店",
+                "items": [
+                    { "name": "牛肉面", "price": 12.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "沙县小吃店",
+                "items": [
+                    { "name": "小混沌", "price": 9.00 }
+                ]
             }
         ],
         "2025-03-06": [
@@ -9059,6 +9095,18 @@ document.addEventListener("DOMContentLoaded", function () {
                 "note": "上海公共交通卡股份有限公司",
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "蘭德香兰州牛肉面上海眉州支路店",
+                "items": [
+                    { "name": "牛肉刀削面", "price": 15.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "中国兰州拉面康沈路店",
+                "items": [
+                    { "name": "牛肉刀削面", "price": 13.00 }
                 ]
             }
         ],
