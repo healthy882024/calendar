@@ -9070,7 +9070,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "叉车 报名 王先发15216687970", "price": 1200.00 }
                 ]
             }, {
-                "shop": "微信",
+                "shop": "美团",
                 "note": "朴大叔拌饭-金航城店",
                 "items": [
                     { "name": "甄选肥牛锅 + 牛肉石锅拌饭", "price": 49.90 }
@@ -9082,8 +9082,8 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "牛肉面", "price": 12.00 }
                 ]
             }, {
-                "shop": "微信",
-                "note": "沙县小吃店",
+                "shop": "支",
+                "note": "沙县小吃",
                 "items": [
                     { "name": "小馄饨", "price": 9.00 }
                 ]
@@ -9097,7 +9097,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
                 ]
             }, {
-                "shop": "微信",
+                "shop": "支",
                 "note": "蘭德香兰州牛肉面上海眉州支路店",
                 "items": [
                     { "name": "牛肉刀削面", "price": 15.00 }
@@ -9109,10 +9109,16 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "牛肉刀削面", "price": 13.00 }
                 ]
             }, {
-                "shop": "微信",
+                "shop": "美团",
                 "note": "小满手工粉(上海金航城店)",
                 "items": [
                     { "name": "【经典豪华】米粉3选2", "price": 65.60 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "漫步者海蛟专卖店",
+                "items": [
+                    { "name": "漫步者Atombuds Plus原子豆无线蓝牙耳机长续航 云白", "price": 122.31 }
                 ]
             }
         ],
