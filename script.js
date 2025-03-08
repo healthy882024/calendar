@@ -9129,6 +9129,34 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
                 ]
+            }, {
+                "shop": "支",
+                "items": [
+                    { "name": "酱香饼", "price": 3.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "沙县小吃（康沈路店）",
+                "items": [
+                    { "name": "蛋炒饭", "price": 10.00 },
+                    { "name": "螺蛳粉", "price": 15.00 }
+                ]
+            }, {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "叮咚定制切片年糕200g*2", "price": 5.89 },
+                    { "name": "有机胡萝卜400g/份", "price": 6.59 },
+                    { "name": "湘佳冷鲜有机鸡胸肉 250g", "price": 15.50 },
+                    { "name": "有机香菇 150g/份", "price": 7.99 },
+                    { "name": "普罗旺斯番茄 约500g", "price": 7.19 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "北京三快在线科技有限公司",
+                "items": [
+                    { "name": "美团 外卖柜", "price": 0.55 },
+                    { "name": "美团 外卖柜", "price": 0.55 }
+                ]
             }
         ],
         "2025-03-10": [
