@@ -9114,12 +9114,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "【经典豪华】米粉3选2", "price": 65.60 }
                 ]
-            }, {
-                "shop": "PDD",
-                "note": "漫步者海蛟专卖店",
-                "items": [
-                    { "name": "漫步者Atombuds Plus原子豆无线蓝牙耳机长续航 云白", "price": 122.31 }
-                ]
             }
         ],
         "2025-03-07": [
@@ -9175,7 +9169,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "美团",
                 "note": "玛嘉烈(周浦万达店)",
                 "items": [
-                    { "name": "【女神节】玛嘉烈双人", "price": 186.00 }
+                    { "name": "【女神节】玛嘉烈双人", "price": 186.00 },
+                    { "name": "米饭", "price": 4.00 }
                 ]
             }, {
                 "shop": "微信",
@@ -9191,12 +9186,67 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
         ],
+        "2025-03-09": [
+            {
+                "shop": "支",
+                "note": "上海公共交通卡股份有限公司",
+                "items": [
+                    { "name": "上海地铁-鹤涛路⇌周浦站", "price": 6.00 }
+                ]
+            }, {
+                "shop": "支",
+                "note": "优衣库（周浦万达广场店）",
+                "items": [
+                    { "name": "宽松直筒牛仔裤", "price": 249.00 },
+                    { "name": "休闲直筒牛仔裤", "price": 299.00 },
+                    { "name": "优惠券", "price": -20.00 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "OPPO品牌",
+                "items": [
+                    { "name": "OPPO原装双C数据线12A充电线240/150W超级闪充", "price": 34.86 }
+                ]
+            }, {
+                "shop": "京东",
+                "note": "华为京东自营官方旗舰店",
+                "items": [
+                    { "name": "HUAWEI FreeBuds SE 2 华为长续航蓝牙耳机 陶瓷白", "price": 78.20 }
+                ]
+            }, {
+                "shop": "京东",
+                "items": [
+                    { "name": "PLUS京典年卡 有效期:2025.03.09-2026.03.09", "price": 99.00 }
+                ]
+            }, {
+                "shop": "京东",
+                "note": "心相印京东自营官方旗舰店",
+                "items": [
+                    { "name": "心相印卷纸", "price": 25.22 }
+                ]
+            }
+        ],
         "2025-03-10": [
             {
                 "shop": "支",
                 "note": "上海公共交通卡股份有限公司",
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
+                ]
+            }, {
+                "shop": "小象",
+                "items": [
+                    { "name": "线椒约160g", "price": 3.99 },
+                    { "name": "三红胡萝卜约600g", "price": 2.48 },
+                    { "name": "新茬黄心土豆约600g(大号)", "price": 3.09 },
+                    { "name": "正大生冻黑虎虾240g(12-15只)", "price": 19.90 },
+                    { "name": "【经典红肠】山林大块肉红大红大块肉红肠260g", "price": 11.90 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "中国兰州拉面康沈路店",
+                "items": [
+                    { "name": "兰州牛肉拉面", "price": 13.00 }
                 ]
             }
         ],
