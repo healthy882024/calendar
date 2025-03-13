@@ -9289,6 +9289,26 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
                 ]
+            }, {
+                "shop": "支",
+                "items": [
+                    { "name": "鲜肉小馄饨*1", "price": 9.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "上海宜家家居有限公司浦东分公司北蔡商场",
+                "items": [
+                    { "name": "宜家兼职员工餐", "price": 10.00 }
+                ]
+            }, {
+                "shop": "小象",
+                "items": [
+                    { "name": "【0激素|非笼养】圣农冰鲜鸡小胸300g", "price": 9.52 },
+                    { "name": "佳农进口香甜蕉700g", "price": 9.90 },
+                    { "name": "【有机】小土豆500g", "price": 7.89 },
+                    { "name": "高山紫长茄约450g", "price": 9.90 },
+                    { "name": "正大叶黄素可生食鲜鸡蛋10枚530g", "price": 14.90 }
+                ]
             }
         ],
         "2025-03-13": [
@@ -9297,6 +9317,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 "note": "上海公共交通卡股份有限公司",
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
+                ]
+            }, {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "娃哈哈纯净水 5.5L*4桶", "price": 29.90 }
                 ]
             }
         ],
