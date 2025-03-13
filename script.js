@@ -9321,7 +9321,7 @@ document.addEventListener("DOMContentLoaded", function () {
             }, {
                 "shop": "叮咚",
                 "items": [
-                    { "name": "娃哈哈纯净水 5.5L*4桶", "price": 29.90 }
+                    { "name": "娃哈哈纯净水 5.5L*4桶", "price": 31.60 }
                 ]
             }
         ],
