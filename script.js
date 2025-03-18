@@ -9439,6 +9439,26 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
                 ]
+            }, {
+                "shop": "支",
+                "items": [
+                    { "name": "杂粮煎饼果子*1", "price": 6.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "西北萃蘭州牛肉面(江月东路店)",
+                "items": [
+                    { "name": "传统牛肉面+煎鸡蛋", "price": 15.00 }
+                ]
+            }, {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "有豆志山涧柴火豆腐 400g", "price": 6.80 },
+                    { "name": "李锦记0添加薄盐生抽615g", "price": 8.90 },
+                    { "name": "澳洲肥牛卷 300g", "price": 27.90 },
+                    { "name": "有机红洋葱 300g/份", "price": 4.98 },
+                    { "name": "礼品卡", "price": -0.02 }
+                ]
             }
         ],
         "2025-03-18": [
@@ -9448,7 +9468,31 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
                 ]
-            }
+            }, {
+                "shop": "支",
+                "note": "蘭德香兰州牛肉面上海眉州支路店",
+                "items": [
+                    { "name": "牛肉刀削面", "price": 15.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "上海宜家家居有限公司浦东分公司北蔡商场",
+                "items": [
+                    { "name": "宜家兼职员工餐", "price": 10.00 }
+                ]
+            }, {
+                "shop": "美团",
+                "note": "粉档·南昌粉面馆(周浦万达店)",
+                "items": [
+                    { "name": "南昌拌粉+鸡蛋肉饼瓦罐", "price": 32.00 }
+                ]
+            }, {
+                "shop": "美团",
+                "note": "粉档·南昌粉面馆(周浦万达店)",
+                "items": [
+                    { "name": "南昌拌面", "price": 26.00 }
+                ]
+            },
         ],
         "2025-03-19": [
             {
