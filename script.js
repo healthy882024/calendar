@@ -9501,6 +9501,38 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
                 ]
+            }, {
+                "shop": "微信",
+                "note": "麦香阁纯汤牛肉面",
+                "items": [
+                    { "name": "牛肉炒刀削面", "price": 17.00 }
+                ]
+            }, {
+                "shop": "支",
+                "note": "韩记红烧牛肉面",
+                "items": [
+                    { "name": "青菜砂锅米线", "price": 18.00 }
+                ]
+            }, {
+                "shop": "京东",
+                "note": "粉笔公考京东自营官方旗舰店",
+                "items": [
+                    { "name": "粉笔事业编A类【教材真题套装】职测+综应", "price": 74.66 }
+                ]
+            }, {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "有机胡萝卜400g/份", "price": 6.59 },
+                    { "name": "2025年新茬土豆约500g", "price": 2.19 },
+                    { "name": "益客冷鲜鸡爪 400g", "price": 18.50 },
+                    { "name": "都乐进口超甜香蕉 700g", "price": 11.90 }
+                ]
+            }, {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "叶黄素+维生素D3鸡蛋15枚", "price": 19.80 },
+                    { "name": "农夫山泉桶装水5L*4桶", "price": 31.60 }
+                ]
             }
         ],
         "2025-03-20": [
