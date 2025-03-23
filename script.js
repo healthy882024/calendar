@@ -9633,6 +9633,18 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "潮界招牌双人餐", "price": 168.00 }
                 ]
+            }, {
+                "shop": "PDD",
+                "note": "品牌好货",
+                "items": [
+                    { "name": "妙洁钢丝球 不锈钢清洁球", "price": 4.72 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "E路驰美容清洗官方旗舰店",
+                "items": [
+                    { "name": "E路驰清洁软胶 清洁泥吸尘胶", "price": 6.23 }
+                ]
             }
         ],
         "2025-03-24": [
