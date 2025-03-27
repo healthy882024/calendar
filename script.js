@@ -9702,6 +9702,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "牛肉刀削面+煎蛋", "price": 17.00 }
                 ]
             }, {
+                "shop": "微信",
+                "note": "上海宜家家居有限公司浦东分公司北蔡商场",
+                "items": [
+                    { "name": "宜家兼职员工餐", "price": 10.00 }
+                ]
+            }, {
                 "shop": "叮咚",
                 "items": [
                     { "name": "攸县香干 248g/份", "price": 5.72 },
@@ -9765,6 +9771,44 @@ document.addEventListener("DOMContentLoaded", function () {
                 "note": "上海公共交通卡股份有限公司",
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "京穆聚红烧牛肉面上海航头店",
+                "items": [
+                    { "name": "牛肉刀削面", "price": 15.00 }
+                ]
+            }, {
+                "shop": "支",
+                "note": "兰德香上海眉州支路店",
+                "items": [
+                    { "name": "牛肉刀削面", "price": 15.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "上海宜家家居有限公司浦东分公司北蔡商场",
+                "items": [
+                    { "name": "宜家兼职员工餐", "price": 10.00 }
+                ]
+            }, {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "有豆志卤水老豆腐400g/份", "price": 5.49 },
+                    { "name": "三红胡萝卜约600g", "price": 1.98 },
+                    { "name": "有机大白菜 1.2kg/份", "price": 9.89 },
+                    { "name": "无抗冷冻鸡大胸 400g", "price": 11.50 },
+                    { "name": "有机黄瓜 300g/份", "price": 11.90 },
+                    { "name": "礼品卡", "price": -0.01 }
+                ]
+            }, {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "洁柔3层抽纸100抽*1包", "price": 0.00 },
+                    { "name": "王守义十三香 45g/盒", "price": 4.19 },
+                    { "name": "六月香豆瓣酱 300g/盒", "price": 6.51 },
+                    { "name": "维他低糖柠檬茶250ml*6", "price": 13.79 },
+                    { "name": "紫林五年陈山西老醋500mL", "price": 12.02 },
+                    { "name": "叶黄素+维生素D3鸡蛋15枚", "price": 18.48 }
                 ]
             }
         ],
