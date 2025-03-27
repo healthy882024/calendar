@@ -9625,7 +9625,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "支",
                 "note": "上海公共交通卡股份有限公司",
                 "items": [
-                    { "name": "上海地铁-鹤涛路⇌宁国路", "price": 6.00 }
+                    { "name": "上海地铁-鹤涛路⇌周浦", "price": 6.00 }
                 ]
             }, {
                 "shop": "美团",
@@ -9654,6 +9654,32 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
                 ]
+            }, {
+                "shop": "支",
+                "note": "韩记红烧牛肉面",
+                "items": [
+                    { "name": "蛋炒饭", "price": 14.00 }
+                ]
+            }, {
+                "shop": "美团",
+                "note": "塔哈尔(周浦万达店)",
+                "items": [
+                    { "name": "大盘鸡汁拌面/手工现熬奶茶", "price": 26.80 }
+                ]
+            }, {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "必品阁玉米猪肉王饺子490g", "price": 17.90 },
+                    { "name": "螺丝椒 约300g", "price": 5.39 },
+                    { "name": "有机黑猪冷鲜通脊 200g", "price": 18.90 },
+                    { "name": "【自然好滋味】有机莲藕400g/份", "price": 9.79 }
+                ]
+            }, {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "源氏大豆筋200g/袋", "price": 7.29 },
+                    { "name": "哇哈哈纯净水 5.5L*4桶", "price": 31.60 }
+                ]
             }
         ],
         "2025-03-25": [
@@ -9663,6 +9689,38 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
                 ]
+            }, {
+                "shop": "支",
+                "note": "FOODBOWL超级碗(上海互联宝地店)",
+                "items": [
+                    { "name": "蜜汁鸡腿超级碗", "price": 16.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "京穆聚红烧牛肉面上海航头店",
+                "items": [
+                    { "name": "牛肉刀削面+煎蛋", "price": 17.00 }
+                ]
+            }, {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "攸县香干 248g/份", "price": 5.72 },
+                    { "name": "普罗旺斯番茄 约500g", "price": 6.39 },
+                    { "name": "山林大块肉红肠 260g", "price": 15.92 },
+                    { "name": "有机香菇 150g/份", "price": 6.39 },
+                    { "name": "紫色细长茄 约400g", "price": 7.89 }
+                ]
+            }, {
+                "shop": "小象",
+                "items": [
+                    { "name": "优诺缤纷果味双拼酸奶100g*6杯(草莓*3+椰子*3)", "price": 16.90 },
+                ]
+            }, {
+                "shop": "微信",
+                "note": "哈啰出行_福建宁德惠智无限科技有限公司",
+                "items": [
+                    { "name": "哈啰换电服务费 180天 无限次", "price": 999.00 },
+                ]
             }
         ],
         "2025-03-26": [
@@ -9671,6 +9729,33 @@ document.addEventListener("DOMContentLoaded", function () {
                 "note": "上海公共交通卡股份有限公司",
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
+                ]
+            }, {
+                "shop": "支",
+                "note": "韩记红烧牛肉面",
+                "items": [
+                    { "name": "小份羊肉烩面", "price": 17.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "千里香手工馄饨水饺上海芳华路店",
+                "items": [
+                    { "name": "宫保鸡丁套饭", "price": 19.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "华联超市",
+                "items": [
+                    { "name": "农夫山泉2.1L*1", "price": 4.50 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "奥乐齐_芳甸路199弄大拇指广场2楼201A",
+                "items": [
+                    { "name": "悠白希腊式脱脂裸酸奶480克", "price": 24.90 },
+                    { "name": "照烧鸡腿肉串5串TeriyakiFlavourYak", "price": 14.94 },
+                    { "name": "悠白4.0娟姗牛奶950ml", "price": 15.90 },
+                    { "name": "无纺布购物袋小号(限重5千克)", "price": 1.00 }
                 ]
             }
         ],
