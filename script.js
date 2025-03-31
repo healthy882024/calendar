@@ -9887,7 +9887,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "巴东风味烤鸡腿/只", "price": 9.90 },
                     { "name": "支付宝优惠", "price": -6.00 }
                 ]
-            }, , {
+            }, {
                 "shop": "微信",
                 "note": "大润发（康桥店）",
                 "items": [
@@ -9901,6 +9901,24 @@ document.addEventListener("DOMContentLoaded", function () {
                 "note": "上海公共交通卡股份有限公司",
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
+                ]
+            }, {
+                "shop": "美团",
+                "note": "谷田稻香(滨江百联店)",
+                "items": [
+                    { "name": "肉末茄子+米饭", "price": 18.90 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "陈香贵兰州牛肉面（周浦万达店）",
+                "items": [
+                    { "name": "牛骨清汤牛肉面", "price": 26.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "王春春鸡汤饭",
+                "items": [
+                    { "name": "鸡汤饭+鸡汤米线+鸡腿2个+卤蛋2个+娃娃菜", "price": 74.80 }
                 ]
             }
         ],
