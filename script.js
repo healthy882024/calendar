@@ -9979,13 +9979,13 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "微信",
                 "note": "上海宜家家居有限公司浦东分公司北蔡商场",
                 "items": [
-                    { "name": "毛豆烧鸡+柿子炒鸡蛋+米饭", "price": 10.00 }
+                    { "name": "宜家兼职员工餐", "price": 10.00 }
                 ]
             }, {
                 "shop": "支",
                 "note": "老乡鸡(上海互联宝地店)",
                 "items": [
-                    { "name": "肉末茄子+米饭", "price": 29.11 }
+                    { "name": "毛豆烧鸡+柿子炒鸡蛋+米饭", "price": 29.11 }
                 ]
             }, {
                 "shop": "微信",
