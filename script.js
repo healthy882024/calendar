@@ -10024,7 +10024,19 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         ],
         "2025-04-04": [
-
+            {
+                "shop": "支",
+                "note": "上海公共交通卡股份有限公司",
+                "items": [
+                    { "name": "上海地铁-鹤涛路⇌周浦路", "price": 6.00 }
+                ]
+            }, {
+                "shop": "美团",
+                "note": "鱼酷-上海周浦万达店",
+                "items": [
+                    { "name": "烤鱼+金针菇+木耳+酸梅汁+米饭*2+小海鲜", "price": 234.00 }
+                ]
+            }
         ],
         "2025-04-05": [
 
