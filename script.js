@@ -10050,7 +10050,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "美团",
                 "note": "醉面（复地活力城店）",
                 "items": [
-                    { "name": "红烧牛肉面+肠+笋+肉酱拌面+鸡排+海带丝 ", "price": 58.80 }
+                    { "name": "红烧牛肉面+肠+笋+肉酱拌面+鸡排+海带丝", "price": 58.80 }
                 ]
             }, {
                 "shop": "饿了",
@@ -10062,7 +10062,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
         ],
         "2025-04-06": [
-
+            {
+                "shop": "微信",
+                "note": "时代优品超市(有巢店)",
+                "items": [
+                    { "name": "士力架", "price": 4.50 }
+                ]
+            }, {
+                "shop": "美团",
+                "note": "大米先生（浦东航头店）",
+                "items": [
+                    { "name": "菌香小煎鸡+西红柿炒鸡蛋+米饭+益生菌", "price": 22.91 }
+                ]
+            }
         ],
         "2025-04-07": [
             {
