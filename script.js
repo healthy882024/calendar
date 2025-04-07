@@ -10083,6 +10083,24 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
                 ]
+            }, {
+                "shop": "微信",
+                "note": "中国兰州拉面康沈路店",
+                "items": [
+                    { "name": "牛肉刀削面+煎蛋", "price": 15.00 }
+                ]
+            }, {
+                "shop": "支",
+                "note": "韩记红烧牛肉面",
+                "items": [
+                    { "name": "小份羊肉烩面", "price": 17.00 }
+                ]
+            }, {
+                "shop": "饿了",
+                "note": "热炕头东北菜铁锅炖(金航城店)",
+                "items": [
+                    { "name": "大拉皮+地三鲜+韭菜炒鸡蛋", "price": 63.00 }
+                ]
             }
         ],
         "2025-04-08": [
