@@ -10110,6 +10110,23 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
                 ]
+            }, {
+                "shop": "支",
+                "note": "蘭德香兰州牛肉面上海眉州支路店",
+                "items": [
+                    { "name": "牛肉刀削面", "price": 15.00 }
+                ]
+            }, {
+                "shop": "支",
+                "note": "八百里秦味(周浦万达店)",
+                "items": [
+                    { "name": "大碗油泼面", "price": 19.00 }
+                ]
+            }, {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "100%橙汁 1L/瓶", "price": 19.90 }
+                ]
             }
         ],
         "2025-04-09": [
