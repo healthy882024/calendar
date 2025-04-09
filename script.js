@@ -10136,6 +10136,18 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
                 ]
+            }, {
+                "shop": "支",
+                "note": "韩记红烧牛肉面",
+                "items": [
+                    { "name": "白切牛肉刀削面", "price": 14.00 }
+                ]
+            }, {
+                "shop": "饿了",
+                "note": "谷田稻香（周浦万达店）",
+                "items": [
+                    { "name": "排骨煲+西蓝花+米饭+益生菌", "price": 43.90 }
+                ]
             }
         ],
         "2025-04-10": [
