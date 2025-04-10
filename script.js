@@ -10157,6 +10157,18 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
                 ]
+            }, {
+                "shop": "支",
+                "note": "青藏小伙牦牛骨汤牛肉面",
+                "items": [
+                    { "name": "土豆牛肉饭", "price": 26.00 }
+                ]
+            }, {
+                "shop": "支",
+                "note": "东北风（周浦万达店）",
+                "items": [
+                    { "name": "酸辣土豆丝+锅包肉+韭菜盒子", "price": 70.00 }
+                ]
             }
         ],
         "2025-04-11": [
