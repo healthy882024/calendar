@@ -10220,7 +10220,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "盒马",
                 "items": [
                     { "name": "耐米鸡腿香草味雪糕", "price": 7.90 },
-                    { "name": "进口365熟甜香蕉1kg", "price": 9.90 }
+                    { "name": "进口365熟甜香蕉1kg", "price": 9.90 },
                     { "name": "现烤奥尔良大鸡腿3个", "price": 26.90 }
                 ]
             }, {
@@ -10230,8 +10230,19 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "经典三杯鸡", "price": 26.90 },
                     { "name": "石板肉酱豆腐", "price": 21.90 }
                 ]
+            }, {
+                "shop": "京东",
+                "note": "Dettol滴露京东自营旗舰店",
+                "items": [
+                    { "name": "滴露【迪士尼限定】茉莉绿茶香500g", "price": 6.63 }
+                ]
+            }, {
+                "shop": "京东",
+                "note": "得宝京东自营旗舰店",
+                "items": [
+                    { "name": "德宝4层80抽4包太阳花小雏菊系列", "price": 4.50 }
+                ]
             }
-
         ],
         "2025-04-13": [
 
