@@ -10216,6 +10216,21 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         ],
         "2025-04-12": [
+            {
+                "shop": "盒马",
+                "items": [
+                    { "name": "耐米鸡腿香草味雪糕", "price": 7.90 },
+                    { "name": "进口365熟甜香蕉1kg", "price": 9.90 }
+                    { "name": "现烤奥尔良大鸡腿3个", "price": 26.90 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "米村拌饭(航头浦乐汇店)",
+                "items": [
+                    { "name": "经典三杯鸡", "price": 26.90 },
+                    { "name": "石板肉酱豆腐。", "price": 21.90 }
+                ]
+            }
 
         ],
         "2025-04-13": [
