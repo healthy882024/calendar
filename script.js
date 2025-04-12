@@ -10228,7 +10228,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 "note": "米村拌饭(航头浦乐汇店)",
                 "items": [
                     { "name": "经典三杯鸡", "price": 26.90 },
-                    { "name": "石板肉酱豆腐。", "price": 21.90 }
+                    { "name": "石板肉酱豆腐", "price": 21.90 }
                 ]
             }
 
