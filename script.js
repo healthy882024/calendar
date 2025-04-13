@@ -10245,7 +10245,13 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         ],
         "2025-04-13": [
-
+            {
+                "shop": "美团",
+                "note": "谷香稻田上海金航城店",
+                "items": [
+                    { "name": "酸辣鸡胗+蒸蛋+素排+米饭", "price": 24.51 }
+                ]
+            }
         ],
         "2025-04-14": [
             {
