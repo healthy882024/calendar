@@ -10251,6 +10251,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "酸辣鸡胗+蒸蛋+素排+米饭", "price": 24.51 }
                 ]
+            }, {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "菲律宾凤梨1个1kg", "price": 19.90 }
+                ]
             }
         ],
         "2025-04-14": [
