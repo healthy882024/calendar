@@ -10265,6 +10265,18 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
                 ]
+            }, {
+                "shop": "支付宝",
+                "note": "蘭德香兰州牛肉面上海眉州支路店",
+                "items": [
+                    { "name": "酸菜牛肉面", "price": 18.00 }
+                ]
+            }, {
+                "shop": "美团",
+                "note": "塔哈尔周浦万达店",
+                "items": [
+                    { "name": "沙湾大盘走地鸡(配手工皮带面)", "price": 84.90 }
+                ]
             }
         ],
         "2025-04-15": [
