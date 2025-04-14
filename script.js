@@ -10266,7 +10266,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
                 ]
             }, {
-                "shop": "支付宝",
+                "shop": "支",
                 "note": "蘭德香兰州牛肉面上海眉州支路店",
                 "items": [
                     { "name": "酸菜牛肉面", "price": 18.00 }
