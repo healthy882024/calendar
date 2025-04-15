@@ -10286,6 +10286,34 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
                 ]
+            }, {
+                "shop": "微信",
+                "note": "中国兰州拉面康沈路店",
+                "items": [
+                    { "name": "牛肉炒刀削面", "price": 18.00 }
+                ]
+            }, {
+                "shop": "支",
+                "note": "韩记红烧牛肉面",
+                "items": [
+                    { "name": "羊肉烩面", "price": 17.00 }
+                ]
+            }, {
+                "shop": "小象",
+                "items": [
+                    { "name": "养乐多原味活菌型乳酸菌饮品100ml*5瓶", "price": 12.80 },
+                    { "name": "MILKDOG每一克4.0有机厚酸奶400g", "price": 9.90 }
+                ]
+            }, {
+                "shop": "美团",
+                "note": "热炕头·东北菜铁锅炖(金航城店)",
+                "items": [
+                    { "name": "青椒炒土豆丝", "price": 14.99 },
+                    { "name": "酸菜粉", "price": 25.08 },
+                    { "name": "东北大拉皮", "price": 21.73 },
+                    { "name": "哈尔滨红肠", "price": 14.04 },
+                    { "name": "打包费", "price": 4.00 }
+                ]
             }
         ],
         "2025-04-16": [
