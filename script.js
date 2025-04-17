@@ -10377,6 +10377,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "荠菜小杨双拼+老鸭粉丝汤", "price": 24.00 }
                 ]
+            }, {
+                "shop": "小象",
+                "items": [
+                    { "name": "【黑猪肉>80%】锋味派原味黑猪肉爆汁烤肠200g(4根) ", "price": 18.90 },
+                    { "name": "小象内蒙古河套平原雪花粉2kg", "price": 25.80 },
+                    { "name": "【无抗】可生食鲜鸡蛋20枚1kg", "price": 21.90 },
+                    { "name": "蓝月亮旅行洗衣液(白兰香)80g", "price": 0.00 }
+                ]
             }
         ],
         "2025-04-18": [
