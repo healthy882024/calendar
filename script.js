@@ -10351,6 +10351,32 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
                 ]
+            }, {
+                "shop": "支",
+                "note": "李老哈·东北菜(长阳创谷店)",
+                "items": [
+                    { "name": "东北酸菜粉", "price": 15.30 },
+                    { "name": "米饭", "price": 0.70 },
+                    { "name": "打包费", "price": 2.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "上海宜家家居有限公司浦东分公司北蔡商场",
+                "items": [
+                    { "name": "宜家兼职员工餐 午餐", "price": 10.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "上海宜家家居有限公司浦东分公司北蔡商场",
+                "items": [
+                    { "name": "宜家兼职员工餐 晚餐", "price": 10.00 }
+                ]
+            }, {
+                "shop": "支",
+                "note": "小杨生煎(周浦万达店)",
+                "items": [
+                    { "name": "荠菜小杨双拼+老鸭粉丝汤", "price": 24.00 }
+                ]
             }
         ],
         "2025-04-18": [
