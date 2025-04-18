@@ -10394,6 +10394,18 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
                 ]
+            }, {
+                "shop": "支",
+                "note": "蘭德香兰州牛肉面上海眉州支路店",
+                "items": [
+                    { "name": "牛肉刀削面", "price": 15.00 }
+                ]
+            }, {
+                "shop": "美团",
+                "note": "周潮發·沙茶鲜牛肉火锅(金航城店)",
+                "items": [
+                    { "name": "牛骨鲜汤锅+吊龙+腱子肉+精选牛腿肉+黑虎虾丸+牛肉熟丸", "price": 198.00 }
+                ]
             }
         ],
 
