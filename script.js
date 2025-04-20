@@ -10450,6 +10450,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "茄子豆角+青椒土豆丝+菌香小煎鸡+白米饭+益生菌", "price": 25.91 }
                 ]
+            }, {
+                "shop": "微信",
+                "note": "上海宜家家居有限公司浦东分公司北蔡商场",
+                "items": [
+                    { "name": "宜家兼职员工餐", "price": 10.00 }
+                ]
             }
 
         ],
