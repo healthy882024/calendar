@@ -10429,9 +10429,28 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "无糖可口可乐", "price": 5.00 },
                     { "name": "雪碧", "price": 4.00 }
                 ]
+            }, {
+                "shop": "微信",
+                "note": "有巢(春心当young市集)",
+                "items": [
+                    { "name": "一串面筋+两个鸡爪+一个鸡架+一串丸子", "price": 10.00 }
+                ]
             }
         ],
         "2025-04-20": [
+            {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "德芙脆香米牛奶巧克力120g", "price": 15.71 },
+                    { "name": "农夫山泉桶装水 5L*4桶", "price": 31.60 }
+                ]
+            }, {
+                "shop": "美团",
+                "note": "大米先生(浦东航头店)",
+                "items": [
+                    { "name": "茄子豆角+青椒土豆丝+菌香小煎鸡+白米饭+益生菌", "price": 25.91 }
+                ]
+            }
 
         ],
         "2025-04-21": [
@@ -10439,7 +10458,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "支",
                 "note": "上海公共交通卡股份有限公司",
                 "items": [
-                    { "name": "上海地铁-鹤涛路⇌宁国路", "price": 8.00 }
+                    { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
                 ]
             }
         ],
@@ -10448,7 +10467,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "支",
                 "note": "上海公共交通卡股份有限公司",
                 "items": [
-                    { "name": "上海地铁-鹤涛路⇌宁国路", "price": 8.00 }
+                    { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
                 ]
             }
         ],
@@ -10457,7 +10476,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "支",
                 "note": "上海公共交通卡股份有限公司",
                 "items": [
-                    { "name": "上海地铁-鹤涛路⇌宁国路", "price": 8.00 }
+                    { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
                 ]
             }
         ],
@@ -10466,7 +10485,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "支",
                 "note": "上海公共交通卡股份有限公司",
                 "items": [
-                    { "name": "上海地铁-鹤涛路⇌宁国路", "price": 8.00 }
+                    { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
                 ]
             }
         ],
@@ -10475,7 +10494,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "支",
                 "note": "上海公共交通卡股份有限公司",
                 "items": [
-                    { "name": "上海地铁-鹤涛路⇌宁国路", "price": 8.00 }
+                    { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
                 ]
             }
         ],
