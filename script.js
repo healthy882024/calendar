@@ -10448,7 +10448,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "美团",
                 "note": "大米先生(浦东航头店)",
                 "items": [
-                    { "name": "茄子豆角+青椒土豆丝+菌香小煎鸡+白米饭+益生菌", "price": 25.91 }
+                    { "name": "茄子豆角+青椒土豆丝+菌香小煎鸡+白米饭+益生菌", "price": 25.90 },
+                    { "name": "配送费", "price": 0.01 }
                 ]
             }, {
                 "shop": "微信",
@@ -10466,6 +10467,31 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
                 ]
+            }, {
+                "shop": "微信",
+                "note": "上海宜家家居有限公司浦东分公司北蔡商场",
+                "items": [
+                    { "name": "宜家兼职员工餐 午餐", "price": 10.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "上海宜家家居有限公司浦东分公司北蔡商场",
+                "items": [
+                    { "name": "宜家兼职员工餐 晚餐", "price": 10.00 }
+                ]
+            }, {
+                "shop": "支",
+                "note": "韩记红烧牛肉面",
+                "items": [
+                    { "name": "鸡蛋刀削面", "price": 13.00 }
+                ]
+            }, {
+                "shop": "美团",
+                "note": "小杨生煎(周浦哈邻里店)",
+                "items": [
+                    { "name": "虾肉生煎包4个+里脊肉串2个+酸辣粉", "price": 32.00 },
+                    { "name": "配送费", "price": 3.40 }
+                ]
             }
         ],
         "2025-04-22": [
@@ -10474,6 +10500,31 @@ document.addEventListener("DOMContentLoaded", function () {
                 "note": "上海公共交通卡股份有限公司",
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "上海宜家家居有限公司浦东分公司北蔡商场",
+                "items": [
+                    { "name": "宜家兼职员工餐 午餐", "price": 10.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "上海宜家家居有限公司浦东分公司北蔡商场",
+                "items": [
+                    { "name": "宜家兼职员工餐 晚餐", "price": 10.00 }
+                ]
+            }, {
+                "shop": "支",
+                "note": "青藏小伙牦牛骨汤牛肉面黄兴路店",
+                "items": [
+                    { "name": "番茄鸡蛋饭", "price": 22.00 }
+                ]
+            }, {
+                "shop": "美团",
+                "note": "谷田稻香(上海金航城店)",
+                "items": [
+                    { "name": "酸辣鸡胗+五香素排+蒸蛋+米饭", "price": 24.50 },
+                    { "name": "打包费", "price": 0.01 }
                 ]
             }
         ],
