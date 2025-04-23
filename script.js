@@ -10526,6 +10526,18 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "酸辣鸡胗+五香素排+蒸蛋+米饭", "price": 24.50 },
                     { "name": "打包费", "price": 0.01 }
                 ]
+            }, {
+                "shop": "微信",
+                "note": "四季水果",
+                "items": [
+                    { "name": "一个大西瓜", "price": 28.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "上海市东方医院(同济大学附属东方医院)南院",
+                "items": [
+                    { "name": "体检费(一般健康体检)", "price": 328.00 }
+                ]
             }
         ],
         "2025-04-23": [
@@ -10534,6 +10546,33 @@ document.addEventListener("DOMContentLoaded", function () {
                 "note": "上海公共交通卡股份有限公司",
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
+                ]
+            }, {
+                "shop": "支",
+                "note": "蘭德香兰州牛肉面上海眉州支路店",
+                "items": [
+                    { "name": "鸡蛋炒面", "price": 22.00 }
+                ]
+            }, {
+                "shop": "小象",
+                "items": [
+                    { "name": "劲丰博士牛筋味240g", "price": 9.90 },
+                    { "name": "MILKDOG每一克0蔗糖8.0希腊酸奶400g", "price": 12.90 },
+                    { "name": "【无抗】可生食鲜鸡蛋20枚1kg", "price": 21.90 },
+                    { "name": "蓝月亮旅行洗衣液(白兰香)80g", "price": 0.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "朴大叔拌饭(上海浦东金航城店)",
+                "items": [
+                    { "name": "镪焖明太鱼", "price": 29.90 },
+                    { "name": "石板肉酱茄子", "price": 23.90 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "向正烧记(浦东金航城店)",
+                "items": [
+                    { "name": "一个猪脚+一串面筋+一根火腿肠", "price": 21.00 }
                 ]
             }
         ],
