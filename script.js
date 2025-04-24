@@ -10538,6 +10538,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "体检费(一般健康体检)", "price": 328.00 }
                 ]
+            }, {
+                "shop": "京东",
+                "note": "宝洁京东自营旗舰店",
+                "items": [
+                    { "name": "护舒宝瞬洁云感卫生巾日夜84片 240mm 60片+加长16+夜用8", "price": 43.39 }
+                ]
             }
         ],
         "2025-04-23": [
@@ -10574,6 +10580,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "一个猪脚+一串面筋+一根火腿肠", "price": 21.00 }
                 ]
+            }, {
+                "shop": "京东",
+                "note": "邦尼世家京东自营旗舰店",
+                "items": [
+                    { "name": "邦尼世家2双装运动鞋垫 软弹减震 43-44码", "price": 18.28 }
+                ]
             }
         ],
         "2025-04-24": [
@@ -10582,6 +10594,40 @@ document.addEventListener("DOMContentLoaded", function () {
                 "note": "上海公共交通卡股份有限公司",
                 "items": [
                     { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "麦香阁纯汤牛肉面",
+                "items": [
+                    { "name": "土豆烧牛肉拌面", "price": 19.00 }
+                ]
+            }, {
+                "shop": "支",
+                "note": "韩记红烧牛肉面",
+                "items": [
+                    { "name": "小份羊肉烩面", "price": 17.00 }
+                ]
+            }, {
+                "shop": "饿了",
+                "note": "热炕头东北菜铁锅炖(金航城店)",
+                "items": [
+                    { "name": "小鸡炖蘑菇+地三鲜+米饭2份", "price": 59.18 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "上海市东方医院(同济大学附属东方医院)南院",
+                "items": [
+                    { "name": "挂号费", "price": 18.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "上海市东方医院(同济大学附属东方医院)南院",
+                "items": [
+                    { "name": "化验费 血细胞分析(三分类以上)", "price": 20.00 },
+                    { "name": "检查费 心脏彩色多普勒超声", "price": 170.00 },
+                    { "name": "检查费 左心功能测定", "price": 55.00 },
+                    { "name": "检查费 组织彩普勒显象(TDI)", "price": 40.00 },
+                    { "name": "检查费 电脑多导联心电图(检查)", "price": 35.00 },
                 ]
             }
         ],
