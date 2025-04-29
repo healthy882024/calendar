@@ -10765,6 +10765,15 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "桃酥6片", "price": 11.00 },
                     { "name": "配送费", "price": 0.50 }
                 ]
+            }, {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "农夫山泉NFC橙汁300ml", "price": 6.44 },
+                    { "name": "外星人电解质水500ml", "price": 5.13 },
+                    { "name": "叶黄素+维生素D3鸡蛋15枚", "price": 16.70 },
+                    { "name": "娃哈哈纯净水4.5L*4瓶", "price": 27.83 },
+                    { "name": "尔木萄洗脸巾6片装", "price": 0.00 }
+                ]
             }
 
         ],
