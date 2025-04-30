@@ -10850,6 +10850,13 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "洁柔EDI纯水湿巾80片*6包", "price": 23.27 }
                 ]
+            }, {
+                "shop": "美团",
+                "note": "冠姐蟹煲(浦乐汇店)",
+                "items": [
+                    { "name": "凤爪煲+凉拌黄瓜+蒸年糕+鸡米花+南瓜汁+米饭", "price": 176.00 },
+                    { "name": "打包盒", "price": 2.00 }
+                ]
             }
 
         ],
