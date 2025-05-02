@@ -10875,6 +10875,28 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }
 
+        ],
+        "2025-05-02": [
+            {
+                "shop": "饿了",
+                "note": "袁记云饺(周泰路店)",
+                "items": [
+                    { "name": "红油干拌云吞15个", "price": 18.50 }
+                ]
+            }, {
+                "shop": "美团",
+                "note": "热炕头·东北菜铁锅炖(金航城店)",
+                "items": [
+                    { "name": "东北大拉皮+肉端烧茄子+雪碧+米饭", "price": 48.00 }
+                ]
+            }, {
+                "shop": "支",
+                "note": "中国联通",
+                "items": [
+                    { "name": "话费", "price": 23.90 }
+                ]
+            }
+
         ]
 
 
