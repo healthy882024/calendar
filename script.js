@@ -11160,6 +11160,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "纽仕兰草饲4.0g蛋白高钙低脂纯牛奶100%生牛乳250ml*24盒新西兰原装进口", "price": 85.31 }
                 ]
+            }, {
+                "shop": "美团",
+                "note": "黑土屯·老朴家铁锅炖(航头店)",
+                "items": [
+                    { "name": "米饭*2+锅包肉+大酱炒鸡蛋+酸辣土豆丝", "price": 62.90 }
+                ]
             }
         ]
 
