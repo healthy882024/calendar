@@ -11298,18 +11298,6 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "酸菜粉+米饭", "price": 20.00 }
                 ]
             }, {
-                "shop": "微信",
-                "note": "上海宜家家居有限公司浦东分公司北蔡商场",
-                "items": [
-                    { "name": "宜家兼职员工餐 午餐", "price": 3.00 }
-                ]
-            }, {
-                "shop": "微信",
-                "note": "上海宜家家居有限公司浦东分公司北蔡商场",
-                "items": [
-                    { "name": "宜家兼职员工餐 晚餐", "price": 3.00 }
-                ]
-            }, {
                 "shop": "支",
                 "note": "青藏小伙牦牛骨汤牛肉面",
                 "items": [
