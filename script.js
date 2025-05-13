@@ -11339,13 +11339,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "家庭欢聚三人随心选套餐", "price": 48.80 },
                     { "name": "白米饭*3", "price": 0.00 },
                     { "name": "嫩毛豆烧鸡", "price": 0.00 },
-                    { "name": "辣椒炒肉", "price": 0.00 },
+                    { "name": "菠萝咕咾肉", "price": 0.00 },
                     { "name": "青椒鸡丁", "price": 0.00 },
                     { "name": "西红柿炒鸡蛋", "price": 0.00 },
                     { "name": "清炒时蔬", "price": 0.00 },
                     { "name": "青椒土豆丝", "price": 0.00 },
-                    { "name": "芙蓉炖蛋", "price": 0.00 },
-                    { "name": "畅意乳酸菌(常温)", "price": 0.00 },
+                    { "name": "畅意乳酸菌(常温)*2", "price": 0.00 },
                     { "name": "玉米汤", "price": 0.00 },
                     { "name": "配送费", "price": 0.01 }
                 ]
