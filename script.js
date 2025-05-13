@@ -11324,6 +11324,31 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "牛肉刀削面", "price": 15.00 }
                 ]
+            }, {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "尔木萄洗脸巾6片装", "price": 0.00 },
+                    { "name": "双汇特级火腿肠250g/袋", "price": 10.36 },
+                    { "name": "黄天鹅可生食鸡蛋8枚424g", "price": 15.51 },
+                    { "name": "康师傅红烧牛肉面113g/桶*4", "price": 17.40 }
+                ]
+            }, {
+                "shop": "美团",
+                "note": "大米先生(浦东航头店)",
+                "items": [
+                    { "name": "家庭欢聚三人随心选套餐", "price": 48.80 },
+                    { "name": "白米饭*3", "price": 0.00 },
+                    { "name": "嫩毛豆烧鸡", "price": 0.00 },
+                    { "name": "辣椒炒肉", "price": 0.00 },
+                    { "name": "青椒鸡丁", "price": 0.00 },
+                    { "name": "西红柿炒鸡蛋", "price": 0.00 },
+                    { "name": "清炒时蔬", "price": 0.00 },
+                    { "name": "青椒土豆丝", "price": 0.00 },
+                    { "name": "芙蓉炖蛋", "price": 0.00 },
+                    { "name": "畅意乳酸菌(常温)", "price": 0.00 },
+                    { "name": "玉米汤", "price": 0.00 },
+                    { "name": "配送费", "price": 0.01 }
+                ]
             }
         ]
 
