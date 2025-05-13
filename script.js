@@ -11304,7 +11304,27 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "牛肉刀削面", "price": 17.00 }
                 ]
             }
-
+        ],
+        "2025-05-13": [
+            {
+                "shop": "支",
+                "note": "上海公共交通卡股份有限公司",
+                "items": [
+                    { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
+                ]
+            }, {
+                "shop": "小象",
+                "items": [
+                    { "name": "劲丰博士牛筋味240g(30g*8包)", "price": 8.90 },
+                    { "name": "小象深层饮用天然水5L*2桶", "price": 9.99 }
+                ]
+            }, {
+                "shop": "支",
+                "note": "蘭德香兰州牛肉面上海眉州支路店",
+                "items": [
+                    { "name": "牛肉刀削面", "price": 15.00 }
+                ]
+            }
         ]
 
 
