@@ -11349,6 +11349,28 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "配送费", "price": 0.01 }
                 ]
             }
+        ],
+        "2025-05-14": [
+            {
+                "shop": "支",
+                "note": "上海公共交通卡股份有限公司",
+                "items": [
+                    { "name": "上海地铁-鹤涛路⇌宁国路", "price": 10.00 }
+                ]
+            }, {
+                "shop": "支",
+                "note": "韩记红烧牛肉面",
+                "items": [
+                    { "name": "羊肉烩面", "price": 17.00 }
+                ]
+            }, {
+                "shop": "美团",
+                "note": "热炕头·东北菜铁锅炖(金航城店)",
+                "items": [
+                    { "name": "地三鲜+米饭", "price": 17.10 },
+                    { "name": "鱼香肉丝+米饭", "price": 23.10 }
+                ]
+            }
         ]
 
 
