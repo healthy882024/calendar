@@ -12209,7 +12209,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "恋佳净[2个装] 绿色/粉色长腿兔拉链式马桶垫 37*43cm", "price": 14.90 }
                 ]
             }, {
-                "shop": "小象",
+                "shop": "叮咚",
                 "items": [
                     { "name": "康师傅红烧牛肉面113g/桶*2", "price": 9.24 },
                     { "name": "八喜六合一冰淇淋360g/盒", "price": 27.91 },
