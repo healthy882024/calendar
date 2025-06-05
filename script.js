@@ -12185,6 +12185,18 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "上海地铁-康恒路⇌宁国路", "price": 8.00 }
                 ]
             }, {
+                "shop": "微信",
+                "note": "上海宜家家居有限公司浦东分公司北蔡商场",
+                "items": [
+                    { "name": "宜家兼职员工餐 午餐", "price": 3.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "上海宜家家居有限公司浦东分公司北蔡商场",
+                "items": [
+                    { "name": "宜家兼职员工餐 晚餐", "price": 3.00 }
+                ]
+            }, {
                 "shop": "饿了",
                 "note": "胡子大厨·超级小炒肉(互联宝地店)",
                 "items": [
