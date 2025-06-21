@@ -12491,7 +12491,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "京东",
                 "note": "心相印京东自营旗舰店",
                 "items": [
-                    { "name": "心相印有芯卷纸张 茶语系列 4层200g*10卷", "price": 13.37 }
+                    { "name": "心相印有芯卷纸 茶语系列 4层200g*10卷", "price": 13.37 }
                 ]
             }, {
                 "shop": "京东",
