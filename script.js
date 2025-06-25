@@ -11404,9 +11404,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             }, {
                 "shop": "微信",
-                "note": "喜家德(互联宝地店)",
+                "note": "喜家德(上海互联宝地店)",
                 "items": [
-                    { "name": "虾仁三鲜水饺+芹菜猪肉水饺+2个南瓜饮", "price": 77.00 }
+                    { "name": "虾仁三鲜水饺15只+芹菜猪肉水饺15只+2个南瓜饮", "price": 77.00 }
                 ]
             }, {
                 "shop": "小象",
@@ -12869,6 +12869,39 @@ document.addEventListener("DOMContentLoaded", function () {
                 "note": "华式大药房(御桥店)",
                 "items": [
                     { "name": "[999]小柴胡颗粒+[泰诺林]对乙酰氨基酚缓释片+[感康]复方氨酚烷胺片", "price": 54.26 }
+                ]
+            }
+        ],
+        "2025-06-25": [
+            {
+                "shop": "支",
+                "note": "上海公共交通卡股份有限公司",
+                "items": [
+                    { "name": "上海地铁-康恒路⇌宁国路", "price": 8.00 }
+                ]
+            }, {
+                "shop": "美团",
+                "note": "酸菜红烧牛肉面(纯手工拉面)",
+                "items": [
+                    { "name": "红烧牛肉炒刀削面", "price": 23.90 }
+                ]
+            }, {
+                "shop": "饿了",
+                "note": "小杨生煎(长阳欧尚店)",
+                "items": [
+                    { "name": "6只小杨生煎+老鸭粉丝汤", "price": 22.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "喜家德(上海互联宝地店)",
+                "items": [
+                    { "name": "角瓜鸡蛋水饺15只+西芹鲜肉水饺15只+香卤肉丸子", "price": 69.00 }
+                ]
+            }, {
+                "shop": "猎豹",
+                "note": "VPN",
+                "items": [
+                    { "name": "VIP会员包年", "price": 200.00 }
                 ]
             }
         ]
