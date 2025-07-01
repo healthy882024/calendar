@@ -13065,7 +13065,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "微信",
                 "note": "上海宜家家居有限公司浦东分公司北蔡商场",
                 "items": [
-                    { "name": "宜家兼职员工餐 晚餐", "price": 10.00 }
+                    { "name": "宜家兼职员工餐 晚餐", "price": 3.00 }
                 ]
             }, {
                 "shop": "饿了",
@@ -13090,6 +13090,16 @@ document.addEventListener("DOMContentLoaded", function () {
                 "note": "拜灭士京东自营旗舰店",
                 "items": [
                     { "name": "拜灭士呋虫胺杀虫剂喷雾 [速杀防护]呋虫胺杀虫剂660ml", "price": 19.72 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "罗森(御北路)",
+                "items": [
+                    { "name": "光明白雪冰砖", "price": 7.80 },
+                    { "name": "耐米汉堡雪糕", "price": 12.90 },
+                    { "name": "原味脆骨肠", "price": 5.90 },
+                    { "name": "日式香辣肉筋串", "price": 3.90 },
+                    { "name": "香香鸡大肉串*2", "price": 11.80 }
                 ]
             }
         ]
