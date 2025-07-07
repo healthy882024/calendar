@@ -13290,6 +13290,19 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "狮王(Lion)进口美白牙膏荷兰薄荷150g", "price": 14.91 }
                 ]
+            }, {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "怡宝纯净水6L*3", "price": 25.49 }
+                ]
+            }, {
+                "shop": "小象",
+                "items": [
+                    { "name": "卫龙大面筋106g", "price": 4.90 },
+                    { "name": "每日鲜语3.6g蛋白质高钙鲜牛奶950ml", "price": 15.90 },
+                    { "name": "怡宝纯净水6L", "price": 8.90 },
+                    { "name": "劲丰博士牛筋味240g(30g*8包)", "price": 9.90 }
+                ]
             }
         ]
 
