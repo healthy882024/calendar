@@ -13472,6 +13472,40 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "单人份黑鱼酸菜鱼(脆豆腐版)+米饭", "price": 29.77 }
                 ]
             }
+        ],
+        "2025-07-13": [
+            {
+                "shop": "饿了",
+                "note": "谷田稻香(上海浦乐广场店)",
+                "items": [
+                    { "name": "招牌牛腩+米饭", "price": 23.60 }
+                ]
+            }, {
+                "shop": "饿了",
+                "note": "小菜园新徽菜(上海浦东复地活力城店)",
+                "items": [
+                    { "name": "辣椒炒鸡丁+土豆丝+米饭+紫菜蛋花汤", "price": 20.50 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "施华蔻美发染发专卖店",
+                "items": [
+                    { "name": "施华蔻氨基酸极光瓶 洗发露400mL", "price": 44.64 }
+                ]
+            }, {
+                "shop": "京东",
+                "note": "山姆会员商店(御桥店)",
+                "items": [
+                    { "name": "生鲜鸡爪1.6kg", "price": 83.88 },
+                    { "name": "Member's Mark鲜牛奶全脂巴氏杀菌乳2L", "price": 21.48 }
+                ]
+            }, {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "东湖五年陈醋500ml", "price": 13.90 },
+                    { "name": "好人家五香老卤汁120g", "price": 7.50 }
+                ]
+            }
         ]
 
 
