@@ -2716,7 +2716,8 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "鲜鸡蛋30枚", "price": 20.60 },
                     { "name": "叮咚定制麦苗芋泥青青青糕 200g/份", "price": 10.16 },
                     { "name": "去根松花菜半颗 约500g", "price": 3.94 },
-                    { "name": "小米椒 约50g", "price": 1.92 }
+                    { "name": "小米椒 约50g", "price": 1.92 },
+                    { "name": "【会员】连续包季（有效期90天）", "price": 30.00 }
                 ]
             }
         ],
@@ -3559,6 +3560,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "维达（Vinda）厨房卷纸 可水洗75节*2卷", "price": 11.25 },
                     { "name": "陶华碧老干妈 风味鸡油辣椒280g", "price": 10.60 }
+                ]
+            }, {
+                "shop": "叮咚",
+                "items": [
+                    { "name": "【会员】连续包年（有效期365天）", "price": 88.00 }
                 ]
             }
         ],
@@ -13504,6 +13510,42 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "东湖五年陈醋500ml", "price": 13.90 },
                     { "name": "好人家五香老卤汁120g", "price": 7.50 }
+                ]
+            }
+        ],
+        "2025-07-14": [
+            {
+                "shop": "支",
+                "note": "上海公共交通卡股份有限公司",
+                "items": [
+                    { "name": "上海地铁-康恒路⇌宁国路", "price": 8.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "上海宜家家居有限公司浦东分公司北蔡商场",
+                "items": [
+                    { "name": "宜家兼职员工餐 午餐", "price": 3.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "上海宜家家居有限公司浦东分公司北蔡商场",
+                "items": [
+                    { "name": "宜家兼职员工餐 晚餐", "price": 3.00 }
+                ]
+            }, {
+                "shop": "饿了",
+                "note": "海底捞·下饭火锅菜(百联滨江店)",
+                "items": [
+                    { "name": "捞派豆花冒菜套餐(5荤9素)+米饭", "price": 17.40 }
+                ]
+            }, {
+                "shop": "小象",
+                "items": [
+                    { "name": "伊利巧乐兹经典巧脆棒雪糕375g(75g*5支)", "price": 16.80 },
+                    { "name": "王守义十三香卤料24g", "price": 4.90 },
+                    { "name": "象大厨香叶15g", "price": 2.90 },
+                    { "name": "东北农嫂黄糯玉米1.68kg(6根装)", "price": 27.90 },
+                    { "name": "【月度会员】（有效期30天）", "price": 2.90 }
                 ]
             }
         ]
