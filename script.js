@@ -13568,6 +13568,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "宜家兼职员工餐 晚餐", "price": 3.00 }
                 ]
+            }, {
+                "shop": "饿了",
+                "note": "胡子大厨·超级小炒肉(互联宝地店)",
+                "items": [
+                    { "name": "小炒肉+番茄炒蛋+米饭", "price": 20.90 }
+                ]
             }
         ]
 
