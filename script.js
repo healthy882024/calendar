@@ -13595,6 +13595,28 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "牛肉刀削面", "price": 15.00 }
                 ]
+            }, {
+                "shop": "支",
+                "note": "萨莉亚意式餐厅(复地活力城店)",
+                "items": [
+                    { "name": "蒜香蜗牛", "price": 19.00 },
+                    { "name": "烘烤羊排(2根)配黑胡椒酱", "price": 40.00 },
+                    { "name": "培根菠萝薄脆披萨", "price": 19.00 },
+                    { "name": "米饭*2", "price": 4.00 },
+                    { "name": "番茄海鲜面", "price": 19.00 }
+                ]
+            }, {
+                "shop": "饿了",
+                "note": "茉莉奶白(上海复地活力城店)",
+                "items": [
+                    { "name": "一朵栀子花", "price": 13.00 }
+                ]
+            }, {
+                "shop": "饿了",
+                "note": "茉莉奶白(上海复地活力城店)",
+                "items": [
+                    { "name": "一朵茉莉花", "price": 11.00 }
+                ]
             }
         ]
 
