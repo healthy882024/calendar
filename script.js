@@ -13575,6 +13575,27 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "小炒肉+番茄炒蛋+米饭", "price": 20.90 }
                 ]
             }
+        ],
+        "2025-07-16": [
+            {
+                "shop": "支",
+                "note": "上海公共交通卡股份有限公司",
+                "items": [
+                    { "name": "上海地铁-康恒路⇌宁国路", "price": 8.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "上海宜家家居有限公司浦东分公司北蔡商场",
+                "items": [
+                    { "name": "宜家员工餐 午餐", "price": 3.00 }
+                ]
+            }, {
+                "shop": "支",
+                "note": "蘭德香兰州牛肉面上海眉州支路店",
+                "items": [
+                    { "name": "牛肉刀削面", "price": 15.00 }
+                ]
+            }
         ]
 
 
