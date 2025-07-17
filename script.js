@@ -13645,6 +13645,27 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "港式滑蛋牛肉饭", "price": 18.20 }
                 ]
             }
+        ],
+        "2025-07-18": [
+            {
+                "shop": "支",
+                "note": "上海公共交通卡股份有限公司",
+                "items": [
+                    { "name": "上海地铁-康恒路⇌宁国路", "price": 8.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "上海宜家家居有限公司浦东分公司北蔡商场",
+                "items": [
+                    { "name": "宜家兼职员工餐 午餐", "price": 3.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "上海宜家家居有限公司浦东分公司北蔡商场",
+                "items": [
+                    { "name": "宜家兼职员工餐 晚餐", "price": 3.00 }
+                ]
+            }
         ]
 
 
