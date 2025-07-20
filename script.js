@@ -10840,7 +10840,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 "shop": "饿了",
                 "note": "小杨生煎(周浦哈邻里店)",
                 "items": [
-                    { "name": "6只小杨生煎/特色酸辣粉", "price": 26.00 },
+                    { "name": "6只小杨生煎+特色酸辣粉", "price": 26.00 },
                     { "name": "一次性餐具", "price": 0.00 }
                 ]
             }, {
@@ -13721,6 +13721,39 @@ document.addEventListener("DOMContentLoaded", function () {
                 "note": "朴大叔拌饭(上海北蔡唐人幸福里店)",
                 "items": [
                     { "name": "经典营养石锅拌饭+东北肉肠+小份泡菜+海带汤", "price": 13.40 }
+                ]
+            }
+        ],
+        "2025-07-20": [
+            {
+                "shop": "微信",
+                "note": "上海宜家家居有限公司浦东分公司北蔡商场",
+                "items": [
+                    { "name": "宜家兼职员工餐 午餐", "price": 3.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "上海宜家家居有限公司浦东分公司北蔡商场",
+                "items": [
+                    { "name": "宜家兼职员工餐 晚餐", "price": 3.00 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "freeplus芙丽芳丝官方旗舰店",
+                "items": [
+                    { "name": "芙丽芳丝泡沫洁面150ml 云朵泡泡-洁面慕斯", "price": 63.20 }
+                ]
+            }, {
+                "shop": "PDD",
+                "note": "都市丽人内衣内裤旗舰店",
+                "items": [
+                    { "name": "都市丽人女士A类纯棉内裤7条装 10A抑菌婴儿棉", "price": 37.43 }
+                ]
+            }, {
+                "shop": "饿了",
+                "note": "小杨生煎(上海复地活力城店)",
+                "items": [
+                    { "name": "猪肉生煎+酸辣粉+可乐", "price": 16.40 }
                 ]
             }
         ]
