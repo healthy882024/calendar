@@ -13816,6 +13816,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "西贝面筋+肉夹馍+小米粥", "price": 29.90 },
                     { "name": "随机神券包", "price": 1.90 }
                 ]
+            }, {
+                "shop": "小象",
+                "items": [
+                    { "name": "康师傅喝开水熟水饮用水5L*2", "price": 13.90 }
+                ]
             }
         ]
 
