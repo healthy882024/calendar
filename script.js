@@ -13861,6 +13861,39 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "name": "乡村小炒柴火豆腐+米饭", "price": 17.20 }
                 ]
             }
+        ],
+        "2025-07-24": [
+            {
+                "shop": "支",
+                "note": "上海公共交通卡股份有限公司",
+                "items": [
+                    { "name": "上海地铁-康恒路⇌宁国路", "price": 8.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "上海宜家家居有限公司浦东分公司北蔡商场",
+                "items": [
+                    { "name": "宜家兼职员工餐 午餐", "price": 3.00 }
+                ]
+            }, {
+                "shop": "微信",
+                "note": "上海宜家家居有限公司浦东分公司北蔡商场",
+                "items": [
+                    { "name": "宜家兼职员工餐 晚餐", "price": 3.00 }
+                ]
+            }, {
+                "shop": "饿了",
+                "note": "秦小乖油泼面·肉夹馍(互联宝地店)",
+                "items": [
+                    { "name": "biangbiang油泼面", "price": 13.80 }
+                ]
+            }, {
+                "shop": "饿了",
+                "note": "秦碗会·陕西BiangBiang面(开新里店)",
+                "items": [
+                    { "name": "招牌BiangBiang面+腊汁肉夹馍+冰峰汽水", "price": 36.05 }
+                ]
+            }
         ]
 
 
