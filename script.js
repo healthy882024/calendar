@@ -14062,6 +14062,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 "items": [
                     { "name": "老师傅拿手回锅肉+米饭", "price": 25.31 }
                 ]
+            }, {
+                "shop": "小象",
+                "items": [
+                    { "name": "怡宝纯净水6L", "price": 8.90 },
+                    { "name": "[无抗]DHA叶黄素鲜鸡蛋10枚500g", "price": 12.60 }
+                ]
             }
         ]
 
